@@ -1,0 +1,2607 @@
+{
+  "title": "verified singles stats - Last 12 Months",
+  "subtitle": "April 2024 - March 2025",
+  "monthsCount": 12,
+  "currentRating": 2.7,
+  "currentRatingDisplay": "2.69",
+  "ratingCircle": {
+    "singlesUtr": 2.69,
+    "ratingStatusSingles": "Rated",
+    "ratingProgressSingles": 100.0,
+    "singlesUtrDisplay": "2.69"
+  },
+  "winsCount": 7,
+  "winStreak": 5,
+  "lossesCount": 8,
+  "recordWinPercentage": "46.7%",
+  "notableMatch": {
+    "winner": {
+      "isWinner": true,
+      "set1": 7,
+      "set2": 6,
+      "set3": 0,
+      "set4": 0,
+      "set5": 0,
+      "set6": null,
+      "tiebreakerSet1": null,
+      "tiebreakerSet2": null,
+      "tiebreakerSet3": 0,
+      "tiebreakerSet4": 0,
+      "tiebreakerSet5": 0,
+      "tiebreakerSet6": null,
+      "teamId": null,
+      "teamName": null
+    },
+    "loser": {
+      "isWinner": false,
+      "set1": 5,
+      "set2": 2,
+      "set3": 0,
+      "set4": 0,
+      "set5": 0,
+      "set6": null,
+      "tiebreakerSet1": null,
+      "tiebreakerSet2": null,
+      "tiebreakerSet3": 0,
+      "tiebreakerSet4": 0,
+      "tiebreakerSet5": 0,
+      "tiebreakerSet6": null,
+      "teamId": null,
+      "teamName": null
+    },
+    "players": {
+      "winner1": {
+        "id": "4140765",
+        "firstName": "Michael",
+        "lastName": "Lynch",
+        "gender": "M",
+        "hasYobOnly": false,
+        "singlesUtr": 2.69,
+        "singlesUtrDisplay": "2.69",
+        "ratingStatusSingles": "Rated",
+        "ratingProgressSingles": "100",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "doublesUtr": 3.83,
+        "doublesUtrDisplay": "3.83",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": "USTALeague",
+        "nationality": "USA",
+        "myUtrSingles": 2.69,
+        "myUtrSinglesDisplay": "2.69",
+        "myUtrStatusSingles": "Rated",
+        "myUtrDoubles": 3.83,
+        "myUtrDoublesDisplay": "3.83",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": 1339678,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      },
+      "winner2": null,
+      "loser1": {
+        "id": "3719151",
+        "firstName": "Sean",
+        "lastName": "Maddox",
+        "gender": "M",
+        "hasYobOnly": true,
+        "singlesUtr": 3.3,
+        "singlesUtrDisplay": "3.30",
+        "ratingStatusSingles": "Projected",
+        "ratingProgressSingles": "72",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
+        "doublesUtr": 3.7,
+        "doublesUtrDisplay": "3.70",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": "USTALeague",
+        "nationality": "USA",
+        "myUtrSingles": 3.3,
+        "myUtrSinglesDisplay": "3.30",
+        "myUtrStatusSingles": "Projected",
+        "myUtrDoubles": 3.7,
+        "myUtrDoublesDisplay": "3.70",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": null,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      },
+      "loser2": null
+    },
+    "isWinner": true,
+    "date": "2025-02-01T00:00:00",
+    "id": 0,
+    "sportTypeId": 0,
+    "draw": null,
+    "round": null,
+    "sourceType": "sanctioned",
+    "completionType": "winnercompleted",
+    "outcome": "completed",
+    "lineupPosition": 0,
+    "score": {
+      "1": {
+        "winner": 7,
+        "loser": 5,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      },
+      "2": {
+        "winner": 6,
+        "loser": 2,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      }
+    },
+    "playerPostedResult": false,
+    "finalized": false,
+    "isRejected": false,
+    "submittingMemberId": 0,
+    "excludeFromRating": false,
+    "winner1Status": null,
+    "winner2Status": null,
+    "loser1Status": null,
+    "loser2Status": null,
+    "actions": {},
+    "isFlexLeagueEventPlayerPostDraw": false,
+    "tmsEventDrawMatchId": null,
+    "clubIds": null,
+    "teamType": null,
+    "resultType": null,
+    "groupEvent": null,
+    "groupsEventId": null
+  },
+  "notableMatchEventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+  "playerFirstInitialLastName": "MLynch",
+  "playerIsPro": false,
+  "startRating": 3.0,
+  "minRating": 2.7,
+  "maxRating": 3.29,
+  "singlesUtr": 2.69,
+  "threeMonthRating": 2.7,
+  "ratingTrend": {
+    "rating": 2.7,
+    "ratingDisplay": "2.70",
+    "ratingDifference": -0.010000000000000231,
+    "changeDirection": "up"
+  },
+  "ratingTrendChart": {
+    "minRating": 2.718079402022896,
+    "maxRating": 3.2902761841999717,
+    "chartTicksPerMonth": 10,
+    "months": [
+      {
+        "month": {
+          "name": "April",
+          "abbr": "APR"
+        },
+        "ratings": [
+          {
+            "index": 10,
+            "rating": 2.86147696021231,
+            "ratingDisplay": "2.86"
+          },
+          {
+            "index": 12,
+            "rating": 2.9255271882037506,
+            "ratingDisplay": "2.92"
+          },
+          {
+            "index": 14,
+            "rating": 2.925956513509283,
+            "ratingDisplay": "2.92"
+          },
+          {
+            "index": 16,
+            "rating": 2.9448251207254894,
+            "ratingDisplay": "2.94"
+          }
+        ],
+        "minRating": 2.8556878174043288,
+        "maxRating": 2.993399151468534,
+        "startRating": 2.86147696021231,
+        "endRating": 2.953327867519197,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "May",
+          "abbr": "MAY"
+        },
+        "ratings": [
+          {
+            "index": 20,
+            "rating": 2.959218846002036,
+            "ratingDisplay": "2.95"
+          },
+          {
+            "index": 22,
+            "rating": 2.9548463442703814,
+            "ratingDisplay": "2.95"
+          },
+          {
+            "index": 24,
+            "rating": 2.950631215441844,
+            "ratingDisplay": "2.95"
+          },
+          {
+            "index": 26,
+            "rating": 2.9547017326287595,
+            "ratingDisplay": "2.95"
+          }
+        ],
+        "minRating": 2.9493622573746787,
+        "maxRating": 3.002328493784688,
+        "startRating": 2.959218846002036,
+        "endRating": 3.002328493784688,
+        "results": [
+          {
+            "index": 30,
+            "rating": 2.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Fri May 31 Win vs. T. La (2.60) 5-7, 7-6, 1-0",
+                "resultId": 46246162,
+                "winnerSets": [
+                  5,
+                  7,
+                  1,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  7,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  -1,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-05-31T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "T.La",
+                "loser2": null,
+                "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "June",
+          "abbr": "JUN"
+        },
+        "ratings": [
+          {
+            "index": 30,
+            "rating": 3.002328493784688,
+            "ratingDisplay": "3.00"
+          },
+          {
+            "index": 32,
+            "rating": 3.000214811358899,
+            "ratingDisplay": "3.00"
+          },
+          {
+            "index": 34,
+            "rating": 2.972088318396444,
+            "ratingDisplay": "2.97"
+          },
+          {
+            "index": 36,
+            "rating": 2.9571775204317565,
+            "ratingDisplay": "2.95"
+          }
+        ],
+        "minRating": 2.949753285942236,
+        "maxRating": 3.0038581753209006,
+        "startRating": 3.002328493784688,
+        "endRating": 2.949753285942236,
+        "results": [
+          {
+            "index": 30,
+            "rating": 4.35,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.36) 6-2, 6-1",
+                "resultId": 46252767,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  2,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-06-02T00:00:00",
+                "winner1": "K.Surapaneni",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "rating": 3.7,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Jun 1 Loss vs. C. Chavez (3.69) 6-3, 6-4",
+                "resultId": 46265557,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  3,
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-06-01T00:00:00",
+                "winner1": "C.Chavez",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "July",
+          "abbr": "JUL"
+        },
+        "ratings": [
+          {
+            "index": 40,
+            "rating": 2.949753285942236,
+            "ratingDisplay": "2.94"
+          },
+          {
+            "index": 42,
+            "rating": 2.9512815428382955,
+            "ratingDisplay": "2.95"
+          },
+          {
+            "index": 44,
+            "rating": 2.9545545993247724,
+            "ratingDisplay": "2.95"
+          },
+          {
+            "index": 46,
+            "rating": 2.948422391270227,
+            "ratingDisplay": "2.94"
+          }
+        ],
+        "minRating": 2.9325846938371076,
+        "maxRating": 3.104311833338277,
+        "startRating": 2.949753285942236,
+        "endRating": 3.104311833338277,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "August",
+          "abbr": "AUG"
+        },
+        "ratings": [
+          {
+            "index": 50,
+            "rating": 3.1573715661437727,
+            "ratingDisplay": "3.15"
+          },
+          {
+            "index": 52,
+            "rating": 3.086609042301011,
+            "ratingDisplay": "3.08"
+          },
+          {
+            "index": 54,
+            "rating": 3.0195337512085483,
+            "ratingDisplay": "3.01"
+          },
+          {
+            "index": 56,
+            "rating": 3.1695402309756635,
+            "ratingDisplay": "3.16"
+          }
+        ],
+        "minRating": 3.0195337512085474,
+        "maxRating": 3.185903997731686,
+        "startRating": 3.1573715661437727,
+        "endRating": 3.148301783028622,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "September",
+          "abbr": "SEP"
+        },
+        "ratings": [
+          {
+            "index": 60,
+            "rating": 3.148090572546942,
+            "ratingDisplay": "3.14"
+          },
+          {
+            "index": 62,
+            "rating": 3.1311803047256097,
+            "ratingDisplay": "3.13"
+          },
+          {
+            "index": 64,
+            "rating": 2.7875404692820447,
+            "ratingDisplay": "2.78"
+          },
+          {
+            "index": 66,
+            "rating": 3.1766347686652128,
+            "ratingDisplay": "3.17"
+          }
+        ],
+        "minRating": 2.753428701615602,
+        "maxRating": 3.1908060180028706,
+        "startRating": 3.148090572546942,
+        "endRating": 3.1698302734420305,
+        "results": [
+          {
+            "index": 65,
+            "rating": 3.05,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Tue Sep 17 Win vs. M. Woodall (3.06) 6-3, 6-3",
+                "resultId": 48063734,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-09-17T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "M.Woodall",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          },
+          {
+            "index": 61,
+            "rating": 3.8,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Sep 4 Loss vs. R. Sheffield (3.79) 6-0, 7-5",
+                "resultId": 47804290,
+                "winnerSets": [
+                  6,
+                  7,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-09-04T00:00:00",
+                "winner1": "R.Sheffield",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "October",
+          "abbr": "OCT"
+        },
+        "ratings": [
+          {
+            "index": 70,
+            "rating": 3.139929211318729,
+            "ratingDisplay": "3.13"
+          },
+          {
+            "index": 72,
+            "rating": 2.718079402022896,
+            "ratingDisplay": "2.71"
+          },
+          {
+            "index": 74,
+            "rating": 2.769065451615763,
+            "ratingDisplay": "2.76"
+          },
+          {
+            "index": 76,
+            "rating": 2.794164870514676,
+            "ratingDisplay": "2.79"
+          }
+        ],
+        "minRating": 2.718079402022896,
+        "maxRating": 3.2252699411205423,
+        "startRating": 3.139929211318729,
+        "endRating": 2.8483873236159445,
+        "results": [
+          {
+            "index": 76,
+            "rating": 2.1,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Oct 19 Win vs. B. Allen (2.10) 6-2, 6-2",
+                "resultId": 48630933,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  2,
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-10-19T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "B.Allen",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          },
+          {
+            "index": 72,
+            "rating": 3.35,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Oct 6 Loss vs. C. Lewis (3.34) 6-1, 6-2",
+                "resultId": 48391047,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  1,
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-10-06T00:00:00",
+                "winner1": "C.Lewis",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 74,
+            "rating": 3.7,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Oct 12 Loss vs. C. Chavez (3.69) 6-1, 6-1",
+                "resultId": 48982539,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-10-12T00:00:00",
+                "winner1": "C.Chavez",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "November",
+          "abbr": "NOV"
+        },
+        "ratings": [
+          {
+            "index": 80,
+            "rating": 2.8488869183469943,
+            "ratingDisplay": "2.84"
+          },
+          {
+            "index": 82,
+            "rating": 2.8777205509759987,
+            "ratingDisplay": "2.87"
+          },
+          {
+            "index": 84,
+            "rating": 2.8588185713524745,
+            "ratingDisplay": "2.85"
+          },
+          {
+            "index": 86,
+            "rating": 2.8638865343543065,
+            "ratingDisplay": "2.86"
+          }
+        ],
+        "minRating": 2.841270185864407,
+        "maxRating": 2.8859215291275007,
+        "startRating": 2.8488869183469943,
+        "endRating": 2.872629058868398,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "December",
+          "abbr": "DEC"
+        },
+        "ratings": [
+          {
+            "index": 90,
+            "rating": 2.8728052251954788,
+            "ratingDisplay": "2.87"
+          },
+          {
+            "index": 92,
+            "rating": 3.051766940231096,
+            "ratingDisplay": "3.05"
+          },
+          {
+            "index": 94,
+            "rating": 3.0709694565759227,
+            "ratingDisplay": "3.07"
+          },
+          {
+            "index": 96,
+            "rating": 3.1079329699693403,
+            "ratingDisplay": "3.10"
+          }
+        ],
+        "minRating": 2.872525568249627,
+        "maxRating": 3.10899985973621,
+        "startRating": 2.8728052251954788,
+        "endRating": 3.1034493433534114,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "January",
+          "abbr": "JAN '25"
+        },
+        "ratings": [
+          {
+            "index": 100,
+            "rating": 3.101764812701645,
+            "ratingDisplay": "3.10"
+          },
+          {
+            "index": 102,
+            "rating": 3.0934122220831157,
+            "ratingDisplay": "3.09"
+          },
+          {
+            "index": 104,
+            "rating": 3.1543561769290562,
+            "ratingDisplay": "3.15"
+          },
+          {
+            "index": 106,
+            "rating": 3.156310768058047,
+            "ratingDisplay": "3.15"
+          }
+        ],
+        "minRating": 3.0433807441244087,
+        "maxRating": 3.198055207791884,
+        "startRating": 3.101764812701645,
+        "endRating": 3.1058912987968883,
+        "results": [
+          {
+            "index": 106,
+            "rating": 1.95,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Jan 19 Win vs. A. Duhon (1.93) 6-2, 6-2",
+                "resultId": 51132621,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  2,
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-01-19T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "A.Duhon",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "February",
+          "abbr": "FEB"
+        },
+        "ratings": [
+          {
+            "index": 110,
+            "rating": 3.119247013281354,
+            "ratingDisplay": "3.11"
+          },
+          {
+            "index": 112,
+            "rating": 3.1731544529566693,
+            "ratingDisplay": "3.17"
+          },
+          {
+            "index": 114,
+            "rating": 3.2752766601053107,
+            "ratingDisplay": "3.27"
+          },
+          {
+            "index": 116,
+            "rating": 3.2186114789603852,
+            "ratingDisplay": "3.21"
+          }
+        ],
+        "minRating": 3.118284208148121,
+        "maxRating": 3.2902761841999717,
+        "startRating": 3.119247013281354,
+        "endRating": 3.2053189562154,
+        "results": [
+          {
+            "index": 110,
+            "rating": 3.3,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Feb 1 Win vs. S. Maddox (3.31) 7-5, 6-2",
+                "resultId": 51133809,
+                "winnerSets": [
+                  7,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  5,
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-02-01T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "S.Maddox",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          },
+          {
+            "index": 111,
+            "rating": 2.9,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Feb 5 Win vs. P. Steed (2.92) 3-6, 7-5, 1-0",
+                "resultId": 51341149,
+                "winnerSets": [
+                  3,
+                  7,
+                  1,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  6,
+                  5,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  -1,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-02-05T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "P.Steed",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          },
+          {
+            "index": 116,
+            "rating": 2.15,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Feb 19 Win vs. M. Pathan (2.15) 7-6, 7-5",
+                "resultId": 51641792,
+                "winnerSets": [
+                  7,
+                  7,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  6,
+                  5,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-02-19T00:00:00",
+                "winner1": "M.Lynch",
+                "winner2": null,
+                "loser1": "M.Pathan",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": true
+              }
+            ]
+          },
+          {
+            "index": 117,
+            "rating": 3.05,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Feb 22 Loss vs. M. Woodall (3.06) 6-3, 6-3",
+                "resultId": 51677182,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-02-22T00:00:00",
+                "winner1": "M.Woodall",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "March",
+          "abbr": "MAR"
+        },
+        "ratings": [
+          {
+            "index": 120,
+            "rating": 3.205073419394255,
+            "ratingDisplay": "3.20"
+          },
+          {
+            "index": 122,
+            "rating": 3.2351977492621917,
+            "ratingDisplay": "3.23"
+          },
+          {
+            "index": 124,
+            "rating": 2.8190007997933715,
+            "ratingDisplay": "2.81"
+          },
+          {
+            "index": 126,
+            "rating": null,
+            "ratingDisplay": "0.00"
+          }
+        ],
+        "minRating": 2.720344873823178,
+        "maxRating": 3.288238948211429,
+        "startRating": 3.205073419394255,
+        "endRating": 2.720344873823178,
+        "results": [
+          {
+            "index": 120,
+            "rating": 3.35,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Mar 2 Loss vs. C. Lewis (3.34) 4-6, 6-1, 1-0",
+                "resultId": 51960578,
+                "winnerSets": [
+                  4,
+                  6,
+                  1,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  6,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  -1,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-03-02T00:00:00",
+                "winner1": "C.Lewis",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 123,
+            "rating": 3.7,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Tue Mar 11 Loss vs. C. Chavez (3.69) 6-1, 6-4",
+                "resultId": 52255968,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  1,
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2025-03-11T00:00:00",
+                "winner1": "C.Chavez",
+                "winner2": null,
+                "loser1": "M.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 40 & Over - Spring/Men 3.0",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "minRatingForScale": 1.625,
+    "maxRatingForScale": 4.625,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 130,
+    "nonRatingScaleStepSize": 0
+  },
+  "victoryMarginChart": {
+    "currentRating": 2.7,
+    "currentRatingDisplay": "2.69",
+    "results": [
+      {
+        "index": 51,
+        "rating": 2.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Fri May 31 Win vs. T. La (2.60) 5-7, 7-6, 1-0",
+            "resultId": 46246162,
+            "winnerSets": [
+              5,
+              7,
+              1,
+              0,
+              0
+            ],
+            "loserSets": [
+              7,
+              6,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "resultDate": "2024-05-31T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "T.La",
+            "loser2": null,
+            "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "rating": 3.7,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Jun 1 Loss vs. C. Chavez (3.69) 6-3, 6-4",
+            "resultId": 46265557,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              3,
+              4,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-06-01T00:00:00",
+            "winner1": "C.Chavez",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "rating": 4.35,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.36) 6-2, 6-1",
+            "resultId": 46252767,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-06-02T00:00:00",
+            "winner1": "K.Surapaneni",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "Georgia Adult 40 & Over State Championship/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "rating": 3.8,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Sep 4 Loss vs. R. Sheffield (3.79) 6-0, 7-5",
+            "resultId": 47804290,
+            "winnerSets": [
+              6,
+              7,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-09-04T00:00:00",
+            "winner1": "R.Sheffield",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 66,
+        "rating": 3.05,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Tue Sep 17 Win vs. M. Woodall (3.06) 6-3, 6-3",
+            "resultId": 48063734,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              3,
+              3,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-09-17T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "M.Woodall",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "rating": 3.35,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Oct 6 Loss vs. C. Lewis (3.34) 6-1, 6-2",
+            "resultId": 48391047,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              1,
+              2,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-10-06T00:00:00",
+            "winner1": "C.Lewis",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "rating": 3.7,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Oct 12 Loss vs. C. Chavez (3.69) 6-1, 6-1",
+            "resultId": 48982539,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-10-12T00:00:00",
+            "winner1": "C.Chavez",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 75,
+        "rating": 2.1,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Oct 19 Win vs. B. Allen (2.10) 6-2, 6-2",
+            "resultId": 48630933,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              2,
+              2,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-10-19T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "B.Allen",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 75,
+        "rating": 1.95,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Jan 19 Win vs. A. Duhon (1.93) 6-2, 6-2",
+            "resultId": 51132621,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              2,
+              2,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2025-01-19T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "A.Duhon",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 66,
+        "rating": 3.3,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Feb 1 Win vs. S. Maddox (3.31) 7-5, 6-2",
+            "resultId": 51133809,
+            "winnerSets": [
+              7,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              5,
+              2,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2025-02-01T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "S.Maddox",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 51,
+        "rating": 2.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Feb 5 Win vs. P. Steed (2.92) 3-6, 7-5, 1-0",
+            "resultId": 51341149,
+            "winnerSets": [
+              3,
+              7,
+              1,
+              0,
+              0
+            ],
+            "loserSets": [
+              6,
+              5,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "resultDate": "2025-02-05T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "P.Steed",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "rating": 2.15,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Feb 19 Win vs. M. Pathan (2.15) 7-6, 7-5",
+            "resultId": 51641792,
+            "winnerSets": [
+              7,
+              7,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              6,
+              5,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2025-02-19T00:00:00",
+            "winner1": "M.Lynch",
+            "winner2": null,
+            "loser1": "M.Pathan",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": true
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "rating": 3.05,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Feb 22 Loss vs. M. Woodall (3.06) 6-3, 6-3",
+            "resultId": 51677182,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              3,
+              3,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2025-02-22T00:00:00",
+            "winner1": "M.Woodall",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "rating": 3.35,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Mar 2 Loss vs. C. Lewis (3.34) 4-6, 6-1, 1-0",
+            "resultId": 51960578,
+            "winnerSets": [
+              4,
+              6,
+              1,
+              0,
+              0
+            ],
+            "loserSets": [
+              6,
+              1,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "resultDate": "2025-03-02T00:00:00",
+            "winner1": "C.Lewis",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "rating": 3.7,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Tue Mar 11 Loss vs. C. Chavez (3.69) 6-1, 6-4",
+            "resultId": 52255968,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              1,
+              4,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2025-03-11T00:00:00",
+            "winner1": "C.Chavez",
+            "winner2": null,
+            "loser1": "M.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 40 & Over - Spring/Men 3.0",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      }
+    ],
+    "minRatingForScale": 1.625,
+    "maxRatingForScale": 4.625,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 100,
+    "nonRatingScaleStepSize": 20
+  },
+  "extendedRatingProfile": {
+    "eligibleResults": {
+      "singles": [
+        48063734,
+        47804290,
+        48391047,
+        44464143,
+        51133809,
+        51132621,
+        52255968,
+        48982539,
+        46252767,
+        51641792,
+        48630933,
+        46265557,
+        51341149,
+        51960578,
+        46246162,
+        51677182,
+        44447563
+      ],
+      "doubles": [
+        50824721,
+        50791548,
+        50638453,
+        49748130,
+        47823927,
+        50339370,
+        46268823,
+        46237771,
+        46233254,
+        47825820,
+        46265543,
+        46314523,
+        47444931,
+        50592447,
+        50432553,
+        47816246,
+        47825801,
+        46389017,
+        45646449,
+        49359308,
+        50329181
+      ]
+    },
+    "history": [
+      {
+        "id": 502146196,
+        "ratingStatus": 3,
+        "rating": 3.01,
+        "ratingDisplay": "3.01",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-17T00:00:00"
+      },
+      {
+        "id": 500696277,
+        "ratingStatus": 3,
+        "rating": 3.24,
+        "ratingDisplay": "3.24",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-10T00:00:00"
+      },
+      {
+        "id": 500089796,
+        "ratingStatus": 3,
+        "rating": 3.22,
+        "ratingDisplay": "3.22",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-03T00:00:00"
+      },
+      {
+        "id": 498550402,
+        "ratingStatus": 3,
+        "rating": 3.25,
+        "ratingDisplay": "3.25",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-02-24T00:00:00"
+      },
+      {
+        "id": 497710992,
+        "ratingStatus": 3,
+        "rating": 3.25,
+        "ratingDisplay": "3.25",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-02-17T00:00:00"
+      },
+      {
+        "id": 496663828,
+        "ratingStatus": 3,
+        "rating": 3.17,
+        "ratingDisplay": "3.17",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-02-10T00:00:00"
+      },
+      {
+        "id": 495498336,
+        "ratingStatus": 3,
+        "rating": 3.11,
+        "ratingDisplay": "3.11",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-02-03T00:00:00"
+      },
+      {
+        "id": 494111843,
+        "ratingStatus": 3,
+        "rating": 3.15,
+        "ratingDisplay": "3.15",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-01-27T00:00:00"
+      },
+      {
+        "id": 492778094,
+        "ratingStatus": 3,
+        "rating": 3.13,
+        "ratingDisplay": "3.13",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-01-20T00:00:00"
+      },
+      {
+        "id": 491450949,
+        "ratingStatus": 3,
+        "rating": 3.07,
+        "ratingDisplay": "3.07",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-01-13T00:00:00"
+      },
+      {
+        "id": 489905669,
+        "ratingStatus": 3,
+        "rating": 3.1,
+        "ratingDisplay": "3.10",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-01-06T00:00:00"
+      },
+      {
+        "id": 488736808,
+        "ratingStatus": 3,
+        "rating": 3.11,
+        "ratingDisplay": "3.11",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-12-30T00:00:00"
+      },
+      {
+        "id": 488168800,
+        "ratingStatus": 3,
+        "rating": 3.08,
+        "ratingDisplay": "3.08",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-12-23T00:00:00"
+      },
+      {
+        "id": 486915008,
+        "ratingStatus": 3,
+        "rating": 3.07,
+        "ratingDisplay": "3.07",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-12-16T00:00:00"
+      },
+      {
+        "id": 485711223,
+        "ratingStatus": 3,
+        "rating": 2.99,
+        "ratingDisplay": "2.99",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-12-09T00:00:00"
+      },
+      {
+        "id": 484432842,
+        "ratingStatus": 3,
+        "rating": 2.87,
+        "ratingDisplay": "2.87",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-12-02T00:00:00"
+      },
+      {
+        "id": 483877263,
+        "ratingStatus": 3,
+        "rating": 2.86,
+        "ratingDisplay": "2.86",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-11-25T00:00:00"
+      },
+      {
+        "id": 482588154,
+        "ratingStatus": 3,
+        "rating": 2.86,
+        "ratingDisplay": "2.86",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-11-18T00:00:00"
+      },
+      {
+        "id": 481902748,
+        "ratingStatus": 3,
+        "rating": 2.87,
+        "ratingDisplay": "2.87",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-11-11T00:00:00"
+      },
+      {
+        "id": 480712232,
+        "ratingStatus": 3,
+        "rating": 2.83,
+        "ratingDisplay": "2.83",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-11-04T00:00:00"
+      },
+      {
+        "id": 479966439,
+        "ratingStatus": 3,
+        "rating": 2.87,
+        "ratingDisplay": "2.87",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-10-28T00:00:00"
+      },
+      {
+        "id": 478882808,
+        "ratingStatus": 3,
+        "rating": 2.77,
+        "ratingDisplay": "2.77",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-10-21T00:00:00"
+      },
+      {
+        "id": 478425436,
+        "ratingStatus": 3,
+        "rating": 2.81,
+        "ratingDisplay": "2.81",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-10-14T00:00:00"
+      },
+      {
+        "id": 477240147,
+        "ratingStatus": 3,
+        "rating": 3.11,
+        "ratingDisplay": "3.11",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-10-07T00:00:00"
+      },
+      {
+        "id": 476435374,
+        "ratingStatus": 3,
+        "rating": 3.17,
+        "ratingDisplay": "3.17",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-09-30T00:00:00"
+      },
+      {
+        "id": 475212883,
+        "ratingStatus": 3,
+        "rating": 2.98,
+        "ratingDisplay": "2.98",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-09-23T00:00:00"
+      },
+      {
+        "id": 474160767,
+        "ratingStatus": 3,
+        "rating": 3.01,
+        "ratingDisplay": "3.01",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-09-16T00:00:00"
+      },
+      {
+        "id": 473669744,
+        "ratingStatus": 3,
+        "rating": 3.14,
+        "ratingDisplay": "3.14",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-09-09T00:00:00"
+      },
+      {
+        "id": 472318284,
+        "ratingStatus": 3,
+        "rating": 3.15,
+        "ratingDisplay": "3.15",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-09-02T00:00:00"
+      },
+      {
+        "id": 471983893,
+        "ratingStatus": 3,
+        "rating": 3.13,
+        "ratingDisplay": "3.13",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-08-26T00:00:00"
+      },
+      {
+        "id": 471035223,
+        "ratingStatus": 3,
+        "rating": 3.03,
+        "ratingDisplay": "3.03",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-08-19T00:00:00"
+      },
+      {
+        "id": 469757443,
+        "ratingStatus": 3,
+        "rating": 3.09,
+        "ratingDisplay": "3.09",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-08-12T00:00:00"
+      },
+      {
+        "id": 469195430,
+        "ratingStatus": 3,
+        "rating": 3.12,
+        "ratingDisplay": "3.12",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-08-05T00:00:00"
+      },
+      {
+        "id": 467623267,
+        "ratingStatus": 3,
+        "rating": 2.94,
+        "ratingDisplay": "2.94",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-07-29T00:00:00"
+      },
+      {
+        "id": 466381680,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-07-22T00:00:00"
+      },
+      {
+        "id": 465405574,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-07-15T00:00:00"
+      },
+      {
+        "id": 464519561,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-07-08T00:00:00"
+      },
+      {
+        "id": 463644112,
+        "ratingStatus": 3,
+        "rating": 2.96,
+        "ratingDisplay": "2.96",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-07-01T00:00:00"
+      },
+      {
+        "id": 462729031,
+        "ratingStatus": 3,
+        "rating": 2.97,
+        "ratingDisplay": "2.97",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-06-24T00:00:00"
+      },
+      {
+        "id": 461819249,
+        "ratingStatus": 3,
+        "rating": 2.99,
+        "ratingDisplay": "2.99",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-06-17T00:00:00"
+      },
+      {
+        "id": 460922119,
+        "ratingStatus": 3,
+        "rating": 3.0,
+        "ratingDisplay": "3.00",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-06-10T00:00:00"
+      },
+      {
+        "id": 460009914,
+        "ratingStatus": 3,
+        "rating": 2.98,
+        "ratingDisplay": "2.98",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-06-03T00:00:00"
+      },
+      {
+        "id": 459088543,
+        "ratingStatus": 3,
+        "rating": 2.96,
+        "ratingDisplay": "2.96",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-05-27T00:00:00"
+      },
+      {
+        "id": 458173837,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-05-20T00:00:00"
+      },
+      {
+        "id": 457238532,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-05-13T00:00:00"
+      },
+      {
+        "id": 456309733,
+        "ratingStatus": 3,
+        "rating": 2.96,
+        "ratingDisplay": "2.96",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-05-06T00:00:00"
+      },
+      {
+        "id": 455364806,
+        "ratingStatus": 3,
+        "rating": 2.96,
+        "ratingDisplay": "2.96",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-04-29T00:00:00"
+      },
+      {
+        "id": 454424586,
+        "ratingStatus": 3,
+        "rating": 2.93,
+        "ratingDisplay": "2.93",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-04-22T00:00:00"
+      },
+      {
+        "id": 453442992,
+        "ratingStatus": 3,
+        "rating": 2.93,
+        "ratingDisplay": "2.93",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-04-15T00:00:00"
+      },
+      {
+        "id": 452491701,
+        "ratingStatus": 3,
+        "rating": 2.9,
+        "ratingDisplay": "2.90",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-04-08T00:00:00"
+      },
+      {
+        "id": 451554069,
+        "ratingStatus": 3,
+        "rating": 2.94,
+        "ratingDisplay": "2.94",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-04-01T00:00:00"
+      },
+      {
+        "id": 450623268,
+        "ratingStatus": 3,
+        "rating": 2.95,
+        "ratingDisplay": "2.95",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-03-25T00:00:00"
+      },
+      {
+        "id": 449657808,
+        "ratingStatus": 3,
+        "rating": 2.94,
+        "ratingDisplay": "2.94",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-03-18T00:00:00"
+      },
+      {
+        "id": 448655622,
+        "ratingStatus": 3,
+        "rating": 3.04,
+        "ratingDisplay": "3.04",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-03-11T00:00:00"
+      },
+      {
+        "id": 447668126,
+        "ratingStatus": 3,
+        "rating": 3.08,
+        "ratingDisplay": "3.08",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-03-04T00:00:00"
+      },
+      {
+        "id": 446321251,
+        "ratingStatus": 3,
+        "rating": 2.91,
+        "ratingDisplay": "2.91",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-02-26T00:00:00"
+      },
+      {
+        "id": 442686421,
+        "ratingStatus": 3,
+        "rating": 2.76,
+        "ratingDisplay": "2.76",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-02-19T00:00:00"
+      },
+      {
+        "id": 441683796,
+        "ratingStatus": 3,
+        "rating": 2.77,
+        "ratingDisplay": "2.77",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-02-12T00:00:00"
+      },
+      {
+        "id": 440706316,
+        "ratingStatus": 3,
+        "rating": 2.86,
+        "ratingDisplay": "2.86",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-02-05T00:00:00"
+      },
+      {
+        "id": 439773379,
+        "ratingStatus": 3,
+        "rating": 2.83,
+        "ratingDisplay": "2.83",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-29T00:00:00"
+      },
+      {
+        "id": 438802087,
+        "ratingStatus": 3,
+        "rating": 2.78,
+        "ratingDisplay": "2.78",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-22T00:00:00"
+      },
+      {
+        "id": 437998934,
+        "ratingStatus": 3,
+        "rating": 2.64,
+        "ratingDisplay": "2.64",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-18T00:00:00"
+      },
+      {
+        "id": 436333333,
+        "ratingStatus": 3,
+        "rating": 2.58,
+        "ratingDisplay": "2.58",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-15T00:00:00"
+      },
+      {
+        "id": 436082921,
+        "ratingStatus": 3,
+        "rating": 2.58,
+        "ratingDisplay": "2.58",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-08T00:00:00"
+      },
+      {
+        "id": 435180500,
+        "ratingStatus": 3,
+        "rating": 2.58,
+        "ratingDisplay": "2.58",
+        "type": "WeeklyAverage_Singles",
+        "date": "2024-01-01T00:00:00"
+      },
+      {
+        "id": 433845853,
+        "ratingStatus": 3,
+        "rating": 2.59,
+        "ratingDisplay": "2.59",
+        "type": "WeeklyAverage_Singles",
+        "date": "2023-12-25T00:00:00"
+      },
+      {
+        "id": 432940791,
+        "ratingStatus": 3,
+        "rating": 2.59,
+        "ratingDisplay": "2.59",
+        "type": "WeeklyAverage_Singles",
+        "date": "2023-12-18T00:00:00"
+      },
+      {
+        "id": 432601568,
+        "ratingStatus": 3,
+        "rating": 2.58,
+        "ratingDisplay": "2.58",
+        "type": "WeeklyAverage_Singles",
+        "date": "2023-12-11T00:00:00"
+      },
+      {
+        "id": 431687068,
+        "ratingStatus": 3,
+        "rating": 2.57,
+        "ratingDisplay": "2.57",
+        "type": "WeeklyAverage_Singles",
+        "date": "2023-12-04T00:00:00"
+      }
+    ],
+    "ratings": {
+      "hardCourt": null,
+      "clayCourt": null,
+      "grassCourt": null,
+      "oneMonth": 2.6,
+      "sixWeek": 2.59,
+      "eightWeek": 2.69,
+      "threeMonth": 2.7,
+      "grandSlamMasters": null,
+      "fullTwelve": 2.69,
+      "ytd": 2.7
+    },
+    "rankings": {
+      "utrRank": null,
+      "hardCourtRank": null,
+      "clayCourtRank": null,
+      "grassCourtRank": null,
+      "oneMonthRank": null,
+      "sixWeekRank": null,
+      "eightWeekRank": null,
+      "threeMonthRank": null,
+      "grandSlamMastersRank": null,
+      "fullTwelveRank": null,
+      "ytdRank": null
+    }
+  }
+}

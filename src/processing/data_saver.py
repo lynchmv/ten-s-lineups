@@ -109,12 +109,12 @@ def save_player_results(results, player_id):
     except Exception as e:
         logging.error(f"Error saving json results for player {player_id}: {e}")
 
-def save_player_stats(stats, player_id):
+def save_player_stats(stats, player_id, match="doubles"):
     """Save player stats to parquet file."""
     try:
         df = pd.json_normalize(stats)
         os.makedirs(DATA_DIR, exist_ok=True)
-        file_path = os.path.join(DATA_DIR, f"player_{player_id}_stats.parquet")
+        file_path = os.path.join(DATA_DIR, f"player_{player_id}_{match}_stats.parquet")
         _save_parquet(df, file_path)
     except Exception as e:
         logging.error(f"Error saving parquet stats for player {player_id}: {e}")
@@ -122,7 +122,7 @@ def save_player_stats(stats, player_id):
     """Save player stats to json file."""
     try:
         os.makedirs(RAW_DIR, exist_ok=True)
-        file_path = os.path.join(RAW_DIR, f"player_{player_id}_stats.json")
+        file_path = os.path.join(RAW_DIR, f"player_{player_id}_{match}_stats.json")
         _save_json(stats, file_path)
     except Exception as e:
         logging.error(f"Error saving json stats for player {player_id}: {e}")

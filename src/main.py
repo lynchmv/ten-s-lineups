@@ -44,12 +44,19 @@ def main():
             save_player_results(results, player["id"])
             print(f"Match results retrieved for {player['displayName']}.")
 
-        # Fetch player stats
-        print(f"\nFetching stats for {player['displayName']}...")
+        # Fetch player doubles stats
+        print(f"\nFetching doubles stats for {player['displayName']}...")
         stats = api.get_player_stats(player['id'])
         if stats:
             save_player_stats(stats, player["id"])
-            print(f"Match stats retrieved for {player['displayName']}.")
+            print(f"Doubles stats retrieved for {player['displayName']}.")
+
+        # Fetch player singles stats
+        print(f"\nFetching singles stats for {player['displayName']}...")
+        stats = api.get_player_stats(player['id'], "singles")
+        if stats:
+            save_player_stats(stats, player["id"], "singles")
+            print(f"Singles stats retrieved for {player['displayName']}.")
 
         # Display results summary
         print("\nSummary:")

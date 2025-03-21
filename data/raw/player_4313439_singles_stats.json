@@ -1,0 +1,609 @@
+{
+  "title": "verified singles stats - Last 12 Months",
+  "subtitle": "April 2024 - March 2025",
+  "monthsCount": 12,
+  "currentRating": 1.24,
+  "currentRatingDisplay": "1.23",
+  "ratingCircle": {
+    "singlesUtr": 1.23,
+    "ratingStatusSingles": "Projected",
+    "ratingProgressSingles": 4.0,
+    "singlesUtrDisplay": "1.23"
+  },
+  "winsCount": 0,
+  "winStreak": 0,
+  "lossesCount": 1,
+  "recordWinPercentage": "0%",
+  "notableMatch": null,
+  "notableMatchEventName": null,
+  "playerFirstInitialLastName": "CLynch",
+  "playerIsPro": false,
+  "startRating": 2.0,
+  "minRating": 1.04,
+  "maxRating": 2.8,
+  "singlesUtr": 1.23,
+  "threeMonthRating": null,
+  "ratingTrend": {
+    "rating": 0.0,
+    "ratingDisplay": null,
+    "ratingDifference": 0.0,
+    "changeDirection": "n/a"
+  },
+  "ratingTrendChart": {
+    "minRating": 1.0399536128890345,
+    "maxRating": 2.7970894321772035,
+    "chartTicksPerMonth": 10,
+    "months": [
+      {
+        "month": {
+          "name": "April",
+          "abbr": "APR"
+        },
+        "ratings": [
+          {
+            "index": 10,
+            "rating": 2.129946210428351,
+            "ratingDisplay": "2.12"
+          },
+          {
+            "index": 12,
+            "rating": 2.20586460436793,
+            "ratingDisplay": "2.20"
+          },
+          {
+            "index": 14,
+            "rating": 2.2292538637552517,
+            "ratingDisplay": "2.22"
+          },
+          {
+            "index": 16,
+            "rating": 2.273841912938938,
+            "ratingDisplay": "2.27"
+          }
+        ],
+        "minRating": 2.129946210428351,
+        "maxRating": 2.2850895469955863,
+        "startRating": 2.129946210428351,
+        "endRating": 2.2850895469955863,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "May",
+          "abbr": "MAY"
+        },
+        "ratings": [
+          {
+            "index": 20,
+            "rating": 2.2899606232611114,
+            "ratingDisplay": "2.28"
+          },
+          {
+            "index": 22,
+            "rating": 2.322500652162402,
+            "ratingDisplay": "2.32"
+          },
+          {
+            "index": 24,
+            "rating": 2.308171040278277,
+            "ratingDisplay": "2.30"
+          },
+          {
+            "index": 26,
+            "rating": 2.2761386470262273,
+            "ratingDisplay": "2.27"
+          }
+        ],
+        "minRating": 2.2077071336616068,
+        "maxRating": 2.3230394045872247,
+        "startRating": 2.2899606232611114,
+        "endRating": 2.300059215878873,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "June",
+          "abbr": "JUN"
+        },
+        "ratings": [
+          {
+            "index": 30,
+            "rating": 2.3105069354953534,
+            "ratingDisplay": "2.31"
+          },
+          {
+            "index": 32,
+            "rating": 2.316257103641694,
+            "ratingDisplay": "2.31"
+          },
+          {
+            "index": 34,
+            "rating": 2.3218699559189284,
+            "ratingDisplay": "2.32"
+          },
+          {
+            "index": 36,
+            "rating": 2.730482980433194,
+            "ratingDisplay": "2.73"
+          }
+        ],
+        "minRating": 2.302695150616788,
+        "maxRating": 2.7970894321772035,
+        "startRating": 2.3105069354953534,
+        "endRating": 2.632901763065249,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "July",
+          "abbr": "JUL"
+        },
+        "ratings": [
+          {
+            "index": 40,
+            "rating": 2.6098169712309196,
+            "ratingDisplay": "2.60"
+          },
+          {
+            "index": 42,
+            "rating": 2.169796690638734,
+            "ratingDisplay": "2.16"
+          },
+          {
+            "index": 44,
+            "rating": 2.1451998758876307,
+            "ratingDisplay": "2.14"
+          },
+          {
+            "index": 46,
+            "rating": 2.3440068873037334,
+            "ratingDisplay": "2.34"
+          }
+        ],
+        "minRating": 2.0415238590136315,
+        "maxRating": 2.6098169712309196,
+        "startRating": 2.6098169712309196,
+        "endRating": 2.056352056373693,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "August",
+          "abbr": "AUG"
+        },
+        "ratings": [
+          {
+            "index": 50,
+            "rating": 2.0702023820899598,
+            "ratingDisplay": "2.07"
+          },
+          {
+            "index": 52,
+            "rating": 2.100548275209906,
+            "ratingDisplay": "2.10"
+          },
+          {
+            "index": 54,
+            "rating": 2.112298409366714,
+            "ratingDisplay": "2.11"
+          },
+          {
+            "index": 56,
+            "rating": 2.6992528136847307,
+            "ratingDisplay": "2.69"
+          }
+        ],
+        "minRating": 2.0702023820899598,
+        "maxRating": 2.6992528136847307,
+        "startRating": 2.0702023820899598,
+        "endRating": 2.2440664434702766,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "September",
+          "abbr": "SEP"
+        },
+        "ratings": [
+          {
+            "index": 60,
+            "rating": 2.250198054442721,
+            "ratingDisplay": "2.25"
+          },
+          {
+            "index": 62,
+            "rating": 2.281387679376938,
+            "ratingDisplay": "2.28"
+          },
+          {
+            "index": 64,
+            "rating": 1.9667895358029333,
+            "ratingDisplay": "1.96"
+          },
+          {
+            "index": 66,
+            "rating": 1.468776417511656,
+            "ratingDisplay": "1.46"
+          }
+        ],
+        "minRating": 1.3584405152947245,
+        "maxRating": 2.2979094095700097,
+        "startRating": 2.250198054442721,
+        "endRating": 1.459116656069807,
+        "results": [
+          {
+            "index": 67,
+            "rating": 2.95,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Sep 21 Loss vs. J. Savage (2.95) 6-2, 6-0",
+                "resultId": 48142695,
+                "winnerSets": [
+                  6,
+                  6,
+                  0,
+                  0,
+                  0
+                ],
+                "loserSets": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "tiebreakSets": [
+                  -1,
+                  -1,
+                  0,
+                  0,
+                  0
+                ],
+                "resultDate": "2024-09-21T00:00:00",
+                "winner1": "J.Savage",
+                "winner2": null,
+                "loser1": "C.Lynch",
+                "loser2": null,
+                "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Women 3.5",
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "October",
+          "abbr": "OCT"
+        },
+        "ratings": [
+          {
+            "index": 70,
+            "rating": 1.4534899038976965,
+            "ratingDisplay": "1.45"
+          },
+          {
+            "index": 72,
+            "rating": 1.736382754112061,
+            "ratingDisplay": "1.73"
+          },
+          {
+            "index": 74,
+            "rating": 1.39677793273596,
+            "ratingDisplay": "1.39"
+          },
+          {
+            "index": 76,
+            "rating": 1.381429870811315,
+            "ratingDisplay": "1.38"
+          }
+        ],
+        "minRating": 1.3279080430462946,
+        "maxRating": 1.736382754112061,
+        "startRating": 1.4534899038976965,
+        "endRating": 1.3594772065184804,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "November",
+          "abbr": "NOV"
+        },
+        "ratings": [
+          {
+            "index": 80,
+            "rating": 1.353737738709323,
+            "ratingDisplay": "1.35"
+          },
+          {
+            "index": 82,
+            "rating": 1.2775395419202509,
+            "ratingDisplay": "1.27"
+          },
+          {
+            "index": 84,
+            "rating": 1.2269859520440454,
+            "ratingDisplay": "1.22"
+          },
+          {
+            "index": 86,
+            "rating": 1.6763231736182143,
+            "ratingDisplay": "1.67"
+          }
+        ],
+        "minRating": 1.2257226695386305,
+        "maxRating": 1.7298337385421498,
+        "startRating": 1.353737738709323,
+        "endRating": 1.5825829701539391,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "December",
+          "abbr": "DEC"
+        },
+        "ratings": [
+          {
+            "index": 90,
+            "rating": 1.5634698801845117,
+            "ratingDisplay": "1.56"
+          },
+          {
+            "index": 92,
+            "rating": 1.4593421894323066,
+            "ratingDisplay": "1.45"
+          },
+          {
+            "index": 94,
+            "rating": 1.3774109364792662,
+            "ratingDisplay": "1.37"
+          },
+          {
+            "index": 96,
+            "rating": 1.3683097342053079,
+            "ratingDisplay": "1.36"
+          }
+        ],
+        "minRating": 1.3650215326805772,
+        "maxRating": 1.5634698801845117,
+        "startRating": 1.5634698801845117,
+        "endRating": 1.3650215326805772,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "January",
+          "abbr": "JAN '25"
+        },
+        "ratings": [
+          {
+            "index": 100,
+            "rating": 1.3633547363698473,
+            "ratingDisplay": "1.36"
+          },
+          {
+            "index": 102,
+            "rating": 1.3180220133348286,
+            "ratingDisplay": "1.31"
+          },
+          {
+            "index": 104,
+            "rating": 1.2386531927710032,
+            "ratingDisplay": "1.23"
+          },
+          {
+            "index": 106,
+            "rating": 1.240777753591758,
+            "ratingDisplay": "1.24"
+          }
+        ],
+        "minRating": 1.0403116538531039,
+        "maxRating": 1.3633547363698473,
+        "startRating": 1.3633547363698473,
+        "endRating": 1.0403116538531039,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "February",
+          "abbr": "FEB"
+        },
+        "ratings": [
+          {
+            "index": 110,
+            "rating": 1.0399536128890345,
+            "ratingDisplay": "1.03"
+          },
+          {
+            "index": 112,
+            "rating": 1.0474510223005513,
+            "ratingDisplay": "1.04"
+          },
+          {
+            "index": 114,
+            "rating": 1.1093574015720098,
+            "ratingDisplay": "1.10"
+          },
+          {
+            "index": 116,
+            "rating": 1.2131790499418598,
+            "ratingDisplay": "1.21"
+          }
+        ],
+        "minRating": 1.0399536128890345,
+        "maxRating": 1.218105923055055,
+        "startRating": 1.0399536128890345,
+        "endRating": 1.1917693570590266,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "March",
+          "abbr": "MAR"
+        },
+        "ratings": [
+          {
+            "index": 120,
+            "rating": 1.3608456889830693,
+            "ratingDisplay": "1.36"
+          },
+          {
+            "index": 122,
+            "rating": 1.365720217659565,
+            "ratingDisplay": "1.36"
+          },
+          {
+            "index": 124,
+            "rating": 1.2360279926037419,
+            "ratingDisplay": "1.23"
+          },
+          {
+            "index": 126,
+            "rating": null,
+            "ratingDisplay": "0.00"
+          }
+        ],
+        "minRating": 1.2360279926037419,
+        "maxRating": 1.365720217659565,
+        "startRating": 1.3608456889830693,
+        "endRating": 1.2382361889244968,
+        "results": []
+      }
+    ],
+    "minRatingForScale": 0.875,
+    "maxRatingForScale": 3.125,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 130,
+    "nonRatingScaleStepSize": 0
+  },
+  "victoryMarginChart": {
+    "currentRating": 1.24,
+    "currentRatingDisplay": "1.23",
+    "results": [
+      {
+        "index": 15,
+        "rating": 2.95,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Sep 21 Loss vs. J. Savage (2.95) 6-2, 6-0",
+            "resultId": 48142695,
+            "winnerSets": [
+              6,
+              6,
+              0,
+              0,
+              0
+            ],
+            "loserSets": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            "tiebreakSets": [
+              -1,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "resultDate": "2024-09-21T00:00:00",
+            "winner1": "J.Savage",
+            "winner2": null,
+            "loser1": "C.Lynch",
+            "loser2": null,
+            "eventName": "2025 CORTA USTA Adult 18 & Over - Fall/Women 3.5",
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      }
+    ],
+    "minRatingForScale": 0.875,
+    "maxRatingForScale": 3.125,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 100,
+    "nonRatingScaleStepSize": 20
+  },
+  "extendedRatingProfile": {
+    "eligibleResults": {
+      "singles": [
+        48142695
+      ],
+      "doubles": [
+        47355051,
+        49098313,
+        48063746,
+        49832020,
+        52188531,
+        51610202,
+        48500073,
+        48371111,
+        47653626,
+        47584990,
+        47851261,
+        47712673,
+        47816285,
+        47816308,
+        48499218,
+        50900260,
+        49060196,
+        51483608,
+        51846925,
+        48073417,
+        51133817,
+        50616088,
+        49028907,
+        47825861,
+        50647466,
+        49419154,
+        49748139,
+        51163534,
+        48111488,
+        51153356
+      ]
+    },
+    "history": [],
+    "ratings": {
+      "hardCourt": null,
+      "clayCourt": null,
+      "grassCourt": null,
+      "oneMonth": null,
+      "sixWeek": null,
+      "eightWeek": null,
+      "threeMonth": null,
+      "grandSlamMasters": null,
+      "fullTwelve": 1.24,
+      "ytd": null
+    },
+    "rankings": {
+      "utrRank": null,
+      "hardCourtRank": null,
+      "clayCourtRank": null,
+      "grassCourtRank": null,
+      "oneMonthRank": null,
+      "sixWeekRank": null,
+      "eightWeekRank": null,
+      "threeMonthRank": null,
+      "grandSlamMastersRank": null,
+      "fullTwelveRank": null,
+      "ytdRank": null
+    }
+  }
+}
