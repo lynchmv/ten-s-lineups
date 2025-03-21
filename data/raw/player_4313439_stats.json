@@ -1,0 +1,2390 @@
+{
+  "title": "verified doubles stats - Last 12 Months",
+  "subtitle": "April 2024 - March 2025",
+  "monthsCount": 12,
+  "currentRating": 2.65,
+  "currentRatingDisplay": "2.65",
+  "ratingCircle": {
+    "doublesUtr": 2.65,
+    "ratingStatusDoubles": "Rated",
+    "ratingProgressDoubles": 100.0,
+    "doublesUtrDisplay": "2.65"
+  },
+  "winsCount": 16,
+  "winStreak": 5,
+  "lossesCount": 14,
+  "recordWinPercentage": "53.3%",
+  "notableMatch": {
+    "winner": {
+      "isWinner": true,
+      "set1": 7,
+      "set2": 2,
+      "set3": 1,
+      "set4": 0,
+      "set5": 0,
+      "set6": null,
+      "tiebreakerSet1": null,
+      "tiebreakerSet2": null,
+      "tiebreakerSet3": null,
+      "tiebreakerSet4": 0,
+      "tiebreakerSet5": 0,
+      "tiebreakerSet6": null,
+      "teamId": null,
+      "teamName": null
+    },
+    "loser": {
+      "isWinner": false,
+      "set1": 6,
+      "set2": 6,
+      "set3": 0,
+      "set4": 0,
+      "set5": 0,
+      "set6": null,
+      "tiebreakerSet1": null,
+      "tiebreakerSet2": null,
+      "tiebreakerSet3": null,
+      "tiebreakerSet4": 0,
+      "tiebreakerSet5": 0,
+      "tiebreakerSet6": null,
+      "teamId": null,
+      "teamName": null
+    },
+    "players": {
+      "winner1": {
+        "id": "2539750",
+        "firstName": "Neil",
+        "lastName": "Desai",
+        "gender": "M",
+        "hasYobOnly": false,
+        "singlesUtr": 5.49,
+        "singlesUtrDisplay": "5.49",
+        "ratingStatusSingles": "Projected",
+        "ratingProgressSingles": "32",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
+        "doublesUtr": 5.34,
+        "doublesUtrDisplay": "5.34",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": "USTALeague",
+        "nationality": "USA",
+        "myUtrSingles": 5.49,
+        "myUtrSinglesDisplay": "5.49",
+        "myUtrStatusSingles": "Projected",
+        "myUtrDoubles": 5.34,
+        "myUtrDoublesDisplay": "5.34",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": 1534893,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      },
+      "winner2": {
+        "id": "4313439",
+        "firstName": "Christy",
+        "lastName": "Lynch",
+        "gender": "F",
+        "hasYobOnly": false,
+        "singlesUtr": 1.23,
+        "singlesUtrDisplay": "1.23",
+        "ratingStatusSingles": "Projected",
+        "ratingProgressSingles": "4",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
+        "doublesUtr": 2.65,
+        "doublesUtrDisplay": "2.65",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": null,
+        "nationality": "USA",
+        "myUtrSingles": 1.23,
+        "myUtrSinglesDisplay": "1.23",
+        "myUtrStatusSingles": "Projected",
+        "myUtrDoubles": 2.65,
+        "myUtrDoublesDisplay": "2.65",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": 1336506,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      },
+      "loser1": {
+        "id": "713457",
+        "firstName": "John",
+        "lastName": "Morris",
+        "gender": "M",
+        "hasYobOnly": false,
+        "singlesUtr": 4.63,
+        "singlesUtrDisplay": "4.63",
+        "ratingStatusSingles": "Rated",
+        "ratingProgressSingles": "100",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "doublesUtr": 5.2,
+        "doublesUtrDisplay": "5.20",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": "USTALeague",
+        "nationality": "USA",
+        "myUtrSingles": 4.63,
+        "myUtrSinglesDisplay": "4.63",
+        "myUtrStatusSingles": "Rated",
+        "myUtrDoubles": 5.2,
+        "myUtrDoublesDisplay": "5.20",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": null,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      },
+      "loser2": {
+        "id": "730558",
+        "firstName": "Michelle",
+        "lastName": "Beach",
+        "gender": "F",
+        "hasYobOnly": false,
+        "singlesUtr": 2.19,
+        "singlesUtrDisplay": "2.19",
+        "ratingStatusSingles": "Projected",
+        "ratingProgressSingles": "4",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
+        "doublesUtr": 3.68,
+        "doublesUtrDisplay": "3.68",
+        "ratingStatusDoubles": "Rated",
+        "ratingProgressDoubles": "100",
+        "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "importSource": "USTALeague",
+        "nationality": "USA",
+        "myUtrSingles": 2.19,
+        "myUtrSinglesDisplay": "2.19",
+        "myUtrStatusSingles": "Projected",
+        "myUtrDoubles": 3.68,
+        "myUtrDoublesDisplay": "3.68",
+        "myUtrStatusDoubles": "100",
+        "finalPbr": null,
+        "pbrRatingDisplay": null,
+        "memberId": null,
+        "utrRange": null,
+        "singlesPkbRatingDisplay": null,
+        "doublesPkbRatingDisplay": null,
+        "profileImage": null
+      }
+    },
+    "isWinner": true,
+    "date": "2024-12-22T00:00:00",
+    "id": 0,
+    "sportTypeId": 0,
+    "draw": null,
+    "round": null,
+    "sourceType": "sanctioned",
+    "completionType": "winnercompleted",
+    "outcome": "completed",
+    "lineupPosition": 0,
+    "score": {
+      "1": {
+        "winner": 7,
+        "loser": 6,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      },
+      "2": {
+        "winner": 2,
+        "loser": 6,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      },
+      "3": {
+        "winner": 1,
+        "loser": 0,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      }
+    },
+    "playerPostedResult": false,
+    "finalized": false,
+    "isRejected": false,
+    "submittingMemberId": 0,
+    "excludeFromRating": false,
+    "winner1Status": null,
+    "winner2Status": null,
+    "loser1Status": null,
+    "loser2Status": null,
+    "actions": {},
+    "isFlexLeagueEventPlayerPostDraw": false,
+    "tmsEventDrawMatchId": null,
+    "clubIds": null,
+    "teamType": null,
+    "resultType": null,
+    "groupEvent": null,
+    "groupsEventId": null
+  },
+  "notableMatchEventName": "2025 CORTA USTA MXD 40 & Over - Fall/3.5",
+  "playerFirstInitialLastName": "CLynch",
+  "playerIsPro": false,
+  "startRating": 3.0,
+  "minRating": 2.65,
+  "maxRating": 3.27,
+  "singlesUtr": 1.23,
+  "threeMonthRating": null,
+  "ratingTrend": {
+    "rating": 0.0,
+    "ratingDisplay": null,
+    "ratingDifference": 0.0,
+    "changeDirection": "n/a"
+  },
+  "ratingTrendChart": {
+    "minRating": 2.64854598233989,
+    "maxRating": 3.268730563442338,
+    "chartTicksPerMonth": 10,
+    "months": [
+      {
+        "month": {
+          "name": "April",
+          "abbr": "APR"
+        },
+        "ratings": [
+          {
+            "index": 10,
+            "rating": 2.905144006930075,
+            "ratingDisplay": "2.90"
+          },
+          {
+            "index": 12,
+            "rating": 2.9143669048178826,
+            "ratingDisplay": "2.91"
+          },
+          {
+            "index": 14,
+            "rating": 2.9974133211878082,
+            "ratingDisplay": "2.99"
+          },
+          {
+            "index": 16,
+            "rating": 3.0700529008037063,
+            "ratingDisplay": "3.07"
+          }
+        ],
+        "minRating": 2.8489062462143537,
+        "maxRating": 3.1142076019777916,
+        "startRating": 2.905144006930075,
+        "endRating": 3.1142076019777916,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "May",
+          "abbr": "MAY"
+        },
+        "ratings": [
+          {
+            "index": 20,
+            "rating": 3.083598287414267,
+            "ratingDisplay": "3.08"
+          },
+          {
+            "index": 22,
+            "rating": 3.2066676893012054,
+            "ratingDisplay": "3.20"
+          },
+          {
+            "index": 24,
+            "rating": 3.0848412148375237,
+            "ratingDisplay": "3.08"
+          },
+          {
+            "index": 26,
+            "rating": 3.1509450460025707,
+            "ratingDisplay": "3.15"
+          }
+        ],
+        "minRating": 2.9774014513841025,
+        "maxRating": 3.2066676893012054,
+        "startRating": 3.083598287414267,
+        "endRating": 3.0982156884017633,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "June",
+          "abbr": "JUN"
+        },
+        "ratings": [
+          {
+            "index": 30,
+            "rating": 3.1145807406992407,
+            "ratingDisplay": "3.11"
+          },
+          {
+            "index": 32,
+            "rating": 3.2158923106969186,
+            "ratingDisplay": "3.21"
+          },
+          {
+            "index": 34,
+            "rating": 3.153555127201255,
+            "ratingDisplay": "3.15"
+          },
+          {
+            "index": 36,
+            "rating": 3.1035351135437446,
+            "ratingDisplay": "3.10"
+          }
+        ],
+        "minRating": 3.0677675675463876,
+        "maxRating": 3.268730563442338,
+        "startRating": 3.1145807406992407,
+        "endRating": 3.089850786920438,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "July",
+          "abbr": "JUL"
+        },
+        "ratings": [
+          {
+            "index": 40,
+            "rating": 3.067421921514653,
+            "ratingDisplay": "3.06"
+          },
+          {
+            "index": 42,
+            "rating": 3.105386638021381,
+            "ratingDisplay": "3.10"
+          },
+          {
+            "index": 44,
+            "rating": 3.1131010401900308,
+            "ratingDisplay": "3.11"
+          },
+          {
+            "index": 46,
+            "rating": 2.9558499880105398,
+            "ratingDisplay": "2.95"
+          }
+        ],
+        "minRating": 2.8463749726264624,
+        "maxRating": 3.1566083867140415,
+        "startRating": 3.067421921514653,
+        "endRating": 2.8463749726264624,
+        "results": []
+      },
+      {
+        "month": {
+          "name": "August",
+          "abbr": "AUG"
+        },
+        "ratings": [
+          {
+            "index": 50,
+            "rating": 2.7757851211240854,
+            "ratingDisplay": "2.77"
+          },
+          {
+            "index": 52,
+            "rating": 2.8676440628907076,
+            "ratingDisplay": "2.86"
+          },
+          {
+            "index": 54,
+            "rating": 2.7861244295479746,
+            "ratingDisplay": "2.78"
+          },
+          {
+            "index": 56,
+            "rating": 2.7540927105268875,
+            "ratingDisplay": "2.75"
+          }
+        ],
+        "minRating": 2.679822741590401,
+        "maxRating": 2.8701533376115487,
+        "startRating": 2.7757851211240854,
+        "endRating": 2.707175947848946,
+        "results": [
+          {
+            "index": 59,
+            "rating": 2.4,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Tue Aug 27 Win C.Lynch/J.Milton (2.65/1.95) vs. C.Smith/P.Gibson (2.13/2.67) 6-3, 3-6, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 53,
+            "rating": 2.45,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Aug 10 Loss C.Lynch/L.Weaver (2.65/2.59) vs. K.Orck/T.Tyler (2.68/2.18) 6-7, 7-5, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 57,
+            "rating": 3.9,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Aug 22 Loss C.Lynch/S.Culpepper (2.65/2.89) vs. M.Norman/S.Ezell (4.16/3.67) 6-1, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 58,
+            "rating": 3.3,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Mon Aug 26 Loss C.Lynch/N.Morris (2.65/2.91) vs. T.Keller/A.Harden (3.55/3.07) 6-1, 7-6",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "September",
+          "abbr": "SEP"
+        },
+        "ratings": [
+          {
+            "index": 60,
+            "rating": 2.6878861480908807,
+            "ratingDisplay": "2.68"
+          },
+          {
+            "index": 62,
+            "rating": 2.7376106947990313,
+            "ratingDisplay": "2.73"
+          },
+          {
+            "index": 64,
+            "rating": 2.729028202528368,
+            "ratingDisplay": "2.72"
+          },
+          {
+            "index": 66,
+            "rating": 2.707676970409229,
+            "ratingDisplay": "2.70"
+          }
+        ],
+        "minRating": 2.6878861480908807,
+        "maxRating": 2.784361818870969,
+        "startRating": 2.6878861480908807,
+        "endRating": 2.740743483169976,
+        "results": [
+          {
+            "index": 62,
+            "rating": 4.3,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Fri Sep 6 Win C.Lynch/N.Desai (2.65/5.34) vs. J.Richard/S.Lau (5.19/3.42) 6-2, 5-7, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 62,
+            "rating": 3.95,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Sep 7 Win C.Lynch/N.Desai (2.65/5.34) vs. M.Czarick/C.Czarick (5.61/2.31) 3-6, 6-3, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 62,
+            "rating": 3.9,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 2,
+              "winsCount": 1,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Sep 8 Win C.Lynch/N.Desai (2.65/5.34) vs. L.Barkeloo/G.Hadden (3.31/4.44) 6-3, 5-7, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              },
+              {
+                "details": "Fri Sep 6 Loss C.Lynch/R.Walters (2.65/5.04) vs. G.Haines/B.Olson (3.09/4.73) 7-5, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 61,
+            "rating": 2.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Sep 5 Win C.Lynch/C.Philips (2.65/3.41) vs. L.Swords/M.Bowers (2.79/2.45) 6-3, 6-2",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 65,
+            "rating": 3.1,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Tue Sep 17 Loss C.Lynch/N.Ruark (2.65/3.22) vs. J.Cunningham/C.Sanders (3.10/3.09) 6-4, 6-2",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 66,
+            "rating": 3.45,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Sep 19 Loss C.Lynch/E.Kilpatrick (2.65/3.42) vs. V.Green/C.Wilson (3.41/3.45) 5-7, 6-3, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "October",
+          "abbr": "OCT"
+        },
+        "ratings": [
+          {
+            "index": 70,
+            "rating": 2.7000531953014018,
+            "ratingDisplay": "2.70"
+          },
+          {
+            "index": 72,
+            "rating": 2.7488010656274136,
+            "ratingDisplay": "2.74"
+          },
+          {
+            "index": 74,
+            "rating": 2.8961077426627178,
+            "ratingDisplay": "2.89"
+          },
+          {
+            "index": 76,
+            "rating": 2.831436890309888,
+            "ratingDisplay": "2.83"
+          }
+        ],
+        "minRating": 2.6916784794427944,
+        "maxRating": 2.8961077426627178,
+        "startRating": 2.7000531953014018,
+        "endRating": 2.830723819904642,
+        "results": [
+          {
+            "index": 73,
+            "rating": 2.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Oct 9 Win C.Lynch/V.Lawrence (2.65/3.07) vs. M.Bowers/L.Swords (2.45/2.79) 4-6, 6-2, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 73,
+            "rating": 2.1,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Oct 10 Win C.Lynch/L.Galbraith (2.65/2.83) vs. J.Williams/T.Skinner (1.79/2.43) 6-2, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 78,
+            "rating": 3.45,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Fri Oct 25 Win C.Lynch/A.Polomis (2.65/3.69) vs. S.Ezell/J.Lusano (3.67/3.25) 7-6, 6-4",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 71,
+            "rating": 2.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Oct 5 Loss C.Lynch/S.Galligan (2.65/3.28) vs. M.Bowers/K.Orck (2.45/2.68) 6-4, 6-4",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 79,
+            "rating": 2.55,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Oct 27 Loss C.Lynch/K.Williams (2.65/2.73) vs. C.Johnson/L.Dupree (2.70/2.38) 6-2, 0-6, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 79,
+            "rating": 3.55,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Mon Oct 28 Loss C.Lynch/L.Auer (2.65/3.57) vs. P.King/M.Beach (3.45/3.68) 6-4, 6-3",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "November",
+          "abbr": "NOV"
+        },
+        "ratings": [
+          {
+            "index": 80,
+            "rating": 2.8176723651517337,
+            "ratingDisplay": "2.81"
+          },
+          {
+            "index": 82,
+            "rating": 2.8281720570410585,
+            "ratingDisplay": "2.82"
+          },
+          {
+            "index": 84,
+            "rating": 2.769288092421658,
+            "ratingDisplay": "2.76"
+          },
+          {
+            "index": 86,
+            "rating": 2.9166513064515063,
+            "ratingDisplay": "2.91"
+          }
+        ],
+        "minRating": 2.674914221504825,
+        "maxRating": 2.9402939859859103,
+        "startRating": 2.8176723651517337,
+        "endRating": 2.9097193343099708,
+        "results": [
+          {
+            "index": 84,
+            "rating": 2.4,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Nov 13 Win C.Lynch/K.Williams (2.65/2.73) vs. C.Trawick/N.Frields (2.32/2.52) 6-4, 6-7, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 87,
+            "rating": 2.95,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Nov 23 Win C.Lynch/P.Mummert (2.65/4.82) vs. C.Scrimpshire/K.Gill (3.91/1.96) 6-1, 6-3",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 88,
+            "rating": 2.5,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Nov 24 Win C.Lynch/K.Brown (2.65/3.42) vs. P.Burt/R.Curtis (2.49/2.50) 6-1, 7-5",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "December",
+          "abbr": "DEC"
+        },
+        "ratings": [
+          {
+            "index": 90,
+            "rating": 2.9423164355134985,
+            "ratingDisplay": "2.94"
+          },
+          {
+            "index": 92,
+            "rating": 2.8944386665394948,
+            "ratingDisplay": "2.89"
+          },
+          {
+            "index": 94,
+            "rating": 2.8361497444762573,
+            "ratingDisplay": "2.83"
+          },
+          {
+            "index": 96,
+            "rating": 2.829845001397328,
+            "ratingDisplay": "2.82"
+          }
+        ],
+        "minRating": 2.8095425714748723,
+        "maxRating": 2.9828493508506893,
+        "startRating": 2.9423164355134985,
+        "endRating": 2.8255762655969057,
+        "results": [
+          {
+            "index": 97,
+            "rating": 2.8,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Dec 21 Win C.Lynch/P.Mummert (2.65/4.82) vs. M.Woodall/J.Milton (3.67/1.95) 6-1, 7-5",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 97,
+            "rating": 4.45,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Dec 22 Win C.Lynch/N.Desai (2.65/5.34) vs. J.Morris/M.Beach (5.20/3.68) 7-6, 2-6, 1-0",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "January",
+          "abbr": "JAN '25"
+        },
+        "ratings": [
+          {
+            "index": 100,
+            "rating": 2.8227875740157953,
+            "ratingDisplay": "2.82"
+          },
+          {
+            "index": 102,
+            "rating": 2.805533478156041,
+            "ratingDisplay": "2.80"
+          },
+          {
+            "index": 104,
+            "rating": 2.8174136488246035,
+            "ratingDisplay": "2.81"
+          },
+          {
+            "index": 106,
+            "rating": 2.9006175185999314,
+            "ratingDisplay": "2.90"
+          }
+        ],
+        "minRating": 2.7805987203464912,
+        "maxRating": 2.9200757531652375,
+        "startRating": 2.8227875740157953,
+        "endRating": 2.8391224134608395,
+        "results": [
+          {
+            "index": 105,
+            "rating": 3.65,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Jan 16 Loss C.Lynch/K.Williams (2.65/2.73) vs. K.Medders/T.Noonan (3.64/3.61) 6-2, 6-4",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "February",
+          "abbr": "FEB"
+        },
+        "ratings": [
+          {
+            "index": 110,
+            "rating": 2.9022222570937615,
+            "ratingDisplay": "2.90"
+          },
+          {
+            "index": 112,
+            "rating": 2.8428778020791654,
+            "ratingDisplay": "2.84"
+          },
+          {
+            "index": 114,
+            "rating": 2.9189715326296493,
+            "ratingDisplay": "2.91"
+          },
+          {
+            "index": 116,
+            "rating": 2.806353144163964,
+            "ratingDisplay": "2.80"
+          }
+        ],
+        "minRating": 2.801301995371238,
+        "maxRating": 2.9366710247987022,
+        "startRating": 2.9022222570937615,
+        "endRating": 2.810744559293444,
+        "results": [
+          {
+            "index": 110,
+            "rating": 3.45,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Feb 2 Win C.Lynch/A.Shah (2.65/5.16) vs. P.Howard/M.ZezulaGayler (4.45/2.47) 7-5, 6-3",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 111,
+            "rating": 2.2,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Mon Feb 3 Win C.Lynch/N.Ruark (2.65/3.22) vs. S.Blanton/S.Galliher (1.91/2.47) 6-1, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 114,
+            "rating": 2.9,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 1,
+              "lossesCount": 0,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Thu Feb 13 Win C.Lynch/L.Averett (2.65/3.29) vs. J.Thompson/L.Jones (2.84/2.98) 6-3, 7-6",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 110,
+            "rating": 3.5,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sat Feb 1 Loss C.Lynch/L.Bruder (2.65/2.57) vs. P.King/J.Williams (3.45/3.51) 6-0, 7-5",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 116,
+            "rating": 3.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Feb 19 Loss C.Lynch/K.Williams (2.65/2.73) vs. J.Williams/T.Davis (3.51/3.68) 6-1, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          },
+          {
+            "index": 118,
+            "rating": 2.6,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Wed Feb 26 Loss C.Lynch/K.Williams (2.65/2.73) vs. R.Juestel/S.Galliher (2.75/2.47) 6-2, 6-4",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "month": {
+          "name": "March",
+          "abbr": "MAR"
+        },
+        "ratings": [
+          {
+            "index": 120,
+            "rating": 2.7257410713260124,
+            "ratingDisplay": "2.72"
+          },
+          {
+            "index": 122,
+            "rating": 2.76053952316917,
+            "ratingDisplay": "2.76"
+          },
+          {
+            "index": 124,
+            "rating": 2.64854598233989,
+            "ratingDisplay": "2.64"
+          },
+          {
+            "index": 126,
+            "rating": null,
+            "ratingDisplay": "0.00"
+          }
+        ],
+        "minRating": 2.64854598233989,
+        "maxRating": 2.76053952316917,
+        "startRating": 2.7257410713260124,
+        "endRating": 2.6808983544095524,
+        "results": [
+          {
+            "index": 123,
+            "rating": 3.75,
+            "playerPostedScore": false,
+            "aggregate": {
+              "count": 1,
+              "winsCount": 0,
+              "lossesCount": 1,
+              "tiesCount": 0
+            },
+            "descriptions": [
+              {
+                "details": "Sun Mar 9 Loss C.Lynch/S.Goldman (2.65/3.26) vs. M.Beach/K.Cliett (3.68/3.83) 6-1, 6-1",
+                "resultId": 0,
+                "winnerSets": null,
+                "loserSets": null,
+                "tiebreakSets": null,
+                "resultDate": "0001-01-01T00:00:00",
+                "winner1": null,
+                "winner2": null,
+                "loser1": null,
+                "loser2": null,
+                "eventName": null,
+                "eventLocation": null,
+                "isWinner": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "minRatingForScale": 1.875,
+    "maxRatingForScale": 4.625,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 130,
+    "nonRatingScaleStepSize": 0
+  },
+  "victoryMarginChart": {
+    "currentRating": 2.65,
+    "currentRatingDisplay": "2.65",
+    "results": [
+      {
+        "index": 45,
+        "rating": 2.45,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Aug 10 Loss C.Lynch/L.Weaver (2.65/2.59) vs. K.Orck/T.Tyler (2.68/2.18) 6-7, 7-5, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "rating": 3.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Aug 22 Loss C.Lynch/S.Culpepper (2.65/2.89) vs. M.Norman/S.Ezell (4.16/3.67) 6-1, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "rating": 3.3,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Mon Aug 26 Loss C.Lynch/N.Morris (2.65/2.91) vs. T.Keller/A.Harden (3.55/3.07) 6-1, 7-6",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "rating": 2.4,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 2,
+          "winsCount": 2,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Tue Aug 27 Win C.Lynch/J.Milton (2.65/1.95) vs. C.Smith/P.Gibson (2.13/2.67) 6-3, 3-6, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          },
+          {
+            "details": "Wed Nov 13 Win C.Lynch/K.Williams (2.65/2.73) vs. C.Trawick/N.Frields (2.32/2.52) 6-4, 6-7, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 72,
+        "rating": 2.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Sep 5 Win C.Lynch/C.Philips (2.65/3.41) vs. L.Swords/M.Bowers (2.79/2.45) 6-3, 6-2",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "rating": 4.3,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Fri Sep 6 Win C.Lynch/N.Desai (2.65/5.34) vs. J.Richard/S.Lau (5.19/3.42) 6-2, 5-7, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "rating": 3.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Fri Sep 6 Loss C.Lynch/R.Walters (2.65/5.04) vs. G.Haines/B.Olson (3.09/4.73) 7-5, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "rating": 3.95,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Sep 7 Win C.Lynch/N.Desai (2.65/5.34) vs. M.Czarick/C.Czarick (5.61/2.31) 3-6, 6-3, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "rating": 3.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Sep 8 Win C.Lynch/N.Desai (2.65/5.34) vs. L.Barkeloo/G.Hadden (3.31/4.44) 6-3, 5-7, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "rating": 3.1,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Tue Sep 17 Loss C.Lynch/N.Ruark (2.65/3.22) vs. J.Cunningham/C.Sanders (3.10/3.09) 6-4, 6-2",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "rating": 3.45,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Sep 19 Loss C.Lynch/E.Kilpatrick (2.65/3.42) vs. V.Green/C.Wilson (3.41/3.45) 5-7, 6-3, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "rating": 2.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Oct 5 Loss C.Lynch/S.Galligan (2.65/3.28) vs. M.Bowers/K.Orck (2.45/2.68) 6-4, 6-4",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "rating": 2.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Oct 9 Win C.Lynch/V.Lawrence (2.65/3.07) vs. M.Bowers/L.Swords (2.45/2.79) 4-6, 6-2, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 81,
+        "rating": 2.1,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Oct 10 Win C.Lynch/L.Galbraith (2.65/2.83) vs. J.Williams/T.Skinner (1.79/2.43) 6-2, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "rating": 3.45,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Fri Oct 25 Win C.Lynch/A.Polomis (2.65/3.69) vs. S.Ezell/J.Lusano (3.67/3.25) 7-6, 6-4",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "rating": 2.55,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Oct 27 Loss C.Lynch/K.Williams (2.65/2.73) vs. C.Johnson/L.Dupree (2.70/2.38) 6-2, 0-6, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "rating": 3.55,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Mon Oct 28 Loss C.Lynch/L.Auer (2.65/3.57) vs. P.King/M.Beach (3.45/3.68) 6-4, 6-3",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 75,
+        "rating": 2.95,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Nov 23 Win C.Lynch/P.Mummert (2.65/4.82) vs. C.Scrimpshire/K.Gill (3.91/1.96) 6-1, 6-3",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 69,
+        "rating": 2.5,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Nov 24 Win C.Lynch/K.Brown (2.65/3.42) vs. P.Burt/R.Curtis (2.49/2.50) 6-1, 7-5",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 69,
+        "rating": 2.8,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Dec 21 Win C.Lynch/P.Mummert (2.65/4.82) vs. M.Woodall/J.Milton (3.67/1.95) 6-1, 7-5",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "rating": 4.45,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Dec 22 Win C.Lynch/N.Desai (2.65/5.34) vs. J.Morris/M.Beach (5.20/3.68) 7-6, 2-6, 1-0",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "rating": 3.65,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Jan 16 Loss C.Lynch/K.Williams (2.65/2.73) vs. K.Medders/T.Noonan (3.64/3.61) 6-2, 6-4",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "rating": 3.5,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sat Feb 1 Loss C.Lynch/L.Bruder (2.65/2.57) vs. P.King/J.Williams (3.45/3.51) 6-0, 7-5",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 63,
+        "rating": 3.45,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Feb 2 Win C.Lynch/A.Shah (2.65/5.16) vs. P.Howard/M.ZezulaGayler (4.45/2.47) 7-5, 6-3",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 87,
+        "rating": 2.2,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Mon Feb 3 Win C.Lynch/N.Ruark (2.65/3.22) vs. S.Blanton/S.Galliher (1.91/2.47) 6-1, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 60,
+        "rating": 2.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Thu Feb 13 Win C.Lynch/L.Averett (2.65/3.29) vs. J.Thompson/L.Jones (2.84/2.98) 6-3, 7-6",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "rating": 3.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Feb 19 Loss C.Lynch/K.Williams (2.65/2.73) vs. J.Williams/T.Davis (3.51/3.68) 6-1, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "rating": 2.6,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Wed Feb 26 Loss C.Lynch/K.Williams (2.65/2.73) vs. R.Juestel/S.Galliher (2.75/2.47) 6-2, 6-4",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "rating": 3.75,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 0,
+          "lossesCount": 1,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Sun Mar 9 Loss C.Lynch/S.Goldman (2.65/3.26) vs. M.Beach/K.Cliett (3.68/3.83) 6-1, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      }
+    ],
+    "minRatingForScale": 1.875,
+    "maxRatingForScale": 4.625,
+    "ratingScaleStepSize": 0.25,
+    "maxNonRatingScaleChartTicks": 100,
+    "nonRatingScaleStepSize": 20
+  },
+  "extendedRatingProfile": {
+    "eligibleResults": {
+      "singles": [
+        48142695
+      ],
+      "doubles": [
+        47355051,
+        49098313,
+        48063746,
+        49832020,
+        52188531,
+        51610202,
+        48500073,
+        48371111,
+        47653626,
+        47584990,
+        47851261,
+        47712673,
+        47816285,
+        47816308,
+        48499218,
+        50900260,
+        49060196,
+        51483608,
+        51846925,
+        48073417,
+        51133817,
+        50616088,
+        49028907,
+        47825861,
+        50647466,
+        49419154,
+        49748139,
+        51163534,
+        48111488,
+        51153356
+      ]
+    },
+    "history": [],
+    "ratings": {
+      "hardCourt": null,
+      "clayCourt": null,
+      "grassCourt": null,
+      "oneMonth": null,
+      "sixWeek": null,
+      "eightWeek": null,
+      "threeMonth": null,
+      "grandSlamMasters": null,
+      "fullTwelve": 1.24,
+      "ytd": null
+    },
+    "rankings": {
+      "utrRank": null,
+      "hardCourtRank": null,
+      "clayCourtRank": null,
+      "grassCourtRank": null,
+      "oneMonthRank": null,
+      "sixWeekRank": null,
+      "eightWeekRank": null,
+      "threeMonthRank": null,
+      "grandSlamMastersRank": null,
+      "fullTwelveRank": null,
+      "ytdRank": null
+    }
+  }
+}

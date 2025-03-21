@@ -1,0 +1,447 @@
+{
+  "playerHighSchool": null,
+  "playerCollege": null,
+  "bannerImage": null,
+  "description": null,
+  "college": null,
+  "collegePosition": null,
+  "gradYearCollege": null,
+  "gradYearHighSchool": null,
+  "atpOrWtaRank": false,
+  "racketBrand": null,
+  "racketType": null,
+  "preferredBall": null,
+  "apparelBrand": null,
+  "shoesBrand": null,
+  "shoesType": null,
+  "showTennisRating": true,
+  "showPickleballRating": true,
+  "residence": null,
+  "locationNationality": "United States",
+  "primaryTags": null,
+  "ageBasedTags": null,
+  "pbrRatingProgress": null,
+  "mergedPlayerIds": null,
+  "displayName": "Christy Lynch",
+  "sportTypeIds": [],
+  "playerBio": {
+    "matchCount": 0,
+    "playerRankings": {
+      "gender": "Female",
+      "rankings": [
+        {
+          "rankListId": 19,
+          "rank": 67965,
+          "rankingCategories": [
+            {
+              "type": "gender",
+              "subtype": null,
+              "label": "Female",
+              "value": "F"
+            },
+            {
+              "type": "location",
+              "subtype": "country",
+              "label": "United States",
+              "value": "216"
+            },
+            {
+              "type": "tag",
+              "subtype": "division",
+              "label": "adult",
+              "value": "Adult"
+            }
+          ]
+        },
+        {
+          "rankListId": 3,
+          "rank": 113901,
+          "rankingCategories": [
+            {
+              "type": "gender",
+              "subtype": null,
+              "label": "Female",
+              "value": "F"
+            },
+            {
+              "type": "location",
+              "subtype": "country",
+              "label": "United States",
+              "value": "216"
+            },
+            {
+              "type": "tag",
+              "subtype": "age",
+              "label": "All",
+              "value": null
+            }
+          ]
+        },
+        {
+          "rankListId": 13,
+          "rank": 149492,
+          "rankingCategories": [
+            {
+              "type": "gender",
+              "subtype": null,
+              "label": "Female",
+              "value": "F"
+            },
+            {
+              "type": "location",
+              "subtype": "country",
+              "label": "All",
+              "value": null
+            },
+            {
+              "type": "tag",
+              "subtype": "division",
+              "label": "adult",
+              "value": "Adult"
+            }
+          ]
+        },
+        {
+          "rankListId": 1,
+          "rank": 246473,
+          "rankingCategories": [
+            {
+              "type": "gender",
+              "subtype": null,
+              "label": "Female",
+              "value": "F"
+            },
+            {
+              "type": "location",
+              "subtype": "country",
+              "label": "All",
+              "value": null
+            },
+            {
+              "type": "tag",
+              "subtype": "age",
+              "label": "All",
+              "value": null
+            }
+          ]
+        }
+      ],
+      "thirdPartyRankings": []
+    }
+  },
+  "myUtrSingles": 1.23,
+  "myUtrDoubles": 2.81,
+  "singlesUtrDisplay": "1.23",
+  "doublesUtrDisplay": "2.65",
+  "myUtrSinglesDisplay": "1.23",
+  "myUtrDoublesDisplay": "2.81",
+  "pbrRatingDisplay": null,
+  "doublesPkbRatingDisplay": null,
+  "singlesPkbRatingDisplay": null,
+  "singlesUtr": 1.23,
+  "doublesUtr": 2.65,
+  "utrRange": null,
+  "isPro": false,
+  "photoCount": 0,
+  "totalResults": 137,
+  "resultCountsSingles": [
+    {
+      "key": 2024,
+      "value": 3
+    }
+  ],
+  "resultCountsDoubles": [
+    {
+      "key": 2017,
+      "value": 3
+    },
+    {
+      "key": 2018,
+      "value": 6
+    },
+    {
+      "key": 2019,
+      "value": 7
+    },
+    {
+      "key": 2020,
+      "value": 8
+    },
+    {
+      "key": 2021,
+      "value": 6
+    },
+    {
+      "key": 2022,
+      "value": 12
+    },
+    {
+      "key": 2023,
+      "value": 30
+    },
+    {
+      "key": 2024,
+      "value": 54
+    },
+    {
+      "key": 2025,
+      "value": 8
+    }
+  ],
+  "isProfileUpdated": false,
+  "favoritePlayers": null,
+  "favoritePlayersData": [],
+  "collegeData": null,
+  "location": {
+    "latLng": null,
+    "display": "Columbus, GA",
+    "googleFormattedName": null,
+    "placeName": null,
+    "streetAddress": null,
+    "cityStateZip": null,
+    "cityName": "Columbus",
+    "cityAbbr": null,
+    "stateName": "Georgia",
+    "stateAbbr": "GA",
+    "countryName": "United States",
+    "countryCode2": null,
+    "countryCode3": "USA",
+    "countryIoc": "USA",
+    "section": null
+  },
+  "isCollegeRecruitingAge": false,
+  "extendedRatingProfile": {
+    "eligibleResults": {
+      "singles": [
+        48142695
+      ],
+      "doubles": [
+        47355051,
+        49098313,
+        48063746,
+        49832020,
+        52188531,
+        51610202,
+        48500073,
+        48371111,
+        47653626,
+        47584990,
+        47851261,
+        47712673,
+        47816285,
+        47816308,
+        48499218,
+        50900260,
+        49060196,
+        51483608,
+        51846925,
+        48073417,
+        51133817,
+        50616088,
+        49028907,
+        47825861,
+        50647466,
+        49419154,
+        49748139,
+        51163534,
+        48111488,
+        51153356
+      ]
+    },
+    "history": [],
+    "ratings": {
+      "hardCourt": null,
+      "clayCourt": null,
+      "grassCourt": null,
+      "oneMonth": null,
+      "sixWeek": null,
+      "eightWeek": null,
+      "threeMonth": null,
+      "grandSlamMasters": null,
+      "fullTwelve": 1.24,
+      "ytd": null
+    },
+    "rankings": {
+      "utrRank": null,
+      "hardCourtRank": null,
+      "clayCourtRank": null,
+      "grassCourtRank": null,
+      "oneMonthRank": null,
+      "sixWeekRank": null,
+      "eightWeekRank": null,
+      "threeMonthRank": null,
+      "grandSlamMastersRank": null,
+      "fullTwelveRank": null,
+      "ytdRank": null
+    }
+  },
+  "descriptionId": 0,
+  "descriptionShort": "Columbus, GA",
+  "descriptionLong": "Columbus, GA",
+  "nationality": "USA",
+  "playerCollegeDetails": null,
+  "playerHighSchoolDetails": null,
+  "playerProfileInformation": {
+    "regionId": 5,
+    "regionName": "South",
+    "availableRegions": [
+      {
+        "id": 5,
+        "name": "South"
+      }
+    ],
+    "isRegionLocked": false
+  },
+  "paidHitAvailability": null,
+  "hasTennisResults": true,
+  "showDecimals": null,
+  "id": 4313439,
+  "profileId": 1138682,
+  "firstName": "Christy",
+  "lastName": "Lynch",
+  "playerFirstName": "Christy",
+  "playerLastName": "Lynch",
+  "gender": "Female",
+  "age": null,
+  "threeMonthRating": null,
+  "ratingStatusSingles": "Projected",
+  "ratingProgressSingles": 4.0,
+  "myUtrStatusSingles": "Projected",
+  "myUtrProgressSingles": 4.0,
+  "finalPbr": null,
+  "singlesPkbRating": null,
+  "singlesPkbReliability": null,
+  "doublesPkbRating": null,
+  "doublesPkbReliability": null,
+  "unverifiedSinglesPkbRating": null,
+  "unverifiedSinglesPkbReliability": null,
+  "unverifiedDoublesPkbRating": null,
+  "unverifiedDoublesPkbReliability": null,
+  "historicPkbSinglesRating": null,
+  "historicPkbSinglesRatingDate": null,
+  "historicPkbDoublesRating": null,
+  "historicPkbDoublesRatingDate": null,
+  "birthDate": null,
+  "hasYobOnly": false,
+  "eligibleForPaidHit": false,
+  "isPaidHitter": false,
+  "threeMonthRatingChangeDetails": {
+    "rating": 0.0,
+    "ratingDisplay": null,
+    "ratingDifference": 0.0,
+    "changeDirection": "n/a"
+  },
+  "myUtrStatusDoubles": "Rated",
+  "myUtrProgressDoubles": 100.0,
+  "ratingStatusDoubles": "Rated",
+  "ratingProgressDoubles": 100.0,
+  "ratingChoice": "UTRRating",
+  "ratingChoiceSetDate": null,
+  "systemRatingChoice": null,
+  "systemRatingChoiceSetDate": null,
+  "profileImage": null,
+  "dominantHand": null,
+  "backhand": null,
+  "heightInches": null,
+  "birthPlace": null,
+  "homeClub": null,
+  "homeCourt": null,
+  "locationHomeCourt": null,
+  "ageRange": "40s",
+  "availableResultYearsSingles": [
+    2024
+  ],
+  "availableResultYearsDoubles": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "availableResultYearsDingles": [],
+  "availableResultYearsTennis": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "availableResultYearsPickleball": [],
+  "availableResultYears": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "thirdPartyRankings": [],
+  "clubMemberships": [],
+  "clubs": null,
+  "tmsEvents": null,
+  "claimed": true,
+  "claimable": false,
+  "memberId": 1336506,
+  "isDemoPlayer": false,
+  "isAnonymous": false,
+  "collegeRecruiting": false,
+  "memberClaimed": true,
+  "rankings": null,
+  "playerProfileImages": {
+    "default": null,
+    "thumbnail": {
+      "oneX": null,
+      "twoX": null,
+      "threeX": null
+    },
+    "card": {
+      "oneX": null,
+      "twoX": null,
+      "threeX": null
+    },
+    "profile": {
+      "oneX": null,
+      "twoX": null,
+      "threeX": null
+    },
+    "icon": {
+      "oneX": null,
+      "twoX": null,
+      "threeX": null
+    }
+  },
+  "isPowered": false,
+  "isPoweredByClub": false,
+  "isPoweredBySubscription": false,
+  "playAvailability": [
+    "all"
+  ],
+  "isAgeKnownAndBelow14": false,
+  "playerExperienceTypeId": null,
+  "playerExperienceStatus": null,
+  "coachingExperienceTypeId": null,
+  "coachingExperienceStatus": null,
+  "defaultPaidHitPrice": null,
+  "historicRatings": {
+    "historicSinglesRating": 2.8,
+    "historicSinglesRatingReliability": 0.4,
+    "historicSinglesRatingDate": "2024-02-09T00:00:00",
+    "historicDoublesRating": 2.9,
+    "historicDoublesRatingReliability": 10.0,
+    "historicDoublesRatingDate": "2024-01-30T00:00:00",
+    "historicSinglesRatingDisplay": "2.80",
+    "historicDoublesRatingDisplay": "2.90"
+  },
+  "eligibleForTmsEvents": null
+}

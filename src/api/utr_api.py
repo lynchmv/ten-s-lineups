@@ -22,6 +22,7 @@ class UTRAPI:
     SEARCH_URL = f"{API_URL}/v2/search/players"
     PROFILE_URL = f"{API_URL}/v1/player/{{player_id}}/profile"
     RESULTS_URL = f"{API_URL}/v4/player/{{player_id}}/results"
+    STATS_URL = f"{API_URL}/v4/player/{{player_id}}/all-stats"
 
     def __init__(self):
         self.session = requests.Session()
@@ -118,3 +119,9 @@ class UTRAPI:
         # print(response.text)
         return response.json() if response.status_code == 200 else None
 
+    def get_player_stats(self, player_id, stat="doubles"):
+        """Fetch player's stats."""
+        self.ensure_session()
+        response = self.session.get(self.STATS_URL.format(player_id=player_id), params={"type": stat, "resultType": "verified", "months": 12, "fetchAllResults": "false"})
+        # print(response.text)
+        return response.json() if response.status_code == 200 else None

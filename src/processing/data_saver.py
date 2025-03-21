@@ -4,6 +4,7 @@ import json
 import logging
 
 DATA_DIR = "data/processed"
+RAW_DIR = "data/raw"
 
 # Configure logging
 logging.basicConfig(
@@ -20,15 +21,32 @@ def _save_parquet(df, file_path):
     except Exception as e:
         logging.error(f"Error saving DataFrame to {file_path}: {e}")
 
-def save_profile_to_parquet(profile, player_id):
-    """Save player profile to a Parquet file."""
+def _save_json(contents, file_path):
+    """Helper function to save text to json with error handling."""
+    try:
+        with open(file_path, "w") as json_file:
+            json.dump(contents, json_file, indent=2)
+            logging.info(f"Saved raw json to {file_path}")
+    except Exception as e:
+        logging.error(f"Error saving raw json to {file_path}: {e}")
+
+def save_player_profile(profile, player_id):
+    """Save player profile to parquet file."""
     try:
         df = pd.json_normalize(profile)
         os.makedirs(DATA_DIR, exist_ok=True)
         file_path = os.path.join(DATA_DIR, f"player_{player_id}_profile.parquet")
         _save_parquet(df, file_path)
     except Exception as e:
-        logging.error(f"Error saving profile for player {player_id}: {e}")
+        logging.error(f"Error saving parquet profile for player {player_id}: {e}")
+
+    """Save player profile to json file."""
+    try:
+        os.makedirs(RAW_DIR, exist_ok=True)
+        file_path = os.path.join(RAW_DIR, f"player_{player_id}_profile.json")
+        _save_json(profile, file_path)
+    except Exception as e:
+        logging.error(f"Error saving json profile for player {player_id}: {e}")
 
 def _extract_results_data(results):
     """Extracts relevant data from the results JSON."""
@@ -68,7 +86,7 @@ def validate_results_data(df):
     # Add more validation checks as needed
     return True
 
-def save_results_to_parquet(results, player_id):
+def save_player_results(results, player_id):
     """Save player match results to a Parquet file, with extracted data and validation."""
     try:
         extracted_data = _extract_results_data(results)
@@ -82,3 +100,30 @@ def save_results_to_parquet(results, player_id):
         _save_parquet(df, file_path)
     except Exception as e:
         logging.error(f"Error saving results for player {player_id}: {e}")
+
+    """Save player results to json file."""
+    try:
+        os.makedirs(RAW_DIR, exist_ok=True)
+        file_path = os.path.join(RAW_DIR, f"player_{player_id}_results.json")
+        _save_json(results, file_path)
+    except Exception as e:
+        logging.error(f"Error saving json results for player {player_id}: {e}")
+
+def save_player_stats(stats, player_id):
+    """Save player stats to parquet file."""
+    try:
+        df = pd.json_normalize(stats)
+        os.makedirs(DATA_DIR, exist_ok=True)
+        file_path = os.path.join(DATA_DIR, f"player_{player_id}_stats.parquet")
+        _save_parquet(df, file_path)
+    except Exception as e:
+        logging.error(f"Error saving parquet stats for player {player_id}: {e}")
+
+    """Save player stats to json file."""
+    try:
+        os.makedirs(RAW_DIR, exist_ok=True)
+        file_path = os.path.join(RAW_DIR, f"player_{player_id}_stats.json")
+        _save_json(stats, file_path)
+    except Exception as e:
+        logging.error(f"Error saving json stats for player {player_id}: {e}")
+
