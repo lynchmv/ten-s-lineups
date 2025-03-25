@@ -2,13 +2,13 @@
   "title": "verified doubles stats - Last 12 Months",
   "subtitle": "April 2024 - March 2025",
   "monthsCount": 12,
-  "currentRating": 3.84,
-  "currentRatingDisplay": "3.83",
+  "currentRating": 3.75,
+  "currentRatingDisplay": "3.74",
   "ratingCircle": {
-    "doublesUtr": 3.83,
+    "doublesUtr": 3.74,
     "ratingStatusDoubles": "Rated",
     "ratingProgressDoubles": 100.0,
-    "doublesUtrDisplay": "3.83"
+    "doublesUtrDisplay": "3.74"
   },
   "winsCount": 9,
   "winStreak": 4,
@@ -56,23 +56,23 @@
         "lastName": "Lynch",
         "gender": "M",
         "hasYobOnly": false,
-        "singlesUtr": 2.69,
-        "singlesUtrDisplay": "2.69",
+        "singlesUtr": 2.55,
+        "singlesUtrDisplay": "2.55",
         "ratingStatusSingles": "Rated",
         "ratingProgressSingles": "100",
         "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
-        "doublesUtr": 3.83,
-        "doublesUtrDisplay": "3.83",
+        "doublesUtr": 3.74,
+        "doublesUtrDisplay": "3.74",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
         "importSource": "USTALeague",
         "nationality": "USA",
-        "myUtrSingles": 2.69,
-        "myUtrSinglesDisplay": "2.69",
+        "myUtrSingles": 2.55,
+        "myUtrSinglesDisplay": "2.55",
         "myUtrStatusSingles": "Rated",
-        "myUtrDoubles": 3.83,
-        "myUtrDoublesDisplay": "3.83",
+        "myUtrDoubles": 3.74,
+        "myUtrDoublesDisplay": "3.74",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -93,8 +93,8 @@
         "ratingStatusSingles": "Unrated",
         "ratingProgressSingles": "0",
         "ratingStatusImageSingles": null,
-        "doublesUtr": 3.72,
-        "doublesUtrDisplay": "3.72",
+        "doublesUtr": 3.76,
+        "doublesUtrDisplay": "3.76",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
@@ -103,8 +103,8 @@
         "myUtrSingles": null,
         "myUtrSinglesDisplay": "0.00",
         "myUtrStatusSingles": "Unrated",
-        "myUtrDoubles": 3.72,
-        "myUtrDoublesDisplay": "3.72",
+        "myUtrDoubles": 3.76,
+        "myUtrDoublesDisplay": "3.76",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -125,8 +125,8 @@
         "ratingStatusSingles": "Unrated",
         "ratingProgressSingles": "0",
         "ratingStatusImageSingles": null,
-        "doublesUtr": 3.72,
-        "doublesUtrDisplay": "3.72",
+        "doublesUtr": 3.69,
+        "doublesUtrDisplay": "3.69",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
@@ -135,8 +135,8 @@
         "myUtrSingles": null,
         "myUtrSinglesDisplay": "0.00",
         "myUtrStatusSingles": "Unrated",
-        "myUtrDoubles": 3.72,
-        "myUtrDoublesDisplay": "3.72",
+        "myUtrDoubles": 3.69,
+        "myUtrDoublesDisplay": "3.69",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -152,23 +152,23 @@
         "lastName": "Maddox",
         "gender": "M",
         "hasYobOnly": true,
-        "singlesUtr": 3.3,
-        "singlesUtrDisplay": "3.30",
+        "singlesUtr": 3.28,
+        "singlesUtrDisplay": "3.28",
         "ratingStatusSingles": "Projected",
         "ratingProgressSingles": "72",
         "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
-        "doublesUtr": 3.7,
-        "doublesUtrDisplay": "3.70",
+        "doublesUtr": 3.72,
+        "doublesUtrDisplay": "3.72",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
         "importSource": "USTALeague",
         "nationality": "USA",
-        "myUtrSingles": 3.3,
-        "myUtrSinglesDisplay": "3.30",
+        "myUtrSingles": 3.28,
+        "myUtrSinglesDisplay": "3.28",
         "myUtrStatusSingles": "Projected",
-        "myUtrDoubles": 3.7,
-        "myUtrDoublesDisplay": "3.70",
+        "myUtrDoubles": 3.72,
+        "myUtrDoublesDisplay": "3.72",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -233,13 +233,13 @@
   "startRating": 4.0,
   "minRating": 3.49,
   "maxRating": 4.35,
-  "singlesUtr": 2.69,
-  "threeMonthRating": 2.7,
+  "singlesUtr": 2.55,
+  "threeMonthRating": 2.54,
   "ratingTrend": {
-    "rating": 2.7,
-    "ratingDisplay": "2.70",
-    "ratingDifference": -0.010000000000000231,
-    "changeDirection": "up"
+    "rating": 2.54,
+    "ratingDisplay": "2.54",
+    "ratingDifference": 0.009999999999999787,
+    "changeDirection": "down"
   },
   "ratingTrendChart": {
     "minRating": 3.487279875579567,
@@ -323,7 +323,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed May 29 Win M.Lynch/R.Leroy (3.83/2.83) vs. B.Belisle/J.Chancey (4.60/2.48) 6-2, 5-7, 1-0",
+                "details": "Wed May 29 Win M.Lynch/R.Leroy (3.74/2.78) vs. B.Belisle/J.Chancey (4.57/2.47) 6-2, 5-7, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -341,7 +341,7 @@
           },
           {
             "index": 26,
-            "rating": 2.55,
+            "rating": 2.6,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -351,7 +351,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun May 19 Loss M.Lynch/K.Walters (3.83/1.80) vs. A.Bingham/J.Mcgarr (2.22/2.84) 6-4, 6-2",
+                "details": "Sun May 19 Loss M.Lynch/K.Walters (3.74/1.69) vs. A.Bingham/J.Mcgarr (2.24/2.90) 6-4, 6-2",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -379,7 +379,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue May 28 Loss M.Lynch/L.Greeff (3.83/2.15) vs. S.Maddox/E.Hale (3.70/2.95) 6-2, 6-7, 1-0",
+                "details": "Tue May 28 Loss M.Lynch/L.Greeff (3.74/2.16) vs. S.Maddox/E.Hale (3.72/2.95) 6-2, 6-7, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -431,7 +431,7 @@
         "results": [
           {
             "index": 34,
-            "rating": 3.0,
+            "rating": 2.95,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -441,7 +441,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Jun 12 Win M.Lynch/C.Myers (3.83/2.33) vs. C.Williams/S.Pezold (3.51/2.44) 7-6, 6-4",
+                "details": "Wed Jun 12 Win M.Lynch/C.Myers (3.74/2.37) vs. C.Williams/S.Pezold (3.44/2.46) 7-6, 6-4",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -459,7 +459,7 @@
           },
           {
             "index": 30,
-            "rating": 5.55,
+            "rating": 5.5,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -469,7 +469,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Jun 1 Loss M.Lynch/R.Walters (3.83/5.04) vs. S.Sorrow/S.Lackey (5.65/5.47) 6-2, 6-3",
+                "details": "Sat Jun 1 Loss M.Lynch/R.Walters (3.74/5.07) vs. S.Sorrow/S.Lackey (5.39/5.66) 6-2, 6-3",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -497,7 +497,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue Jun 4 Loss M.Lynch/L.Greeff (3.83/2.15) vs. M.Carroll/S.Carroll (1.95/2.91) 3-6, 6-4, 1-0",
+                "details": "Tue Jun 4 Loss M.Lynch/L.Greeff (3.74/2.16) vs. M.Carroll/S.Carroll (1.94/2.92) 3-6, 6-4, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -515,7 +515,7 @@
           },
           {
             "index": 38,
-            "rating": 3.3,
+            "rating": 3.4,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -525,7 +525,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Jun 26 Loss M.Lynch/R.Leroy (3.83/2.83) vs. S.Broom/B.Pradhan (2.58/4.06) 7-6, 2-6, 1-0",
+                "details": "Wed Jun 26 Loss M.Lynch/R.Leroy (3.74/2.78) vs. S.Broom/B.Pradhan (2.57/4.18) 7-6, 2-6, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -620,7 +620,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Aug 11 Win M.Lynch/T.Harrell (3.83/3.72) vs. D.Mcmurtry/S.Maddox (3.72/3.70) 6-2, 4-6, 1-0",
+                "details": "Sun Aug 11 Win M.Lynch/T.Harrell (3.74/3.76) vs. D.Mcmurtry/S.Maddox (3.69/3.72) 6-2, 4-6, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -672,7 +672,7 @@
         "results": [
           {
             "index": 62,
-            "rating": 3.8,
+            "rating": 3.7,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -682,7 +682,7 @@
             },
             "descriptions": [
               {
-                "details": "Fri Sep 6 Loss M.Lynch/R.Leroy (3.83/2.83) vs. J.Williams/K.Williams (4.16/3.46) 7-5, 6-1",
+                "details": "Fri Sep 6 Loss M.Lynch/R.Leroy (3.74/2.78) vs. J.Williams/K.Williams (3.78/3.59) 7-5, 6-1",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -700,7 +700,7 @@
           },
           {
             "index": 62,
-            "rating": 4.45,
+            "rating": 4.6,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -710,7 +710,7 @@
             },
             "descriptions": [
               {
-                "details": "Fri Sep 6 Loss M.Lynch/K.Walters (3.83/1.80) vs. S.Lackey/S.Lau (5.47/3.42) 6-0, 6-3",
+                "details": "Fri Sep 6 Loss M.Lynch/K.Walters (3.74/1.69) vs. S.Lackey/S.Lau (5.66/3.48) 6-0, 6-3",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -728,7 +728,7 @@
           },
           {
             "index": 62,
-            "rating": 4.05,
+            "rating": 3.9,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -738,7 +738,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Sep 7 Loss M.Lynch/R.Leroy (3.83/2.83) vs. J.Harrington/W.Paradis (4.58/3.50) 7-5, 4-6, 1-0",
+                "details": "Sat Sep 7 Loss M.Lynch/R.Leroy (3.74/2.78) vs. J.Harrington/W.Paradis (5.03/2.71) 7-5, 4-6, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -756,7 +756,7 @@
           },
           {
             "index": 62,
-            "rating": 4.25,
+            "rating": 4.15,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -766,7 +766,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Sep 7 Loss M.Lynch/K.Walters (3.83/1.80) vs. S.Lau/T.Fox (3.42/5.08) 6-3, 7-6",
+                "details": "Sat Sep 7 Loss M.Lynch/K.Walters (3.74/1.69) vs. S.Lau/T.Fox (3.48/4.77) 6-3, 7-6",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -851,7 +851,7 @@
         "results": [
           {
             "index": 83,
-            "rating": 2.95,
+            "rating": 2.9,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -861,7 +861,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Nov 9 Win M.Lynch/R.Leroy (3.83/2.83) vs. W.Bishop/K.Moore (4.29/1.57) 6-1, 6-3",
+                "details": "Sat Nov 9 Win M.Lynch/R.Leroy (3.74/2.78) vs. W.Bishop/K.Moore (4.38/1.43) 6-1, 6-3",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -879,7 +879,7 @@
           },
           {
             "index": 87,
-            "rating": 2.1,
+            "rating": 2.15,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -889,7 +889,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Nov 23 Win M.Lynch/L.Weaver (3.83/2.59) vs. R.Fleming/W.Knight (1.50/2.74) 6-1, 6-0",
+                "details": "Sat Nov 23 Win M.Lynch/L.Weaver (3.74/2.55) vs. R.Fleming/W.Knight (1.40/2.87) 6-1, 6-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -951,7 +951,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue Dec 17 Win M.Lynch/L.Greeff (3.83/2.15) vs. V.Klaas/B.Evans (2.14/3.34) 6-3, 4-6, 1-0",
+                "details": "Tue Dec 17 Win M.Lynch/L.Greeff (3.74/2.16) vs. V.Klaas/B.Evans (2.12/3.35) 6-3, 4-6, 1-0",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -969,7 +969,7 @@
           },
           {
             "index": 97,
-            "rating": 2.6,
+            "rating": 2.65,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -979,7 +979,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Dec 22 Win M.Lynch/N.Morris (3.83/2.91) vs. J.Champion/C.Shayne (2.05/3.10) 6-2, 6-1",
+                "details": "Sun Dec 22 Win M.Lynch/N.Morris (3.74/2.87) vs. J.Champion/C.Shayne (2.02/3.25) 6-2, 6-1",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1007,7 +1007,7 @@
             },
             "descriptions": [
               {
-                "details": "Fri Dec 6 Loss M.Lynch/K.Dalsania (3.83/4.87) vs. J.Caldwell/S.Mcclain (5.30/4.27) 6-3, 6-1",
+                "details": "Fri Dec 6 Loss M.Lynch/K.Dalsania (3.74/4.69) vs. J.Caldwell/S.Mcclain (5.28/4.33) 6-3, 6-1",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1025,7 +1025,7 @@
           },
           {
             "index": 92,
-            "rating": 4.0,
+            "rating": 3.85,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1035,7 +1035,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Dec 7 Loss M.Lynch/Z.Fletcher (3.83/3.61) vs. J.Dickey/J.Harper (4.19/3.76) 6-2, 7-5",
+                "details": "Sat Dec 7 Loss M.Lynch/Z.Fletcher (3.74/3.67) vs. J.Dickey/J.Harper (4.18/3.47) 6-2, 7-5",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1053,7 +1053,7 @@
           },
           {
             "index": 93,
-            "rating": 3.5,
+            "rating": 3.4,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1063,7 +1063,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Dec 11 Loss M.Lynch/S.Fletcher (3.83/3.01) vs. N.Morris/T.Lingo (2.91/4.11) 6-0, 6-3",
+                "details": "Wed Dec 11 Loss M.Lynch/S.Fletcher (3.74/2.96) vs. N.Morris/T.Lingo (2.87/3.97) 6-0, 6-3",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1115,7 +1115,7 @@
         "results": [
           {
             "index": 101,
-            "rating": 2.7,
+            "rating": 3.1,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1125,7 +1125,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Jan 4 Win M.Lynch/C.Kersey (3.83/3.09) vs. J.Davis/M.Stewart (2.58/2.85) 6-2, 6-1",
+                "details": "Sat Jan 4 Win M.Lynch/C.Kersey (3.74/3.13) vs. J.Davis/M.Stewart (2.74/3.46) 6-2, 6-1",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1143,7 +1143,7 @@
           },
           {
             "index": 102,
-            "rating": 3.0,
+            "rating": 2.9,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1153,7 +1153,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue Jan 7 Win M.Lynch/K.Walters (3.83/1.80) vs. D.Newman/B.Champion (2.20/3.84) 7-5, 7-5",
+                "details": "Tue Jan 7 Win M.Lynch/K.Walters (3.74/1.69) vs. D.Newman/B.Champion (2.10/3.70) 7-5, 7-5",
                 "resultId": 0,
                 "winnerSets": null,
                 "loserSets": null,
@@ -1231,10 +1231,10 @@
             "ratingDisplay": "0.00"
           }
         ],
-        "minRating": 3.6960783925063168,
+        "minRating": 3.695213654354237,
         "maxRating": 3.919589315413955,
         "startRating": 3.806265658645014,
-        "endRating": 3.8863631510630836,
+        "endRating": 3.795430042056434,
         "results": []
       }
     ],
@@ -1245,12 +1245,12 @@
     "nonRatingScaleStepSize": 0
   },
   "victoryMarginChart": {
-    "currentRating": 3.84,
-    "currentRatingDisplay": "3.83",
+    "currentRating": 3.75,
+    "currentRatingDisplay": "3.74",
     "results": [
       {
         "index": 33,
-        "rating": 2.55,
+        "rating": 2.6,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1260,7 +1260,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun May 19 Loss M.Lynch/K.Walters (3.83/1.80) vs. A.Bingham/J.Mcgarr (2.22/2.84) 6-4, 6-2",
+            "details": "Sun May 19 Loss M.Lynch/K.Walters (3.74/1.69) vs. A.Bingham/J.Mcgarr (2.24/2.90) 6-4, 6-2",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1288,7 +1288,7 @@
         },
         "descriptions": [
           {
-            "details": "Tue May 28 Loss M.Lynch/L.Greeff (3.83/2.15) vs. S.Maddox/E.Hale (3.70/2.95) 6-2, 6-7, 1-0",
+            "details": "Tue May 28 Loss M.Lynch/L.Greeff (3.74/2.16) vs. S.Maddox/E.Hale (3.72/2.95) 6-2, 6-7, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1316,7 +1316,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed May 29 Win M.Lynch/R.Leroy (3.83/2.83) vs. B.Belisle/J.Chancey (4.60/2.48) 6-2, 5-7, 1-0",
+            "details": "Wed May 29 Win M.Lynch/R.Leroy (3.74/2.78) vs. B.Belisle/J.Chancey (4.57/2.47) 6-2, 5-7, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1334,7 +1334,7 @@
       },
       {
         "index": 30,
-        "rating": 5.55,
+        "rating": 5.5,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1344,7 +1344,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Jun 1 Loss M.Lynch/R.Walters (3.83/5.04) vs. S.Sorrow/S.Lackey (5.65/5.47) 6-2, 6-3",
+            "details": "Sat Jun 1 Loss M.Lynch/R.Walters (3.74/5.07) vs. S.Sorrow/S.Lackey (5.39/5.66) 6-2, 6-3",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1372,7 +1372,7 @@
         },
         "descriptions": [
           {
-            "details": "Tue Jun 4 Loss M.Lynch/L.Greeff (3.83/2.15) vs. M.Carroll/S.Carroll (1.95/2.91) 3-6, 6-4, 1-0",
+            "details": "Tue Jun 4 Loss M.Lynch/L.Greeff (3.74/2.16) vs. M.Carroll/S.Carroll (1.94/2.92) 3-6, 6-4, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1390,32 +1390,17 @@
       },
       {
         "index": 57,
-        "rating": 3.0,
+        "rating": 2.95,
         "playerPostedScore": false,
         "aggregate": {
-          "count": 2,
-          "winsCount": 2,
+          "count": 1,
+          "winsCount": 1,
           "lossesCount": 0,
           "tiesCount": 0
         },
         "descriptions": [
           {
-            "details": "Wed Jun 12 Win M.Lynch/C.Myers (3.83/2.33) vs. C.Williams/S.Pezold (3.51/2.44) 7-6, 6-4",
-            "resultId": 0,
-            "winnerSets": null,
-            "loserSets": null,
-            "tiebreakSets": null,
-            "resultDate": "0001-01-01T00:00:00",
-            "winner1": null,
-            "winner2": null,
-            "loser1": null,
-            "loser2": null,
-            "eventName": null,
-            "eventLocation": null,
-            "isWinner": false
-          },
-          {
-            "details": "Tue Jan 7 Win M.Lynch/K.Walters (3.83/1.80) vs. D.Newman/B.Champion (2.20/3.84) 7-5, 7-5",
+            "details": "Wed Jun 12 Win M.Lynch/C.Myers (3.74/2.37) vs. C.Williams/S.Pezold (3.44/2.46) 7-6, 6-4",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1433,7 +1418,7 @@
       },
       {
         "index": 54,
-        "rating": 3.3,
+        "rating": 3.4,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1443,7 +1428,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Jun 26 Loss M.Lynch/R.Leroy (3.83/2.83) vs. S.Broom/B.Pradhan (2.58/4.06) 7-6, 2-6, 1-0",
+            "details": "Wed Jun 26 Loss M.Lynch/R.Leroy (3.74/2.78) vs. S.Broom/B.Pradhan (2.57/4.18) 7-6, 2-6, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1471,7 +1456,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Aug 11 Win M.Lynch/T.Harrell (3.83/3.72) vs. D.Mcmurtry/S.Maddox (3.72/3.70) 6-2, 4-6, 1-0",
+            "details": "Sun Aug 11 Win M.Lynch/T.Harrell (3.74/3.76) vs. D.Mcmurtry/S.Maddox (3.69/3.72) 6-2, 4-6, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1489,7 +1474,7 @@
       },
       {
         "index": 33,
-        "rating": 3.8,
+        "rating": 3.7,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1499,7 +1484,7 @@
         },
         "descriptions": [
           {
-            "details": "Fri Sep 6 Loss M.Lynch/R.Leroy (3.83/2.83) vs. J.Williams/K.Williams (4.16/3.46) 7-5, 6-1",
+            "details": "Fri Sep 6 Loss M.Lynch/R.Leroy (3.74/2.78) vs. J.Williams/K.Williams (3.78/3.59) 7-5, 6-1",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1517,7 +1502,7 @@
       },
       {
         "index": 21,
-        "rating": 4.45,
+        "rating": 4.6,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1527,7 +1512,7 @@
         },
         "descriptions": [
           {
-            "details": "Fri Sep 6 Loss M.Lynch/K.Walters (3.83/1.80) vs. S.Lackey/S.Lau (5.47/3.42) 6-0, 6-3",
+            "details": "Fri Sep 6 Loss M.Lynch/K.Walters (3.74/1.69) vs. S.Lackey/S.Lau (5.66/3.48) 6-0, 6-3",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1545,7 +1530,7 @@
       },
       {
         "index": 48,
-        "rating": 4.05,
+        "rating": 3.9,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1555,7 +1540,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Sep 7 Loss M.Lynch/R.Leroy (3.83/2.83) vs. J.Harrington/W.Paradis (4.58/3.50) 7-5, 4-6, 1-0",
+            "details": "Sat Sep 7 Loss M.Lynch/R.Leroy (3.74/2.78) vs. J.Harrington/W.Paradis (5.03/2.71) 7-5, 4-6, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1573,7 +1558,7 @@
       },
       {
         "index": 42,
-        "rating": 4.25,
+        "rating": 4.15,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1583,7 +1568,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Sep 7 Loss M.Lynch/K.Walters (3.83/1.80) vs. S.Lau/T.Fox (3.42/5.08) 6-3, 7-6",
+            "details": "Sat Sep 7 Loss M.Lynch/K.Walters (3.74/1.69) vs. S.Lau/T.Fox (3.48/4.77) 6-3, 7-6",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1601,7 +1586,7 @@
       },
       {
         "index": 75,
-        "rating": 2.95,
+        "rating": 2.9,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1611,7 +1596,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Nov 9 Win M.Lynch/R.Leroy (3.83/2.83) vs. W.Bishop/K.Moore (4.29/1.57) 6-1, 6-3",
+            "details": "Sat Nov 9 Win M.Lynch/R.Leroy (3.74/2.78) vs. W.Bishop/K.Moore (4.38/1.43) 6-1, 6-3",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1629,7 +1614,7 @@
       },
       {
         "index": 93,
-        "rating": 2.1,
+        "rating": 2.15,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1639,7 +1624,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Nov 23 Win M.Lynch/L.Weaver (3.83/2.59) vs. R.Fleming/W.Knight (1.50/2.74) 6-1, 6-0",
+            "details": "Sat Nov 23 Win M.Lynch/L.Weaver (3.74/2.55) vs. R.Fleming/W.Knight (1.40/2.87) 6-1, 6-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1667,7 +1652,7 @@
         },
         "descriptions": [
           {
-            "details": "Fri Dec 6 Loss M.Lynch/K.Dalsania (3.83/4.87) vs. J.Caldwell/S.Mcclain (5.30/4.27) 6-3, 6-1",
+            "details": "Fri Dec 6 Loss M.Lynch/K.Dalsania (3.74/4.69) vs. J.Caldwell/S.Mcclain (5.28/4.33) 6-3, 6-1",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1685,7 +1670,7 @@
       },
       {
         "index": 36,
-        "rating": 4.0,
+        "rating": 3.85,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1695,7 +1680,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Dec 7 Loss M.Lynch/Z.Fletcher (3.83/3.61) vs. J.Dickey/J.Harper (4.19/3.76) 6-2, 7-5",
+            "details": "Sat Dec 7 Loss M.Lynch/Z.Fletcher (3.74/3.67) vs. J.Dickey/J.Harper (4.18/3.47) 6-2, 7-5",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1713,7 +1698,7 @@
       },
       {
         "index": 21,
-        "rating": 3.5,
+        "rating": 3.4,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1723,7 +1708,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Dec 11 Loss M.Lynch/S.Fletcher (3.83/3.01) vs. N.Morris/T.Lingo (2.91/4.11) 6-0, 6-3",
+            "details": "Wed Dec 11 Loss M.Lynch/S.Fletcher (3.74/2.96) vs. N.Morris/T.Lingo (2.87/3.97) 6-0, 6-3",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1751,7 +1736,7 @@
         },
         "descriptions": [
           {
-            "details": "Tue Dec 17 Win M.Lynch/L.Greeff (3.83/2.15) vs. V.Klaas/B.Evans (2.14/3.34) 6-3, 4-6, 1-0",
+            "details": "Tue Dec 17 Win M.Lynch/L.Greeff (3.74/2.16) vs. V.Klaas/B.Evans (2.12/3.35) 6-3, 4-6, 1-0",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1769,7 +1754,7 @@
       },
       {
         "index": 81,
-        "rating": 2.6,
+        "rating": 2.65,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1779,7 +1764,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Dec 22 Win M.Lynch/N.Morris (3.83/2.91) vs. J.Champion/C.Shayne (2.05/3.10) 6-2, 6-1",
+            "details": "Sun Dec 22 Win M.Lynch/N.Morris (3.74/2.87) vs. J.Champion/C.Shayne (2.02/3.25) 6-2, 6-1",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1797,7 +1782,7 @@
       },
       {
         "index": 81,
-        "rating": 2.7,
+        "rating": 3.1,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1807,7 +1792,35 @@
         },
         "descriptions": [
           {
-            "details": "Sat Jan 4 Win M.Lynch/C.Kersey (3.83/3.09) vs. J.Davis/M.Stewart (2.58/2.85) 6-2, 6-1",
+            "details": "Sat Jan 4 Win M.Lynch/C.Kersey (3.74/3.13) vs. J.Davis/M.Stewart (2.74/3.46) 6-2, 6-1",
+            "resultId": 0,
+            "winnerSets": null,
+            "loserSets": null,
+            "tiebreakSets": null,
+            "resultDate": "0001-01-01T00:00:00",
+            "winner1": null,
+            "winner2": null,
+            "loser1": null,
+            "loser2": null,
+            "eventName": null,
+            "eventLocation": null,
+            "isWinner": false
+          }
+        ]
+      },
+      {
+        "index": 57,
+        "rating": 2.9,
+        "playerPostedScore": false,
+        "aggregate": {
+          "count": 1,
+          "winsCount": 1,
+          "lossesCount": 0,
+          "tiesCount": 0
+        },
+        "descriptions": [
+          {
+            "details": "Tue Jan 7 Win M.Lynch/K.Walters (3.74/1.69) vs. D.Newman/B.Champion (2.10/3.70) 7-5, 7-5",
             "resultId": 0,
             "winnerSets": null,
             "loserSets": null,
@@ -1836,46 +1849,52 @@
         48063734,
         47804290,
         48391047,
-        44464143,
-        51133809,
         51132621,
+        51133809,
         52255968,
         48982539,
         46252767,
         51641792,
-        48630933,
         46265557,
+        48630933,
         51341149,
         51960578,
         46246162,
-        51677182,
-        44447563
+        51677182
       ],
       "doubles": [
-        50824721,
-        50791548,
-        50638453,
-        49748130,
-        47823927,
-        50339370,
-        46268823,
-        46237771,
-        46233254,
-        47825820,
-        46265543,
-        46314523,
-        47444931,
-        50592447,
-        50432553,
-        47816246,
-        47825801,
-        46389017,
         45646449,
+        46265543,
+        46233254,
+        46237771,
+        46268823,
+        46314523,
+        46389017,
+        47444931,
+        47825801,
+        47825820,
+        47816246,
+        47823927,
+        49748130,
         49359308,
-        50329181
+        50329181,
+        50339370,
+        50432553,
+        50638453,
+        50592447,
+        50791548,
+        50824721
       ]
     },
     "history": [
+      {
+        "id": 503626774,
+        "ratingStatus": 3,
+        "rating": 2.72,
+        "ratingDisplay": "2.72",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-24T00:00:00"
+      },
       {
         "id": 502146196,
         "ratingStatus": 3,
@@ -2433,13 +2452,13 @@
       "hardCourt": null,
       "clayCourt": null,
       "grassCourt": null,
-      "oneMonth": 2.6,
-      "sixWeek": 2.59,
-      "eightWeek": 2.69,
-      "threeMonth": 2.7,
+      "oneMonth": 2.57,
+      "sixWeek": 2.52,
+      "eightWeek": 2.62,
+      "threeMonth": 2.55,
       "grandSlamMasters": null,
-      "fullTwelve": 2.69,
-      "ytd": 2.7
+      "fullTwelve": 2.56,
+      "ytd": 2.55
     },
     "rankings": {
       "utrRank": null,

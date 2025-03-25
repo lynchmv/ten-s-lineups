@@ -35,7 +35,7 @@
       "rankings": [
         {
           "rankListId": 22,
-          "rank": 70364,
+          "rank": 72033,
           "rankingCategories": [
             {
               "type": "gender",
@@ -59,7 +59,7 @@
         },
         {
           "rankListId": 7,
-          "rank": 114170,
+          "rank": 117830,
           "rankingCategories": [
             {
               "type": "gender",
@@ -83,7 +83,7 @@
         },
         {
           "rankListId": 16,
-          "rank": 368085,
+          "rank": 371500,
           "rankingCategories": [
             {
               "type": "gender",
@@ -107,7 +107,7 @@
         },
         {
           "rankListId": 2,
-          "rank": 508695,
+          "rank": 517514,
           "rankingCategories": [
             {
               "type": "gender",
@@ -133,17 +133,17 @@
       "thirdPartyRankings": []
     }
   },
-  "myUtrSingles": 2.69,
-  "myUtrDoubles": 3.98,
-  "singlesUtrDisplay": "2.69",
-  "doublesUtrDisplay": "3.83",
-  "myUtrSinglesDisplay": "2.69",
-  "myUtrDoublesDisplay": "3.98",
+  "myUtrSingles": 2.55,
+  "myUtrDoubles": 4.01,
+  "singlesUtrDisplay": "2.55",
+  "doublesUtrDisplay": "3.74",
+  "myUtrSinglesDisplay": "2.55",
+  "myUtrDoublesDisplay": "4.01",
   "pbrRatingDisplay": null,
   "doublesPkbRatingDisplay": null,
   "singlesPkbRatingDisplay": null,
-  "singlesUtr": 2.69,
-  "doublesUtr": 3.83,
+  "singlesUtr": 2.55,
+  "doublesUtr": 3.74,
   "utrRange": null,
   "isPro": false,
   "photoCount": 0,
@@ -204,46 +204,52 @@
         48063734,
         47804290,
         48391047,
-        44464143,
-        51133809,
         51132621,
+        51133809,
         52255968,
         48982539,
         46252767,
         51641792,
-        48630933,
         46265557,
+        48630933,
         51341149,
         51960578,
         46246162,
-        51677182,
-        44447563
+        51677182
       ],
       "doubles": [
-        50824721,
-        50791548,
-        50638453,
-        49748130,
-        47823927,
-        50339370,
-        46268823,
-        46237771,
-        46233254,
-        47825820,
-        46265543,
-        46314523,
-        47444931,
-        50592447,
-        50432553,
-        47816246,
-        47825801,
-        46389017,
         45646449,
+        46265543,
+        46233254,
+        46237771,
+        46268823,
+        46314523,
+        46389017,
+        47444931,
+        47825801,
+        47825820,
+        47816246,
+        47823927,
+        49748130,
         49359308,
-        50329181
+        50329181,
+        50339370,
+        50432553,
+        50638453,
+        50592447,
+        50791548,
+        50824721
       ]
     },
     "history": [
+      {
+        "id": 503626774,
+        "ratingStatus": 3,
+        "rating": 2.72,
+        "ratingDisplay": "2.72",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-24T00:00:00"
+      },
       {
         "id": 502146196,
         "ratingStatus": 3,
@@ -801,13 +807,13 @@
       "hardCourt": null,
       "clayCourt": null,
       "grassCourt": null,
-      "oneMonth": 2.6,
-      "sixWeek": 2.59,
-      "eightWeek": 2.69,
-      "threeMonth": 2.7,
+      "oneMonth": 2.57,
+      "sixWeek": 2.52,
+      "eightWeek": 2.62,
+      "threeMonth": 2.55,
       "grandSlamMasters": null,
-      "fullTwelve": 2.69,
-      "ytd": 2.7
+      "fullTwelve": 2.56,
+      "ytd": 2.55
     },
     "rankings": {
       "utrRank": null,
@@ -851,7 +857,7 @@
   "playerLastName": "Lynch",
   "gender": "Male",
   "age": 48,
-  "threeMonthRating": 2.7,
+  "threeMonthRating": 2.54,
   "ratingStatusSingles": "Rated",
   "ratingProgressSingles": 100.0,
   "myUtrStatusSingles": "Rated",
@@ -874,10 +880,10 @@
   "eligibleForPaidHit": false,
   "isPaidHitter": false,
   "threeMonthRatingChangeDetails": {
-    "rating": 2.7,
-    "ratingDisplay": "2.70",
-    "ratingDifference": -0.010000000000000231,
-    "changeDirection": "up"
+    "rating": 2.54,
+    "ratingDisplay": "2.54",
+    "ratingDifference": 0.009999999999999787,
+    "changeDirection": "down"
   },
   "myUtrStatusDoubles": "Rated",
   "myUtrProgressDoubles": 100.0,

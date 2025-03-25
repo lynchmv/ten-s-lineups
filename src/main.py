@@ -1,6 +1,8 @@
 import argparse
+from datetime import datetime
 from api.utr_api import UTRAPI
 from processing.data_saver import save_player_profile, save_player_results, save_player_stats
+from analytics.utr_score import calculate_player_utr # Import the UTR calculation function
 
 def main():
     parser = argparse.ArgumentParser(description="UTR Player Lookup CLI")
@@ -44,25 +46,34 @@ def main():
             save_player_results(results, player["id"])
             print(f"Match results retrieved for {player['displayName']}.")
 
-        # Fetch player doubles stats
-        print(f"\nFetching doubles stats for {player['displayName']}...")
-        stats = api.get_player_stats(player['id'])
-        if stats:
-            save_player_stats(stats, player["id"])
-            print(f"Doubles stats retrieved for {player['displayName']}.")
-
-        # Fetch player singles stats
-        print(f"\nFetching singles stats for {player['displayName']}...")
+        # Fetch player stats
+        print(f"\nFetching stats for {player['displayName']}...")
         stats = api.get_player_stats(player['id'], "singles")
         if stats:
             save_player_stats(stats, player["id"], "singles")
-            print(f"Singles stats retrieved for {player['displayName']}.")
+        stats = api.get_player_stats(player['id'], "doubles")
+        if stats:
+            save_player_stats(stats, player["id"], "doubles")
+        print(f"Match stats retrieved for {player['displayName']}.")
+
+        # Calculate UTR
+        print(f"\nFetching player UTR for {player['displayName']}")
+        utr_scores = calculate_player_utr(player["id"])
 
         # Display results summary
         print("\nSummary:")
         print(f"Name: {player['displayName']}")
         print(f"Location: {player['location']}")
         print(f"Total Matches: {len(results.get('events', [])) if results else 0}")
+        if utr_scores:
+            sorted_matches = sorted(utr_scores.items(), key=lambda item: item[1]['date'], reverse=True)
+            print("\nLast 3 UTR Scores:")
+            for match_id, match_data in sorted_matches[:3]:
+                date_object = datetime.strptime(match_data['date'], '%Y-%m-%dT%H:%M:%S')
+                print(f"Match ID: {match_id}, Date: {date_object.strftime('%Y-%m-%d')}, UTR: {match_data['utr']}")
+                # print(f"Match ID: {match_id}, UTR: {match_data['utr']}")
+        else:
+            print("\nNo UTR scores found.")
         print("-" * 40)
 
 if __name__ == "__main__":

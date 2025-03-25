@@ -74,10 +74,12 @@ class UTRAPI:
             source = p.get("source", {})
             if not source:
                 continue
+            location_data = source.get("location", {})
+            location_display = location_data.get("display", "Unknown Location") if location_data else "Unknown Location"
             player_list.append({
                 "displayName": source.get("displayName", "Unknown"),
                 "id": source.get("id"),
-                "location": source.get("location", {}).get("display", "Unknown Location")
+                "location": location_display,
             })
 
         if not player_list:
