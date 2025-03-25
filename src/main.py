@@ -2,7 +2,7 @@ import argparse
 from datetime import datetime
 from api.utr_api import UTRAPI
 from processing.data_saver import save_player_profile, save_player_results, save_player_stats
-from analytics.utr_score import calculate_player_utr # Import the UTR calculation function
+from analytics.utr_service import get_player_utr_scores # Import the UTR calculation function
 
 def main():
     parser = argparse.ArgumentParser(description="UTR Player Lookup CLI")
@@ -58,7 +58,7 @@ def main():
 
         # Calculate UTR
         print(f"\nFetching player UTR for {player['displayName']}")
-        utr_scores = calculate_player_utr(player["id"])
+        utr_scores = get_player_utr_scores(player["id"])
 
         # Display results summary
         print("\nSummary:")

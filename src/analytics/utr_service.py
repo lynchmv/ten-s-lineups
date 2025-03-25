@@ -1,35 +1,39 @@
 import pandas as pd
-import os
-import logging
 import json
-import re
+import logging
 from datetime import datetime
+from data_access import load_player_results, load_player_stats, load_player_profile
+import os
+import re
 
 DATA_DIR = "data/processed"
 RAW_DIR = "data/raw"
 
-logging.basicConfig(
-    filename="utr_score.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
-
-import json
-import os
-import re
-from datetime import datetime
-
-RAW_DIR = "data/raw"
+def player_id_lookup(player_id, player_name):
+    """Looks up the player ID based on the player name."""
+    try:
+        # 1. Load player profile
+        player_profile = load_player_profile(player_id)
+        # 2. Extract player name
+        first_name = player_profile['firstName'][0]
+        last_name = player_profile['lastName'][0]
+        # 3. Compare player name with extracted name
+        if player_name == f"{first_name[0]}.{last_name}":
+            return player_id
+        else:
+            return None
+    except Exception as e:
+        logging.error(f"Error looking up player ID: {e}")
+        return None
 
 def get_match_utr(player_id, match_data, match_type):
     """Retrieves the player's UTR for a specific match."""
     try:
         if match_type == "singles":
             # singles logic
-            stats_file = f"player_{player_id}_{match_type}_stats.json"
-            stats_path = os.path.join(RAW_DIR, stats_file)
-            with open(stats_path, "r") as f:
-                stats = json.load(f)
+            stats = load_player_stats(player_id, match_type)
+            if stats is None:
+                return None  # Handle file not found or other errors
             trend_chart = stats.get("ratingTrendChart", {})
             if not trend_chart or not trend_chart.get("months"):
                 return None
@@ -45,10 +49,9 @@ def get_match_utr(player_id, match_data, match_type):
             return None
         else:  # doubles
             # doubles logic from json file
-            stats_file = f"player_{player_id}_{match_type}_stats.json"
-            stats_path = os.path.join(RAW_DIR, stats_file)
-            with open(stats_path, "r") as f:
-                stats = json.load(f)
+            stats = load_player_stats(player_id, match_type)
+            if stats is None:
+                return None  # Handle file not found or other errors
             trend_chart = stats.get("ratingTrendChart", {})
             if not trend_chart or not trend_chart.get("months"):
                 return None
@@ -83,43 +86,23 @@ def get_match_utr(player_id, match_data, match_type):
                                 else:
                                     return None
                         else:
+                            logging.warning(f"Skipped match due to missing date information: {details}")
                             return None
             return None
     except Exception as e:
         print(f"Error retrieving match UTR: {e}")
         return None
 
-def player_id_lookup(player_id, player_name):
-    """Looks up the player ID based on the player name."""
-    try:
-        # 1. Load player profile
-        profile_path = os.path.join(DATA_DIR, f"player_{player_id}_profile.parquet")
-        player_profile = pd.read_parquet(profile_path)
-        # 2. Extract player name
-        first_name = player_profile['firstName'][0]
-        last_name = player_profile['lastName'][0]
-        formatted_name = f"{first_name[0]}.{last_name}"
-        #3. compare player names.
-        if formatted_name == player_name:
-            return player_id
-        else:
-            return None
-    except Exception as e:
-        print(f"Error looking up player ID: {e}")
-        return None
-
-def calculate_player_utr(player_id):
+def get_player_utr_scores(player_id):
     """Calculates and returns the singles and doubles UTR scores for a player."""
     try:
-        # Load player data
-        results_path = os.path.join(DATA_DIR, f"player_{player_id}_results.parquet")
-        results_df = pd.read_parquet(results_path)
+        results_df = load_player_results(player_id)
 
         match_utrs = {}
 
         for index, row in results_df.iterrows():
-            match_id = row['event_id']  # correct column name.
-            players_json_str = row['players']  # correct column name.
+            match_id = row['event_id']
+            players_json_str = row['players']
             match_data = json.loads(players_json_str)
             if match_data["winner2"] is None:
                 match_type = "singles"
@@ -138,10 +121,3 @@ def calculate_player_utr(player_id):
     except Exception as e:
         logging.error(f"Error calculating UTR for player {player_id}: {e}")
         return None
-
-# Process Michael
-# calculate_player_utr(4140765)
-
-# Process Christy
-# calculate_player_utr(4313439)
-
