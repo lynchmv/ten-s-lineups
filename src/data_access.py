@@ -6,16 +6,19 @@ import logging
 DATA_DIR = "data/processed"
 RAW_DIR = "data/raw"
 
+# Get a logger instance for this module
+logger = logging.getLogger(__name__)
+
 def load_player_results(player_id):
     """Loads player results from a Parquet file."""
     try:
         results_path = os.path.join(DATA_DIR, f"player_{player_id}_results.parquet")
         return pd.read_parquet(results_path)
     except FileNotFoundError:
-        logging.error(f"Player results file not found for player {player_id}")
+        logger.error(f"Player results file not found for player {player_id}")
         return None
     except Exception as e:
-        logging.error(f"Error loading player results: {e}")
+        logger.error(f"Error loading player results: {e}")
         return None
 
 def load_player_stats(player_id, match_type):
@@ -26,10 +29,10 @@ def load_player_stats(player_id, match_type):
         with open(stats_path, "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        logging.error(f"Player stats file not found for player {player_id} and match type {match_type}")
+        logger.error(f"Player stats file not found for player {player_id} and match type {match_type}")
         return None
     except Exception as e:
-        logging.error(f"Error loading player stats: {e}")
+        logger.error(f"Error loading player stats: {e}")
         return None
 
 def load_player_profile(player_id):
@@ -38,8 +41,8 @@ def load_player_profile(player_id):
         profile_path = os.path.join(DATA_DIR, f"player_{player_id}_profile.parquet")
         return pd.read_parquet(profile_path)
     except FileNotFoundError:
-        logging.error(f"Player profile file not found for player {player_id}")
+        logger.error(f"Player profile file not found for player {player_id}")
         return None
     except Exception as e:
-        logging.error(f"Error loading player profile: {e}")
+        logger.error(f"Error loading player profile: {e}")
         return None

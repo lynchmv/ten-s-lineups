@@ -2,13 +2,13 @@
   "title": "verified singles stats - Last 12 Months",
   "subtitle": "April 2024 - March 2025",
   "monthsCount": 12,
-  "currentRating": 1.3,
-  "currentRatingDisplay": "1.30",
+  "currentRating": 1.25,
+  "currentRatingDisplay": "1.24",
   "ratingCircle": {
-    "singlesUtr": 1.3,
+    "singlesUtr": 1.24,
     "ratingStatusSingles": "Projected",
     "ratingProgressSingles": 4.0,
-    "singlesUtrDisplay": "1.30"
+    "singlesUtrDisplay": "1.24"
   },
   "winsCount": 0,
   "winStreak": 0,
@@ -21,7 +21,7 @@
   "startRating": 2.0,
   "minRating": 1.04,
   "maxRating": 2.8,
-  "singlesUtr": 1.3,
+  "singlesUtr": 1.24,
   "threeMonthRating": null,
   "ratingTrend": {
     "rating": 0.0,
@@ -233,7 +233,7 @@
         "results": [
           {
             "index": 67,
-            "rating": 3.0,
+            "rating": 2.95,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -243,7 +243,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Sep 21 Loss vs. J. Savage (3.02) 6-2, 6-0",
+                "details": "Sat Sep 21 Loss vs. J. Savage (2.95) 6-2, 6-0",
                 "resultId": 48142695,
                 "winnerSets": [
                   6,
@@ -474,23 +474,23 @@
         "minRating": 1.2360279926037419,
         "maxRating": 1.365720217659565,
         "startRating": 1.3608456889830693,
-        "endRating": 1.3019000064476833,
+        "endRating": 1.302766832540061,
         "results": []
       }
     ],
     "minRatingForScale": 0.875,
-    "maxRatingForScale": 3.375,
+    "maxRatingForScale": 3.125,
     "ratingScaleStepSize": 0.25,
     "maxNonRatingScaleChartTicks": 130,
     "nonRatingScaleStepSize": 0
   },
   "victoryMarginChart": {
-    "currentRating": 1.3,
-    "currentRatingDisplay": "1.30",
+    "currentRating": 1.25,
+    "currentRatingDisplay": "1.24",
     "results": [
       {
         "index": 15,
-        "rating": 3.0,
+        "rating": 2.95,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -500,7 +500,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Sep 21 Loss vs. J. Savage (3.02) 6-2, 6-0",
+            "details": "Sat Sep 21 Loss vs. J. Savage (2.95) 6-2, 6-0",
             "resultId": 48142695,
             "winnerSets": [
               6,
@@ -536,7 +536,7 @@
       }
     ],
     "minRatingForScale": 0.875,
-    "maxRatingForScale": 3.375,
+    "maxRatingForScale": 3.125,
     "ratingScaleStepSize": 0.25,
     "maxNonRatingScaleChartTicks": 100,
     "nonRatingScaleStepSize": 20
@@ -547,36 +547,36 @@
         48142695
       ],
       "doubles": [
-        49098313,
-        48063746,
-        49832020,
-        52188531,
-        48500073,
         51610202,
-        47584990,
-        47851261,
-        48371111,
-        47653626,
-        47816308,
-        47712673,
-        47816285,
-        50900260,
-        52440666,
-        48499218,
-        51483608,
-        49028907,
-        49060196,
-        47825861,
         51846925,
+        52188531,
+        52440666,
+        52461851,
+        47653626,
+        47851261,
+        47825861,
+        48063746,
         48073417,
-        51133817,
+        47712673,
+        48111488,
+        47816285,
+        47816308,
+        48371111,
+        48499218,
+        49028907,
+        48500073,
+        49419154,
+        49060196,
+        49748139,
+        49098313,
         50616088,
         50647466,
-        49419154,
-        49748139,
+        49832020,
+        51133817,
+        51153356,
         51163534,
-        48111488,
-        51153356
+        51483608,
+        50900260
       ]
     },
     "history": [],
@@ -589,7 +589,7 @@
       "eightWeek": null,
       "threeMonth": null,
       "grandSlamMasters": null,
-      "fullTwelve": 1.3,
+      "fullTwelve": 1.25,
       "ytd": null
     },
     "rankings": {

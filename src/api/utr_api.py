@@ -7,12 +7,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Configure logging
-logging.basicConfig(
-    filename="utr_api.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
+# Get a logger instance for this module
+logger = logging.getLogger(__name__)
 
 class UTRAPI:
     """Handles authentication and API calls to UTR Sports."""
@@ -41,18 +37,18 @@ class UTRAPI:
 
         if response.status_code == 200:
             self.authenticated = True
-            logging.info("Login successful.")
+            logger.debug("Login successful.")
             return True
         else:
-            logging.warning(f"Login failed: {response.status_code}")
+            logger.warning(f"Login failed: {response.status_code}")
             return False
 
     def ensure_session(self):
         """Ensures session is still valid."""
         if not self.authenticated:
-            logging.info("Session expired. Re-authenticating...")
+            logger.info("Session expired. Re-authenticating...")
             if not self.login():  # If login fails, notify and exit early
-                logging.error("Re-authentication failed. Exiting.")
+                logger.error("Re-authentication failed. Exiting.")
                 raise RuntimeError("Failed to re-authenticate with UTR API")
 
     def search_player(self, name):
@@ -62,7 +58,7 @@ class UTRAPI:
         response = self.session.get(self.SEARCH_URL, params={"query": name, "top": 40, "skip": 0, "utrType": "verified", "utrTeamType": "singles", "searchOrigin": "searchPage"})
 
         if response.status_code != 200:
-            logging.error(f"Search failed: {response.status_code}")
+            logger.error(f"Search failed: {response.status_code}")
             return None
 
         data = response.json()
@@ -87,7 +83,7 @@ class UTRAPI:
             return None
 
         # If multiple players, prompt user to select
-        logging.info(f"Search for '{name}' returned {len(player_list)} results.")
+        logger.debug(f"Search for '{name}' returned {len(player_list)} results.")
         if len(player_list) > 1:
             print("\nMultiple players found. Select one:")
             for idx, p in enumerate(player_list, 1):
@@ -99,7 +95,7 @@ class UTRAPI:
                     if choice == 0:
                         return None
                     if 1 <= choice <= len(player_list):
-                        logging.info(f"User selected player: {player_list[choice - 1]['displayName']} (ID: {player_list[choice - 1]['id']})")
+                        logger.info(f"User selected player: {player_list[choice - 1]['displayName']} (ID: {player_list[choice - 1]['id']})")
                         return player_list[choice - 1]
                 except ValueError:
                     pass

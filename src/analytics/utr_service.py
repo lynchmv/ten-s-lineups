@@ -1,13 +1,16 @@
 import pandas as pd
 import json
-import logging
 from datetime import datetime
 from data_access import load_player_results, load_player_stats, load_player_profile
 import os
 import re
+import logging
 
 DATA_DIR = "data/processed"
 RAW_DIR = "data/raw"
+
+# Get a logger instance for this module
+logger = logging.getLogger(__name__)
 
 def player_id_lookup(player_id, player_name):
     """Looks up the player ID based on the player name."""
@@ -23,7 +26,7 @@ def player_id_lookup(player_id, player_name):
         else:
             return None
     except Exception as e:
-        logging.error(f"Error looking up player ID: {e}")
+        logger.error(f"Error looking up player ID: {e}")
         return None
 
 def get_match_utr(player_id, match_data, match_type):
@@ -86,7 +89,7 @@ def get_match_utr(player_id, match_data, match_type):
                                 else:
                                     return None
                         else:
-                            logging.warning(f"Skipped match due to missing date information: {details}")
+                            logger.warning(f"Skipped match due to missing date information: {details}")
                             return None
             return None
     except Exception as e:
@@ -115,9 +118,10 @@ def get_player_utr_scores(player_id):
             if utr is not None:
                 match_utrs[match_id] = {"utr": utr, "date": date}
 
-        logging.info(f"Match UTRs calculated for player {player_id}: {match_utrs}")
+        logger.info(f"Match UTRs calculated for player {player_id}")
+        logger.debug(f"{match_utrs}")
         return match_utrs
 
     except Exception as e:
-        logging.error(f"Error calculating UTR for player {player_id}: {e}")
+        logger.error(f"Error calculating UTR for player {player_id}: {e}")
         return None

@@ -1,13 +1,33 @@
 import argparse
+import logging.config
+import logging
+import os
+import sys
 from datetime import datetime
 from api.utr_api import UTRAPI
 from processing.data_saver import save_player_profile, save_player_results, save_player_stats
 from analytics.utr_service import get_player_utr_scores # Import the UTR calculation function
 
+DEBUG_MODE = False
+
 def main():
+    global DEBUG_MODE
     parser = argparse.ArgumentParser(description="UTR Player Lookup CLI")
+    parser.add_argument("--debug", action="store_true", help="Enable debug logging")
     parser.add_argument("--player", "-p", help="Player name to search")
     args = parser.parse_args()
+
+    DEBUG_MODE = args.debug
+
+    logging.config.fileConfig('logging.conf')
+    root_logger = logging.getLogger()
+    root_logger.debug("Debug message from root logger in main.py")
+
+    logger = logging.getLogger('application')
+
+    if DEBUG_MODE:
+        logger.setLevel(logging.DEBUG)
+        logger.debug("Debug mode enabled for application logger.")
 
     api = UTRAPI()
 
