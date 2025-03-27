@@ -32,7 +32,7 @@ def main():
     api = UTRAPI()
 
     # Login
-    if not api.login():
+    if not api._authenticate():
         print("Failed to log in. Exiting.")
         return
 
