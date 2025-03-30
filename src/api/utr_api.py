@@ -92,8 +92,12 @@ class UTRAPI:
                     print(f"{idx}. {p['displayName']} ({p['location']}) - ID: {p['id']}")
 
                 while True:
+                    user_input = input("Enter number (0 to cancel): ").strip()
+                    if not user_input:
+                        logger.info(f"No selection made, returning first player: {player_list[0]['displayName']} (ID: {player_list[0]['id']})")
+                        return player_list[0]
                     try:
-                        choice = int(input("Enter number (0 to cancel): "))
+                        choice = int(user_input)
                         if choice == 0:
                             return None
                         if 1 <= choice <= len(player_list):
@@ -106,7 +110,7 @@ class UTRAPI:
             return player_list[0]
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"Search failed for '{name}' at {search_url}: {response.status_code if 'response' in locals() else 'No Response'} - {e}")
+            logger.error(f"Search failed for '{name}' at {self.search_url}: {response.status_code if 'response' in locals() else 'No Response'} - {e}")
             return None
 
     def get_player_profile(self, player_id):
@@ -152,5 +156,5 @@ class UTRAPI:
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:
-            logger.error(f"Failed to fetch {stat} stats for player ID '{player_id}' at {results_url}: {response.status_code if 'response' in locals() else 'No Response'} - {e}")
+            logger.error(f"Failed to fetch {stat} stats for player ID '{player_id}' at {self.results_url}: {response.status_code if 'response' in locals() else 'No Response'} - {e}")
             return None

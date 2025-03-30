@@ -31,7 +31,7 @@
       "rankings": [
         {
           "rankListId": 19,
-          "rank": 67397,
+          "rank": 66080,
           "rankingCategories": [
             {
               "type": "gender",
@@ -55,7 +55,7 @@
         },
         {
           "rankListId": 3,
-          "rank": 113070,
+          "rank": 110967,
           "rankingCategories": [
             {
               "type": "gender",
@@ -79,7 +79,7 @@
         },
         {
           "rankListId": 13,
-          "rank": 148293,
+          "rank": 145741,
           "rankingCategories": [
             {
               "type": "gender",
@@ -103,7 +103,7 @@
         },
         {
           "rankListId": 1,
-          "rank": 244877,
+          "rank": 240892,
           "rankingCategories": [
             {
               "type": "gender",
@@ -129,17 +129,17 @@
       "thirdPartyRankings": []
     }
   },
-  "myUtrSingles": 1.24,
+  "myUtrSingles": 1.3,
   "myUtrDoubles": 2.87,
-  "singlesUtrDisplay": "1.24",
-  "doublesUtrDisplay": "2.73",
-  "myUtrSinglesDisplay": "1.24",
+  "singlesUtrDisplay": "1.30",
+  "doublesUtrDisplay": "2.72",
+  "myUtrSinglesDisplay": "1.30",
   "myUtrDoublesDisplay": "2.87",
   "pbrRatingDisplay": null,
   "doublesPkbRatingDisplay": null,
   "singlesPkbRatingDisplay": null,
-  "singlesUtr": 1.24,
-  "doublesUtr": 2.73,
+  "singlesUtr": 1.3,
+  "doublesUtr": 2.72,
   "utrRange": null,
   "isPro": false,
   "photoCount": 0,
@@ -216,36 +216,36 @@
         48142695
       ],
       "doubles": [
-        51610202,
-        51846925,
-        52188531,
-        52440666,
-        52461851,
-        47653626,
-        47851261,
-        47825861,
-        48063746,
-        48073417,
-        47712673,
-        48111488,
-        47816285,
-        47816308,
-        48371111,
-        48499218,
-        49028907,
-        48500073,
         49419154,
-        49060196,
-        49748139,
-        49098313,
-        50616088,
-        50647466,
+        48063746,
         49832020,
-        51133817,
-        51153356,
+        49748139,
+        51610202,
+        48371111,
+        47653626,
+        47712673,
+        47816285,
+        48499218,
         51163534,
+        52461851,
         51483608,
-        50900260
+        49060196,
+        51846925,
+        51133817,
+        48073417,
+        50616088,
+        48111488,
+        51153356,
+        50647466,
+        49098313,
+        52188531,
+        48500073,
+        47851261,
+        47816308,
+        50900260,
+        52440666,
+        49028907,
+        47825861
       ]
     },
     "history": [],
@@ -258,7 +258,7 @@
       "eightWeek": null,
       "threeMonth": null,
       "grandSlamMasters": null,
-      "fullTwelve": 1.25,
+      "fullTwelve": 1.3,
       "ytd": null
     },
     "rankings": {
