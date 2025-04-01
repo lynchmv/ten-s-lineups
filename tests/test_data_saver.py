@@ -4,7 +4,12 @@ import pandas as pd
 import json
 import os
 import logging
+import sqlite3
+import tempfile
 from src.processing.data_saver import _save_parquet, _save_json, save_player_profile, _extract_results_data, validate_results_data, save_player_results, save_player_profile
+from src.team.team import Team
+from src.team.team_manager import TeamManager
+from src.player.player_data_loader import load_player_profile_from_db, load_multiple_player_profiles_from_db
 
 class TestDataSaverSaveParquet(unittest.TestCase):
 
@@ -175,7 +180,7 @@ class TestDataSaverSavePlayerProfile(unittest.TestCase):
 
     @patch('src.processing.data_saver.logger')
     @patch('pandas.json_normalize')
-    @patch('os.makedirs', side_effect=[OSError("Cannot create directory: data/processed"), None])
+    @patch('os.makedirs', side_effect=[OSError("Cannot create directory: data/processed"), None, None])
     @patch('os.path.join', side_effect=lambda *args: "data/processed/player_test_profile.parquet" if "processed" in args[0] else "data/raw/player_test_profile.json")
     @patch('src.processing.data_saver._save_json')
     @patch('src.processing.data_saver._save_parquet')
@@ -663,6 +668,332 @@ class TestSavePlayerProfile(unittest.TestCase):
         mock_makedirs.assert_any_call("data/raw", exist_ok=True)
         mock_logger.error.assert_called_once_with(f"Error saving json profile for player {player_id}: {json_error_message}")
         mock_save_parquet.assert_called_once()
+    pass
+
+class TestTeamManager(unittest.TestCase):
+
+    def setUp(self):
+        """Set up for test methods using temporary file-based databases."""
+        # Setup for teams database
+        self.teams_temp_db_file = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
+        self.teams_db_file = self.teams_temp_db_file.name
+        self.teams_temp_db_file.close()
+        self.team_manager = TeamManager(db_file=self.teams_db_file)
+
+        # Setup for players test database
+        self.players_temp_db_file = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
+        self.players_db_file = self.players_temp_db_file.name
+        self.players_temp_db_file.close()
+        self._create_test_players_table()
+        self._populate_test_players_table()
+
+    def tearDown(self):
+        """Clean up by deleting the temporary database files."""
+        os.remove(self.teams_db_file)
+        os.remove(self.players_db_file)
+
+    def test_create_team(self):
+        """Test creating a new team and verifying it's in the database."""
+        team_number = "12345"
+        year = 2025
+        league_type = "Adult 40 & Over"
+        section = "USTA/SOUTHERN"
+        district = "GEORGIA"
+        area = "GA - COLUMBUS - CORTA"
+        season = "2025 CORTA USTA Adult 40 & Over - Spring"
+        flight = "Men 3.0"
+        name = "Test Team-CC"
+
+        self.team_manager = TeamManager(db_file=self.team_manager.db_file)
+
+        # Inspect the schema immediately after TeamManager initialization
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT type, name, sql FROM sqlite_schema")
+        schema_info = cursor.fetchall()
+        conn.close()
+
+        team = self.team_manager.create_team(team_number, year, league_type, section, district, area, season, flight, name)
+
+        self.assertIsInstance(team, Team)
+        self.assertEqual(team.team_number, team_number)
+        self.assertEqual(team.name, name)
+        self.assertEqual(team.players, [])
+
+        # Verify the team is in the database
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM teams WHERE team_number=?", (team_number,))
+        row = cursor.fetchone()
+        conn.close()
+
+        self.assertIsNotNone(row)
+        self.assertEqual(row[0], team_number)
+        self.assertEqual(row[8], name)
+
+    def _create_test_players_table(self):
+        """Creates the players table in the test database."""
+        conn = sqlite3.connect(self.players_db_file)
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS players (
+                id TEXT PRIMARY KEY,
+                firstName TEXT,
+                lastName TEXT,
+                gender TEXT,
+                birthDate TEXT,
+                ageRange TEXT,
+                displayName TEXT,
+                myUtrSingles REAL,
+                myUtrDoubles REAL,
+                descriptionShort TEXT
+            )
+        """)
+        conn.commit()
+        conn.close()
+
+    def _populate_test_players_table(self):
+        """Populates the test players table with some dummy data."""
+        conn = sqlite3.connect(self.players_db_file)
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT OR IGNORE INTO players (id, firstName) VALUES (?, ?)
+        """, ("player_alpha", "Alpha"))
+        cursor.execute("""
+            INSERT OR IGNORE INTO players (id, firstName) VALUES (?, ?)
+        """, ("player_beta", "Beta"))
+        conn.commit()
+        conn.close()
+
+    def test_get_team(self):
+        """Test retrieving a team from the database by team number."""
+        team_number = "54321"
+        year = 2024
+        league_type = "Mixed 40 & Over"
+        section = "USTA/SOUTHERN"
+        district = "GEORGIA"
+        area = "GA - COLUMBUS - CORTA"
+        season = "2024 CORTA USTA Mixed 40 & Over - Fall"
+        flight = "Mixed 7.0"
+        name = "Test Mixed Team-GI"
+
+        # Create and add the team to the database
+        team = self.team_manager.create_team(team_number, year, league_type, section, district, area, season, flight, name)
+
+        # Retrieve the team using get_team
+        retrieved_team = self.team_manager.get_team(team_number)
+
+        # Assert that the retrieved team is not None and has the correct attributes
+        self.assertIsNotNone(retrieved_team)
+        self.assertIsInstance(retrieved_team, Team)
+        self.assertEqual(retrieved_team.team_number, team_number)
+        self.assertEqual(retrieved_team.year, year)
+        self.assertEqual(retrieved_team.league_type, league_type)
+        self.assertEqual(retrieved_team.section, section)
+        self.assertEqual(retrieved_team.district, district)
+        self.assertEqual(retrieved_team.area, area)
+        self.assertEqual(retrieved_team.season, season)
+        self.assertEqual(retrieved_team.flight, flight)
+        self.assertEqual(retrieved_team.name, name)
+        self.assertEqual(retrieved_team.players, [])
+
+    def test_add_player_to_team(self):
+        """Test adding players to a team and verifying the roster."""
+        team_number = "98765"
+        year = 2023
+        league_type = "Adult 55 & Over"
+        section = "Midwest"
+        district = "OH"
+        area = "Cincinnati"
+        season = "Summer"
+        flight = "Men's 4.0"
+        name = "Test Senior Team"
+
+        player_id_1 = "player_a"
+        player_id_2 = "player_b"
+
+        # Create a team
+        team = self.team_manager.create_team(team_number, year, league_type, section, district, area, season, flight, name)
+
+        # Add players to the team
+        self.team_manager.add_player_to_team(team_number, player_id_1)
+        self.team_manager.add_player_to_team(team_number, player_id_2)
+
+        # Retrieve the team
+        retrieved_team = self.team_manager.get_team(team_number)
+
+        # Assert that the players are in the retrieved team's roster
+        self.assertIsNotNone(retrieved_team)
+        self.assertIn(player_id_1, retrieved_team.players)
+        self.assertIn(player_id_2, retrieved_team.players)
+        self.assertEqual(len(retrieved_team.players), 2)
+
+        # Verify the team_players table
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT player_id FROM team_players WHERE team_number=?", (team_number,))
+        player_links = [row[0] for row in cursor.fetchall()]
+        conn.close()
+
+        self.assertIn(player_id_1, player_links)
+        self.assertIn(player_id_2, player_links)
+        self.assertEqual(len(player_links), 2)
+
+    def test_remove_player_from_team(self):
+        """Test removing a player from a team and verifying the roster."""
+        team_number = "11223"
+        year = 2026
+        league_type = "Adult 18 & Over"
+        section = "Texas"
+        district = "NTX"
+        area = "Dallas"
+        season = "Fall"
+        flight = "Women's 3.0"
+        name = "Test Removal Team"
+
+        player_id_1 = "player_x"
+        player_id_2 = "player_y"
+
+        # Create a team and add players
+        self.team_manager.create_team(team_number, year, league_type, section, district, area, season, flight, name)
+        self.team_manager.add_player_to_team(team_number, player_id_1)
+        self.team_manager.add_player_to_team(team_number, player_id_2)
+
+        # Remove one of the players
+        self.team_manager.remove_player_from_team(team_number, player_id_1)
+
+        # Retrieve the team
+        retrieved_team = self.team_manager.get_team(team_number)
+
+        # Assert that the removed player is no longer in the roster, but the other is
+        self.assertIsNotNone(retrieved_team)
+        self.assertNotIn(player_id_1, retrieved_team.players)
+        self.assertIn(player_id_2, retrieved_team.players)
+        self.assertEqual(len(retrieved_team.players), 1)
+
+        # Verify the team_players table
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT player_id FROM team_players WHERE team_number=?", (team_number,))
+        player_links = [row[0] for row in cursor.fetchall()]
+        conn.close()
+
+        self.assertNotIn(player_id_1, player_links)
+        self.assertIn(player_id_2, player_links)
+        self.assertEqual(len(player_links), 1)
+
+    def test_duplicate_team_number(self):
+        """Test handling of attempting to create a team with a duplicate team number."""
+        team_number = "DUPLICATE1"
+        year_1 = 2025
+        league_type_1 = "Adult 18 & Over"
+        name_1 = "Original Team"
+
+        year_2 = 2026
+        league_type_2 = "Mixed 40 & Over"
+        name_2 = "Duplicate Team"
+
+        # Create and add the first team
+        team_1 = self.team_manager.create_team(team_number, year_1, league_type_1, "Section A", "District 1", "Area X", "Spring", "Flight 1", name_1)
+
+        # Attempt to create a second team with the same team_number
+        team_2 = self.team_manager.create_team(team_number, year_2, league_type_2, "Section B", "District 2", "Area Y", "Fall", "Flight 2", name_2)
+
+        # The second create_team call should not raise an exception
+        self.assertIsInstance(team_1, Team)
+        self.assertIsInstance(team_2, Team) # It will still return a Team object
+
+        # Verify that only one team with this number exists in the database
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM teams WHERE team_number=?", (team_number,))
+        count = cursor.fetchone()[0]
+        conn.close()
+
+        self.assertEqual(count, 1)
+
+        # Optionally, you could also verify that the attributes of the existing team are still from the first creation (team_1)
+        retrieved_team = self.team_manager.get_team(team_number)
+        self.assertIsNotNone(retrieved_team)
+        self.assertEqual(retrieved_team.name, name_1)
+        self.assertEqual(retrieved_team.year, year_1)
+        self.assertEqual(retrieved_team.league_type, league_type_1)
+
+    def test_add_duplicate_player_to_team(self):
+        """Test handling of attempting to add the same player to a team multiple times."""
+        team_number = "DUP_PLAYER_TEAM"
+        year = 2024
+        league_type = "Adult 40 & Over"
+        name = "Duplicate Player Test Team"
+        player_id = "repeated_player"
+
+        # Create a team
+        self.team_manager.create_team(team_number, year, league_type, "Section C", "District 3", "Area Z", "Summer", "Flight 3", name)
+
+        # Add the player to the team multiple times
+        self.team_manager.add_player_to_team(team_number, player_id)
+        self.team_manager.add_player_to_team(team_number, player_id)
+        self.team_manager.add_player_to_team(team_number, player_id)
+
+        # Retrieve the team
+        retrieved_team = self.team_manager.get_team(team_number)
+
+        # Assert that the player is in the roster only once
+        self.assertIsNotNone(retrieved_team)
+        self.assertIn(player_id, retrieved_team.players)
+        self.assertEqual(len(retrieved_team.players), 1)
+
+        # Verify the team_players table contains only one entry for this player and team
+        conn = sqlite3.connect(self.team_manager.db_file)
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM team_players WHERE team_number=? AND player_id=?", (team_number, player_id))
+        count = cursor.fetchone()[0]
+        conn.close()
+
+        self.assertEqual(count, 1)
+
+    def test_populate_roster(self):
+        """Test populating a team's roster using player IDs from the test database."""
+        team_number = "ROSTER_TEAM"
+        year = 2025
+        league_type = "Adult Mixed"
+        name = "Roster Test Team"
+
+        player_id_1 = "player_alpha"
+        player_id_2 = "player_beta"
+        player_id_3 = "player_gamma"  # This player should not exist in the test db
+
+        # Create a team and add it to the database
+        self.team_manager.create_team(team_number, year, league_type, "S", "D", "A", "Spr", "F", name)
+
+        # Ensure some dummy player profiles exist in the database
+        conn = sqlite3.connect(self.players_db_file)
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT OR IGNORE INTO players (id, firstName) VALUES (?, ?)
+        """, (player_id_1, "Alpha"))
+        cursor.execute("""
+            INSERT OR IGNORE INTO players (id, firstName) VALUES (?, ?)
+        """, (player_id_2, "Beta"))
+        conn.commit()
+        conn.close()
+
+        player_ids_to_add = [player_id_1, player_id_2, player_id_3]
+
+        # We need to temporarily patch the player data loader to use our test database file
+        with patch('src.player.player_data_loader.PLAYERS_DB_FILE', self.players_db_file):
+            # Retrieve the team from the database
+            retrieved_team = self.team_manager.get_team(team_number)
+            self.assertIsNotNone(retrieved_team)
+
+            # Populate the roster of the retrieved team
+            self.team_manager.populate_roster(retrieved_team, player_ids_to_add)
+
+            # Assert that the retrieved team's roster contains the players found in the test database
+            self.assertIn(player_id_1, retrieved_team.players)
+            self.assertIn(player_id_2, retrieved_team.players)
+            self.assertNotIn(player_id_3, retrieved_team.players)
+            self.assertEqual(len(retrieved_team.players), 2)
 
 if __name__ == '__main__':
     unittest.main()

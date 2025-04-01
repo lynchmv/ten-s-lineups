@@ -35,7 +35,7 @@
       "rankings": [
         {
           "rankListId": 22,
-          "rank": 73164,
+          "rank": 73902,
           "rankingCategories": [
             {
               "type": "gender",
@@ -59,7 +59,7 @@
         },
         {
           "rankListId": 7,
-          "rank": 120207,
+          "rank": 122201,
           "rankingCategories": [
             {
               "type": "gender",
@@ -83,7 +83,7 @@
         },
         {
           "rankListId": 16,
-          "rank": 374492,
+          "rank": 375327,
           "rankingCategories": [
             {
               "type": "gender",
@@ -107,7 +107,7 @@
         },
         {
           "rankListId": 2,
-          "rank": 522007,
+          "rank": 527377,
           "rankingCategories": [
             {
               "type": "gender",
@@ -133,21 +133,21 @@
       "thirdPartyRankings": []
     }
   },
-  "myUtrSingles": 2.47,
-  "myUtrDoubles": 3.94,
-  "singlesUtrDisplay": "2.47",
-  "doublesUtrDisplay": "3.73",
-  "myUtrSinglesDisplay": "2.47",
-  "myUtrDoublesDisplay": "3.94",
+  "myUtrSingles": 2.4,
+  "myUtrDoubles": 4.29,
+  "singlesUtrDisplay": "2.40",
+  "doublesUtrDisplay": "3.92",
+  "myUtrSinglesDisplay": "2.40",
+  "myUtrDoublesDisplay": "4.29",
   "pbrRatingDisplay": null,
   "doublesPkbRatingDisplay": null,
   "singlesPkbRatingDisplay": null,
-  "singlesUtr": 2.47,
-  "doublesUtr": 3.73,
+  "singlesUtr": 2.4,
+  "doublesUtr": 3.92,
   "utrRange": null,
   "isPro": false,
   "photoCount": 0,
-  "totalResults": 64,
+  "totalResults": 66,
   "resultCountsSingles": [
     {
       "key": 2023,
@@ -173,7 +173,7 @@
     },
     {
       "key": 2025,
-      "value": 2
+      "value": 4
     }
   ],
   "isProfileUpdated": false,
@@ -205,17 +205,17 @@
         47804290,
         48391047,
         51133809,
+        51132621,
         52255968,
         48982539,
+        46252767,
+        51641792,
         46265557,
+        48630933,
         51341149,
         51960578,
         46246162,
-        51677182,
-        51132621,
-        46252767,
-        51641792,
-        48630933
+        51677182
       ],
       "doubles": [
         50824721,
@@ -223,17 +223,19 @@
         50638453,
         49748130,
         47823927,
+        52630434,
         50339370,
         46268823,
         46237771,
         46233254,
         47825820,
         46265543,
+        52598341,
         47444931,
         46314523,
         50432553,
-        47816246,
         50592447,
+        47816246,
         47825801,
         46389017,
         45646449,
@@ -242,6 +244,14 @@
       ]
     },
     "history": [
+      {
+        "id": 504872722,
+        "ratingStatus": 3,
+        "rating": 2.5,
+        "ratingDisplay": "2.50",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-31T00:00:00"
+      },
       {
         "id": 503626774,
         "ratingStatus": 3,
@@ -807,13 +817,13 @@
       "hardCourt": null,
       "clayCourt": null,
       "grassCourt": null,
-      "oneMonth": 2.49,
-      "sixWeek": 2.44,
-      "eightWeek": 2.54,
-      "threeMonth": 2.48,
+      "oneMonth": 2.41,
+      "sixWeek": 2.37,
+      "eightWeek": 2.43,
+      "threeMonth": 2.41,
       "grandSlamMasters": null,
-      "fullTwelve": 2.48,
-      "ytd": 2.48
+      "fullTwelve": 2.41,
+      "ytd": 2.41
     },
     "rankings": {
       "utrRank": null,
@@ -857,7 +867,7 @@
   "playerLastName": "Lynch",
   "gender": "Male",
   "age": 48,
-  "threeMonthRating": 2.48,
+  "threeMonthRating": 2.41,
   "ratingStatusSingles": "Rated",
   "ratingProgressSingles": 100.0,
   "myUtrStatusSingles": "Rated",
@@ -880,9 +890,9 @@
   "eligibleForPaidHit": false,
   "isPaidHitter": false,
   "threeMonthRatingChangeDetails": {
-    "rating": 2.48,
-    "ratingDisplay": "2.48",
-    "ratingDifference": -0.009999999999999787,
+    "rating": 2.41,
+    "ratingDisplay": "2.41",
+    "ratingDifference": -0.010000000000000231,
     "changeDirection": "up"
   },
   "myUtrStatusDoubles": "Rated",

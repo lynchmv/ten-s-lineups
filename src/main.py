@@ -6,7 +6,7 @@ import sys
 from datetime import datetime
 from api.utr_api import UTRAPI
 from processing.data_saver import save_player_profile, save_player_results, save_player_stats
-from analytics.utr_service import get_player_utr_scores # Import the UTR calculation function
+from analytics.utr_service import get_player_utr_scores
 
 def main():
     parser = argparse.ArgumentParser(description="UTR Player Lookup CLI")

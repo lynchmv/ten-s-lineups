@@ -1,14 +1,14 @@
 {
   "title": "verified singles stats - Last 12 Months",
-  "subtitle": "April 2024 - March 2025",
+  "subtitle": "May 2024 - April 2025",
   "monthsCount": 12,
-  "currentRating": 2.47,
-  "currentRatingDisplay": "2.47",
+  "currentRating": 2.4,
+  "currentRatingDisplay": "2.40",
   "ratingCircle": {
-    "singlesUtr": 2.47,
+    "singlesUtr": 2.4,
     "ratingStatusSingles": "Rated",
     "ratingProgressSingles": 100.0,
-    "singlesUtrDisplay": "2.47"
+    "singlesUtrDisplay": "2.40"
   },
   "winsCount": 7,
   "winStreak": 4,
@@ -17,15 +17,15 @@
   "notableMatch": {
     "winner": {
       "isWinner": true,
-      "set1": 7,
-      "set2": 6,
-      "set3": 0,
+      "set1": 3,
+      "set2": 7,
+      "set3": 1,
       "set4": 0,
       "set5": 0,
       "set6": null,
       "tiebreakerSet1": null,
       "tiebreakerSet2": null,
-      "tiebreakerSet3": 0,
+      "tiebreakerSet3": null,
       "tiebreakerSet4": 0,
       "tiebreakerSet5": 0,
       "tiebreakerSet6": null,
@@ -34,15 +34,15 @@
     },
     "loser": {
       "isWinner": false,
-      "set1": 5,
-      "set2": 2,
+      "set1": 6,
+      "set2": 5,
       "set3": 0,
       "set4": 0,
       "set5": 0,
       "set6": null,
       "tiebreakerSet1": null,
       "tiebreakerSet2": null,
-      "tiebreakerSet3": 0,
+      "tiebreakerSet3": null,
       "tiebreakerSet4": 0,
       "tiebreakerSet5": 0,
       "tiebreakerSet6": null,
@@ -56,23 +56,23 @@
         "lastName": "Lynch",
         "gender": "M",
         "hasYobOnly": false,
-        "singlesUtr": 2.47,
-        "singlesUtrDisplay": "2.47",
+        "singlesUtr": 2.4,
+        "singlesUtrDisplay": "2.40",
         "ratingStatusSingles": "Rated",
         "ratingProgressSingles": "100",
         "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
-        "doublesUtr": 3.73,
-        "doublesUtrDisplay": "3.73",
+        "doublesUtr": 3.92,
+        "doublesUtrDisplay": "3.92",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
         "importSource": "USTALeague",
         "nationality": "USA",
-        "myUtrSingles": 2.47,
-        "myUtrSinglesDisplay": "2.47",
+        "myUtrSingles": 2.4,
+        "myUtrSinglesDisplay": "2.40",
         "myUtrStatusSingles": "Rated",
-        "myUtrDoubles": 3.73,
-        "myUtrDoublesDisplay": "3.73",
+        "myUtrDoubles": 3.92,
+        "myUtrDoublesDisplay": "3.92",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -84,28 +84,28 @@
       },
       "winner2": null,
       "loser1": {
-        "id": "3719151",
-        "firstName": "Sean",
-        "lastName": "Maddox",
+        "id": "3053227",
+        "firstName": "Patrick",
+        "lastName": "Steed",
         "gender": "M",
-        "hasYobOnly": true,
-        "singlesUtr": 3.28,
-        "singlesUtrDisplay": "3.28",
-        "ratingStatusSingles": "Projected",
-        "ratingProgressSingles": "72",
-        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-projected.png?h=17",
-        "doublesUtr": 3.64,
-        "doublesUtrDisplay": "3.64",
+        "hasYobOnly": false,
+        "singlesUtr": 2.52,
+        "singlesUtrDisplay": "2.52",
+        "ratingStatusSingles": "Rated",
+        "ratingProgressSingles": "100",
+        "ratingStatusImageSingles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
+        "doublesUtr": 4.2,
+        "doublesUtrDisplay": "4.20",
         "ratingStatusDoubles": "Rated",
         "ratingProgressDoubles": "100",
         "ratingStatusImageDoubles": "https://universaltennis.com/azure/images/icons/status-rated.png?h=17",
         "importSource": "USTALeague",
         "nationality": "USA",
-        "myUtrSingles": 3.28,
-        "myUtrSinglesDisplay": "3.28",
-        "myUtrStatusSingles": "Projected",
-        "myUtrDoubles": 3.64,
-        "myUtrDoublesDisplay": "3.64",
+        "myUtrSingles": 2.52,
+        "myUtrSinglesDisplay": "2.52",
+        "myUtrStatusSingles": "Rated",
+        "myUtrDoubles": 4.2,
+        "myUtrDoublesDisplay": "4.20",
         "myUtrStatusDoubles": "100",
         "finalPbr": null,
         "pbrRatingDisplay": null,
@@ -118,7 +118,7 @@
       "loser2": null
     },
     "isWinner": true,
-    "date": "2025-02-01T00:00:00",
+    "date": "2025-02-05T00:00:00",
     "id": 0,
     "sportTypeId": 0,
     "draw": null,
@@ -129,14 +129,20 @@
     "lineupPosition": 0,
     "score": {
       "1": {
+        "winner": 3,
+        "loser": 6,
+        "tiebreak": null,
+        "winnerTiebreak": null
+      },
+      "2": {
         "winner": 7,
         "loser": 5,
         "tiebreak": null,
         "winnerTiebreak": null
       },
-      "2": {
-        "winner": 6,
-        "loser": 2,
+      "3": {
+        "winner": 1,
+        "loser": 0,
         "tiebreak": null,
         "winnerTiebreak": null
       }
@@ -163,54 +169,21 @@
   "playerFirstInitialLastName": "MLynch",
   "playerIsPro": false,
   "startRating": 3.0,
-  "minRating": 2.47,
+  "minRating": 2.4,
   "maxRating": 3.29,
-  "singlesUtr": 2.47,
-  "threeMonthRating": 2.48,
+  "singlesUtr": 2.4,
+  "threeMonthRating": 2.41,
   "ratingTrend": {
-    "rating": 2.48,
-    "ratingDisplay": "2.48",
-    "ratingDifference": -0.009999999999999787,
+    "rating": 2.41,
+    "ratingDisplay": "2.41",
+    "ratingDifference": -0.010000000000000231,
     "changeDirection": "up"
   },
   "ratingTrendChart": {
-    "minRating": 2.498025894587055,
+    "minRating": 2.406282981196904,
     "maxRating": 3.2902761841999717,
     "chartTicksPerMonth": 10,
     "months": [
-      {
-        "month": {
-          "name": "April",
-          "abbr": "APR"
-        },
-        "ratings": [
-          {
-            "index": 10,
-            "rating": 2.86147696021231,
-            "ratingDisplay": "2.86"
-          },
-          {
-            "index": 12,
-            "rating": 2.9255271882037506,
-            "ratingDisplay": "2.92"
-          },
-          {
-            "index": 14,
-            "rating": 2.925956513509283,
-            "ratingDisplay": "2.92"
-          },
-          {
-            "index": 16,
-            "rating": 2.9448251207254894,
-            "ratingDisplay": "2.94"
-          }
-        ],
-        "minRating": 2.8556878174043288,
-        "maxRating": 2.993399151468534,
-        "startRating": 2.86147696021231,
-        "endRating": 2.953327867519197,
-        "results": []
-      },
       {
         "month": {
           "name": "May",
@@ -218,22 +191,22 @@
         },
         "ratings": [
           {
-            "index": 20,
+            "index": 10,
             "rating": 2.959218846002036,
             "ratingDisplay": "2.95"
           },
           {
-            "index": 22,
+            "index": 12,
             "rating": 2.9548463442703814,
             "ratingDisplay": "2.95"
           },
           {
-            "index": 24,
+            "index": 14,
             "rating": 2.950631215441844,
             "ratingDisplay": "2.95"
           },
           {
-            "index": 26,
+            "index": 16,
             "rating": 2.9547017326287595,
             "ratingDisplay": "2.95"
           }
@@ -244,8 +217,8 @@
         "endRating": 3.002328493784688,
         "results": [
           {
-            "index": 30,
-            "rating": 2.45,
+            "index": 20,
+            "rating": 2.35,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -255,7 +228,7 @@
             },
             "descriptions": [
               {
-                "details": "Fri May 31 Win vs. T. La (2.43) 5-7, 7-6, 1-0",
+                "details": "Fri May 31 Win vs. T. La (2.36) 5-7, 7-6, 1-0",
                 "resultId": 46246162,
                 "winnerSets": [
                   5,
@@ -298,22 +271,22 @@
         },
         "ratings": [
           {
-            "index": 30,
+            "index": 20,
             "rating": 3.002328493784688,
             "ratingDisplay": "3.00"
           },
           {
-            "index": 32,
+            "index": 22,
             "rating": 3.000214811358899,
             "ratingDisplay": "3.00"
           },
           {
-            "index": 34,
+            "index": 24,
             "rating": 2.972088318396444,
             "ratingDisplay": "2.97"
           },
           {
-            "index": 36,
+            "index": 26,
             "rating": 2.9571775204317565,
             "ratingDisplay": "2.95"
           }
@@ -324,8 +297,8 @@
         "endRating": 2.949753285942236,
         "results": [
           {
-            "index": 30,
-            "rating": 4.3,
+            "index": 20,
+            "rating": 4.25,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -335,7 +308,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.29) 6-2, 6-1",
+                "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.25) 6-2, 6-1",
                 "resultId": 46252767,
                 "winnerSets": [
                   6,
@@ -370,7 +343,7 @@
             ]
           },
           {
-            "index": 30,
+            "index": 20,
             "rating": 3.45,
             "playerPostedScore": false,
             "aggregate": {
@@ -381,7 +354,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Jun 1 Loss vs. C. Chavez (3.47) 6-3, 6-4",
+                "details": "Sat Jun 1 Loss vs. C. Chavez (3.45) 6-3, 6-4",
                 "resultId": 46265557,
                 "winnerSets": [
                   6,
@@ -424,22 +397,22 @@
         },
         "ratings": [
           {
-            "index": 40,
+            "index": 30,
             "rating": 2.949753285942236,
             "ratingDisplay": "2.94"
           },
           {
-            "index": 42,
+            "index": 32,
             "rating": 2.9512815428382955,
             "ratingDisplay": "2.95"
           },
           {
-            "index": 44,
+            "index": 34,
             "rating": 2.9545545993247724,
             "ratingDisplay": "2.95"
           },
           {
-            "index": 46,
+            "index": 36,
             "rating": 2.948422391270227,
             "ratingDisplay": "2.94"
           }
@@ -457,22 +430,22 @@
         },
         "ratings": [
           {
-            "index": 50,
+            "index": 40,
             "rating": 3.1573715661437727,
             "ratingDisplay": "3.15"
           },
           {
-            "index": 52,
+            "index": 42,
             "rating": 3.086609042301011,
             "ratingDisplay": "3.08"
           },
           {
-            "index": 54,
+            "index": 44,
             "rating": 3.0195337512085483,
             "ratingDisplay": "3.01"
           },
           {
-            "index": 56,
+            "index": 46,
             "rating": 3.1695402309756635,
             "ratingDisplay": "3.16"
           }
@@ -490,22 +463,22 @@
         },
         "ratings": [
           {
-            "index": 60,
+            "index": 50,
             "rating": 3.148090572546942,
             "ratingDisplay": "3.14"
           },
           {
-            "index": 62,
+            "index": 52,
             "rating": 3.1311803047256097,
             "ratingDisplay": "3.13"
           },
           {
-            "index": 64,
+            "index": 54,
             "rating": 2.7875404692820447,
             "ratingDisplay": "2.78"
           },
           {
-            "index": 66,
+            "index": 56,
             "rating": 3.1766347686652128,
             "ratingDisplay": "3.17"
           }
@@ -516,8 +489,8 @@
         "endRating": 3.1698302734420305,
         "results": [
           {
-            "index": 65,
-            "rating": 2.6,
+            "index": 55,
+            "rating": 2.5,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -527,7 +500,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue Sep 17 Win vs. M. Woodall (2.58) 6-3, 6-3",
+                "details": "Tue Sep 17 Win vs. M. Woodall (2.50) 6-3, 6-3",
                 "resultId": 48063734,
                 "winnerSets": [
                   6,
@@ -562,8 +535,8 @@
             ]
           },
           {
-            "index": 61,
-            "rating": 3.55,
+            "index": 51,
+            "rating": 3.4,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -573,7 +546,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Sep 4 Loss vs. R. Sheffield (3.53) 6-0, 7-5",
+                "details": "Wed Sep 4 Loss vs. R. Sheffield (3.38) 6-0, 7-5",
                 "resultId": 47804290,
                 "winnerSets": [
                   6,
@@ -616,22 +589,22 @@
         },
         "ratings": [
           {
-            "index": 70,
+            "index": 60,
             "rating": 3.139929211318729,
             "ratingDisplay": "3.13"
           },
           {
-            "index": 72,
+            "index": 62,
             "rating": 2.718079402022896,
             "ratingDisplay": "2.71"
           },
           {
-            "index": 74,
+            "index": 64,
             "rating": 2.769065451615763,
             "ratingDisplay": "2.76"
           },
           {
-            "index": 76,
+            "index": 66,
             "rating": 2.794164870514676,
             "ratingDisplay": "2.79"
           }
@@ -642,8 +615,8 @@
         "endRating": 2.8483873236159445,
         "results": [
           {
-            "index": 76,
-            "rating": 1.85,
+            "index": 66,
+            "rating": 1.8,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -653,7 +626,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Oct 19 Win vs. B. Allen (1.83) 6-2, 6-2",
+                "details": "Sat Oct 19 Win vs. B. Allen (1.80) 6-2, 6-2",
                 "resultId": 48630933,
                 "winnerSets": [
                   6,
@@ -688,8 +661,8 @@
             ]
           },
           {
-            "index": 72,
-            "rating": 3.1,
+            "index": 62,
+            "rating": 3.05,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -699,7 +672,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Oct 6 Loss vs. C. Lewis (3.09) 6-1, 6-2",
+                "details": "Sun Oct 6 Loss vs. C. Lewis (3.03) 6-1, 6-2",
                 "resultId": 48391047,
                 "winnerSets": [
                   6,
@@ -734,7 +707,7 @@
             ]
           },
           {
-            "index": 74,
+            "index": 64,
             "rating": 3.45,
             "playerPostedScore": false,
             "aggregate": {
@@ -745,7 +718,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Oct 12 Loss vs. C. Chavez (3.47) 6-1, 6-1",
+                "details": "Sat Oct 12 Loss vs. C. Chavez (3.45) 6-1, 6-1",
                 "resultId": 48982539,
                 "winnerSets": [
                   6,
@@ -788,22 +761,22 @@
         },
         "ratings": [
           {
-            "index": 80,
+            "index": 70,
             "rating": 2.8488869183469943,
             "ratingDisplay": "2.84"
           },
           {
-            "index": 82,
+            "index": 72,
             "rating": 2.8777205509759987,
             "ratingDisplay": "2.87"
           },
           {
-            "index": 84,
+            "index": 74,
             "rating": 2.8588185713524745,
             "ratingDisplay": "2.85"
           },
           {
-            "index": 86,
+            "index": 76,
             "rating": 2.8638865343543065,
             "ratingDisplay": "2.86"
           }
@@ -821,22 +794,22 @@
         },
         "ratings": [
           {
-            "index": 90,
+            "index": 80,
             "rating": 2.8728052251954788,
             "ratingDisplay": "2.87"
           },
           {
-            "index": 92,
+            "index": 82,
             "rating": 3.051766940231096,
             "ratingDisplay": "3.05"
           },
           {
-            "index": 94,
+            "index": 84,
             "rating": 3.0709694565759227,
             "ratingDisplay": "3.07"
           },
           {
-            "index": 96,
+            "index": 86,
             "rating": 3.1079329699693403,
             "ratingDisplay": "3.10"
           }
@@ -854,22 +827,22 @@
         },
         "ratings": [
           {
-            "index": 100,
+            "index": 90,
             "rating": 3.101764812701645,
             "ratingDisplay": "3.10"
           },
           {
-            "index": 102,
+            "index": 92,
             "rating": 3.0934122220831157,
             "ratingDisplay": "3.09"
           },
           {
-            "index": 104,
+            "index": 94,
             "rating": 3.1543561769290562,
             "ratingDisplay": "3.15"
           },
           {
-            "index": 106,
+            "index": 96,
             "rating": 3.156310768058047,
             "ratingDisplay": "3.15"
           }
@@ -880,8 +853,8 @@
         "endRating": 3.1058912987968883,
         "results": [
           {
-            "index": 106,
-            "rating": 1.75,
+            "index": 96,
+            "rating": 1.4,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -891,7 +864,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Jan 19 Win vs. A. Duhon (1.74) 6-2, 6-2",
+                "details": "Sun Jan 19 Win vs. A. Duhon (1.40) 6-2, 6-2",
                 "resultId": 51132621,
                 "winnerSets": [
                   6,
@@ -926,8 +899,8 @@
             ]
           },
           {
-            "index": 105,
-            "rating": 2.6,
+            "index": 95,
+            "rating": 2.5,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -937,7 +910,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Jan 15 Loss vs. M. Woodall (2.58) 6-0, 6-0",
+                "details": "Wed Jan 15 Loss vs. M. Woodall (2.50) 6-0, 6-0",
                 "resultId": 51677182,
                 "winnerSets": [
                   6,
@@ -980,22 +953,22 @@
         },
         "ratings": [
           {
-            "index": 110,
+            "index": 100,
             "rating": 3.119247013281354,
             "ratingDisplay": "3.11"
           },
           {
-            "index": 112,
+            "index": 102,
             "rating": 3.1731544529566693,
             "ratingDisplay": "3.17"
           },
           {
-            "index": 114,
+            "index": 104,
             "rating": 3.2752766601053107,
             "ratingDisplay": "3.27"
           },
           {
-            "index": 116,
+            "index": 106,
             "rating": 3.2186114789603852,
             "ratingDisplay": "3.21"
           }
@@ -1006,8 +979,8 @@
         "endRating": 3.2053189562154,
         "results": [
           {
-            "index": 110,
-            "rating": 3.3,
+            "index": 100,
+            "rating": 2.2,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1017,7 +990,7 @@
             },
             "descriptions": [
               {
-                "details": "Sat Feb 1 Win vs. S. Maddox (3.28) 7-5, 6-2",
+                "details": "Sat Feb 1 Win vs. S. Maddox (2.21) 7-5, 6-2",
                 "resultId": 51133809,
                 "winnerSets": [
                   7,
@@ -1052,8 +1025,8 @@
             ]
           },
           {
-            "index": 111,
-            "rating": 2.6,
+            "index": 101,
+            "rating": 2.55,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1063,7 +1036,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Feb 5 Win vs. P. Steed (2.62) 3-6, 7-5, 1-0",
+                "details": "Wed Feb 5 Win vs. P. Steed (2.52) 3-6, 7-5, 1-0",
                 "resultId": 51341149,
                 "winnerSets": [
                   3,
@@ -1098,8 +1071,8 @@
             ]
           },
           {
-            "index": 116,
-            "rating": 1.85,
+            "index": 106,
+            "rating": 1.75,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1109,7 +1082,7 @@
             },
             "descriptions": [
               {
-                "details": "Wed Feb 19 Win vs. M. Pathan (1.83) 7-6, 7-5",
+                "details": "Wed Feb 19 Win vs. M. Pathan (1.73) 7-6, 7-5",
                 "resultId": 51641792,
                 "winnerSets": [
                   7,
@@ -1152,34 +1125,34 @@
         },
         "ratings": [
           {
-            "index": 120,
+            "index": 110,
             "rating": 3.205073419394255,
             "ratingDisplay": "3.20"
           },
           {
-            "index": 122,
+            "index": 112,
             "rating": 3.2351977492621917,
             "ratingDisplay": "3.23"
           },
           {
-            "index": 124,
+            "index": 114,
             "rating": 2.8190007997933715,
             "ratingDisplay": "2.81"
           },
           {
-            "index": 126,
+            "index": 116,
             "rating": 2.5248436961575362,
             "ratingDisplay": "2.52"
           }
         ],
-        "minRating": 2.498025894587055,
+        "minRating": 2.406282981196904,
         "maxRating": 3.288238948211429,
         "startRating": 3.205073419394255,
-        "endRating": 2.498025894587055,
+        "endRating": 2.406282981196904,
         "results": [
           {
-            "index": 120,
-            "rating": 3.1,
+            "index": 110,
+            "rating": 3.05,
             "playerPostedScore": false,
             "aggregate": {
               "count": 1,
@@ -1189,7 +1162,7 @@
             },
             "descriptions": [
               {
-                "details": "Sun Mar 2 Loss vs. C. Lewis (3.09) 4-6, 6-1, 1-0",
+                "details": "Sun Mar 2 Loss vs. C. Lewis (3.03) 4-6, 6-1, 1-0",
                 "resultId": 51960578,
                 "winnerSets": [
                   4,
@@ -1224,7 +1197,7 @@
             ]
           },
           {
-            "index": 123,
+            "index": 113,
             "rating": 3.45,
             "playerPostedScore": false,
             "aggregate": {
@@ -1235,7 +1208,7 @@
             },
             "descriptions": [
               {
-                "details": "Tue Mar 11 Loss vs. C. Chavez (3.47) 6-1, 6-4",
+                "details": "Tue Mar 11 Loss vs. C. Chavez (3.45) 6-1, 6-4",
                 "resultId": 52255968,
                 "winnerSets": [
                   6,
@@ -1270,21 +1243,33 @@
             ]
           }
         ]
+      },
+      {
+        "month": {
+          "name": "April",
+          "abbr": "APR"
+        },
+        "ratings": null,
+        "minRating": null,
+        "maxRating": null,
+        "startRating": null,
+        "endRating": null,
+        "results": []
       }
     ],
-    "minRatingForScale": 1.375,
-    "maxRatingForScale": 4.625,
+    "minRatingForScale": 1.125,
+    "maxRatingForScale": 4.375,
     "ratingScaleStepSize": 0.25,
     "maxNonRatingScaleChartTicks": 130,
     "nonRatingScaleStepSize": 0
   },
   "victoryMarginChart": {
-    "currentRating": 2.47,
-    "currentRatingDisplay": "2.47",
+    "currentRating": 2.4,
+    "currentRatingDisplay": "2.40",
     "results": [
       {
         "index": 51,
-        "rating": 2.45,
+        "rating": 2.35,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1294,7 +1279,7 @@
         },
         "descriptions": [
           {
-            "details": "Fri May 31 Win vs. T. La (2.43) 5-7, 7-6, 1-0",
+            "details": "Fri May 31 Win vs. T. La (2.36) 5-7, 7-6, 1-0",
             "resultId": 46246162,
             "winnerSets": [
               5,
@@ -1340,7 +1325,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Jun 1 Loss vs. C. Chavez (3.47) 6-3, 6-4",
+            "details": "Sat Jun 1 Loss vs. C. Chavez (3.45) 6-3, 6-4",
             "resultId": 46265557,
             "winnerSets": [
               6,
@@ -1376,7 +1361,7 @@
       },
       {
         "index": 21,
-        "rating": 4.3,
+        "rating": 4.25,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1386,7 +1371,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.29) 6-2, 6-1",
+            "details": "Sun Jun 2 Loss vs. K. Surapaneni (4.25) 6-2, 6-1",
             "resultId": 46252767,
             "winnerSets": [
               6,
@@ -1422,7 +1407,7 @@
       },
       {
         "index": 27,
-        "rating": 3.55,
+        "rating": 3.4,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1432,7 +1417,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Sep 4 Loss vs. R. Sheffield (3.53) 6-0, 7-5",
+            "details": "Wed Sep 4 Loss vs. R. Sheffield (3.38) 6-0, 7-5",
             "resultId": 47804290,
             "winnerSets": [
               6,
@@ -1468,7 +1453,7 @@
       },
       {
         "index": 66,
-        "rating": 2.6,
+        "rating": 2.5,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1478,7 +1463,7 @@
         },
         "descriptions": [
           {
-            "details": "Tue Sep 17 Win vs. M. Woodall (2.58) 6-3, 6-3",
+            "details": "Tue Sep 17 Win vs. M. Woodall (2.50) 6-3, 6-3",
             "resultId": 48063734,
             "winnerSets": [
               6,
@@ -1514,7 +1499,7 @@
       },
       {
         "index": 21,
-        "rating": 3.1,
+        "rating": 3.05,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1524,7 +1509,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Oct 6 Loss vs. C. Lewis (3.09) 6-1, 6-2",
+            "details": "Sun Oct 6 Loss vs. C. Lewis (3.03) 6-1, 6-2",
             "resultId": 48391047,
             "winnerSets": [
               6,
@@ -1570,7 +1555,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Oct 12 Loss vs. C. Chavez (3.47) 6-1, 6-1",
+            "details": "Sat Oct 12 Loss vs. C. Chavez (3.45) 6-1, 6-1",
             "resultId": 48982539,
             "winnerSets": [
               6,
@@ -1606,7 +1591,7 @@
       },
       {
         "index": 75,
-        "rating": 1.85,
+        "rating": 1.8,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1616,7 +1601,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Oct 19 Win vs. B. Allen (1.83) 6-2, 6-2",
+            "details": "Sat Oct 19 Win vs. B. Allen (1.80) 6-2, 6-2",
             "resultId": 48630933,
             "winnerSets": [
               6,
@@ -1652,7 +1637,7 @@
       },
       {
         "index": 0,
-        "rating": 2.6,
+        "rating": 2.5,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1662,7 +1647,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Jan 15 Loss vs. M. Woodall (2.58) 6-0, 6-0",
+            "details": "Wed Jan 15 Loss vs. M. Woodall (2.50) 6-0, 6-0",
             "resultId": 51677182,
             "winnerSets": [
               6,
@@ -1698,7 +1683,7 @@
       },
       {
         "index": 75,
-        "rating": 1.75,
+        "rating": 1.4,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1708,7 +1693,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Jan 19 Win vs. A. Duhon (1.74) 6-2, 6-2",
+            "details": "Sun Jan 19 Win vs. A. Duhon (1.40) 6-2, 6-2",
             "resultId": 51132621,
             "winnerSets": [
               6,
@@ -1744,7 +1729,7 @@
       },
       {
         "index": 66,
-        "rating": 3.3,
+        "rating": 2.2,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1754,7 +1739,7 @@
         },
         "descriptions": [
           {
-            "details": "Sat Feb 1 Win vs. S. Maddox (3.28) 7-5, 6-2",
+            "details": "Sat Feb 1 Win vs. S. Maddox (2.21) 7-5, 6-2",
             "resultId": 51133809,
             "winnerSets": [
               7,
@@ -1790,7 +1775,7 @@
       },
       {
         "index": 51,
-        "rating": 2.6,
+        "rating": 2.55,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1800,7 +1785,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Feb 5 Win vs. P. Steed (2.62) 3-6, 7-5, 1-0",
+            "details": "Wed Feb 5 Win vs. P. Steed (2.52) 3-6, 7-5, 1-0",
             "resultId": 51341149,
             "winnerSets": [
               3,
@@ -1836,7 +1821,7 @@
       },
       {
         "index": 57,
-        "rating": 1.85,
+        "rating": 1.75,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1846,7 +1831,7 @@
         },
         "descriptions": [
           {
-            "details": "Wed Feb 19 Win vs. M. Pathan (1.83) 7-6, 7-5",
+            "details": "Wed Feb 19 Win vs. M. Pathan (1.73) 7-6, 7-5",
             "resultId": 51641792,
             "winnerSets": [
               7,
@@ -1882,7 +1867,7 @@
       },
       {
         "index": 39,
-        "rating": 3.1,
+        "rating": 3.05,
         "playerPostedScore": false,
         "aggregate": {
           "count": 1,
@@ -1892,7 +1877,7 @@
         },
         "descriptions": [
           {
-            "details": "Sun Mar 2 Loss vs. C. Lewis (3.09) 4-6, 6-1, 1-0",
+            "details": "Sun Mar 2 Loss vs. C. Lewis (3.03) 4-6, 6-1, 1-0",
             "resultId": 51960578,
             "winnerSets": [
               4,
@@ -1938,7 +1923,7 @@
         },
         "descriptions": [
           {
-            "details": "Tue Mar 11 Loss vs. C. Chavez (3.47) 6-1, 6-4",
+            "details": "Tue Mar 11 Loss vs. C. Chavez (3.45) 6-1, 6-4",
             "resultId": 52255968,
             "winnerSets": [
               6,
@@ -1973,8 +1958,8 @@
         ]
       }
     ],
-    "minRatingForScale": 1.375,
-    "maxRatingForScale": 4.625,
+    "minRatingForScale": 1.125,
+    "maxRatingForScale": 4.375,
     "ratingScaleStepSize": 0.25,
     "maxNonRatingScaleChartTicks": 100,
     "nonRatingScaleStepSize": 20
@@ -1986,17 +1971,17 @@
         47804290,
         48391047,
         51133809,
+        51132621,
         52255968,
         48982539,
+        46252767,
+        51641792,
         46265557,
+        48630933,
         51341149,
         51960578,
         46246162,
-        51677182,
-        51132621,
-        46252767,
-        51641792,
-        48630933
+        51677182
       ],
       "doubles": [
         50824721,
@@ -2004,17 +1989,19 @@
         50638453,
         49748130,
         47823927,
+        52630434,
         50339370,
         46268823,
         46237771,
         46233254,
         47825820,
         46265543,
+        52598341,
         47444931,
         46314523,
         50432553,
-        47816246,
         50592447,
+        47816246,
         47825801,
         46389017,
         45646449,
@@ -2023,6 +2010,14 @@
       ]
     },
     "history": [
+      {
+        "id": 504872722,
+        "ratingStatus": 3,
+        "rating": 2.5,
+        "ratingDisplay": "2.50",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-03-31T00:00:00"
+      },
       {
         "id": 503626774,
         "ratingStatus": 3,
@@ -2588,13 +2583,13 @@
       "hardCourt": null,
       "clayCourt": null,
       "grassCourt": null,
-      "oneMonth": 2.49,
-      "sixWeek": 2.44,
-      "eightWeek": 2.54,
-      "threeMonth": 2.48,
+      "oneMonth": 2.41,
+      "sixWeek": 2.37,
+      "eightWeek": 2.43,
+      "threeMonth": 2.41,
       "grandSlamMasters": null,
-      "fullTwelve": 2.48,
-      "ytd": 2.48
+      "fullTwelve": 2.41,
+      "ytd": 2.41
     },
     "rankings": {
       "utrRank": null,

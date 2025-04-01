@@ -2,9 +2,12 @@ import pandas as pd
 import os
 import json
 import logging
+import sqlite3
 
 DATA_DIR = "data/processed"
 RAW_DIR = "data/raw"
+DB_DIR = "data/db"
+PLAYERS_DB_FILE = os.path.join(DB_DIR, "players.db")
 
 # Get a logger instance for this module
 logger = logging.getLogger(__name__)
@@ -28,6 +31,27 @@ def _save_json(contents, file_path):
     except Exception as e:
         logger.error(f"Error saving raw json to {file_path}: {e}")
 
+def _create_players_table(db_file: str):
+    """Creates the players table in the database if it doesn't exist."""
+    conn = sqlite3.connect(db_file)
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS players (
+            id TEXT PRIMARY KEY,
+            firstName TEXT,
+            lastName TEXT,
+            gender TEXT,
+            birthDate TEXT,
+            ageRange TEXT,
+            displayName TEXT,
+            myUtrSingles REAL,
+            myUtrDoubles REAL,
+            descriptionShort TEXT
+        )
+    """)
+    conn.commit()
+    conn.close()
+
 def save_player_profile(profile, player_id):
     """Save player profile to parquet file."""
     logger.info(f"Saving profile for player ID: {player_id}.")
@@ -48,6 +72,36 @@ def save_player_profile(profile, player_id):
         _save_json(profile, file_path)
     except Exception as e:
         logger.error(f"Error saving json profile for player {player_id}: {e}")
+
+    """Save player profile to SQLite database."""
+    os.makedirs(DB_DIR, exist_ok=True)
+    db_file = PLAYERS_DB_FILE
+    _create_players_table(db_file)
+    conn = sqlite3.connect(db_file)
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT OR REPLACE INTO players (
+                id, firstName, lastName, gender, birthDate, ageRange, displayName, myUtrSingles, myUtrDoubles, descriptionShort
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            profile.get('id'),
+            profile.get('firstName'),
+            profile.get('lastName'),
+            profile.get('gender'),
+            profile.get('birthDate'),
+            profile.get('ageRange'),
+            profile.get('displayName'),
+            profile.get('myUtrSingles'),
+            profile.get('myUtrDoubles'),
+            profile.get('descriptionShort')
+        ))
+        conn.commit()
+        logger.info(f"Saved player profile '{player_id}' to database.")
+    except sqlite3.Error as e:
+        logger.error(f"Error saving player profile '{player_id}' to database: {e}")
+    finally:
+        conn.close()
 
 def _extract_results_data(results):
     """Extracts relevant data from the results JSON."""

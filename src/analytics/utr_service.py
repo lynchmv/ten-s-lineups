@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 from datetime import datetime
-from ..data_access import load_player_results, load_player_stats, load_player_profile
+from data_access import load_player_results, load_player_stats, load_player_profile
 import os
 import re
 import logging
