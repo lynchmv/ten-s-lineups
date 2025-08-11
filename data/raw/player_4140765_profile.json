@@ -35,7 +35,7 @@
       "rankings": [
         {
           "rankListId": 22,
-          "rank": 73902,
+          "rank": 50077,
           "rankingCategories": [
             {
               "type": "gender",
@@ -59,7 +59,7 @@
         },
         {
           "rankListId": 7,
-          "rank": 122201,
+          "rank": 84115,
           "rankingCategories": [
             {
               "type": "gender",
@@ -83,7 +83,7 @@
         },
         {
           "rankListId": 16,
-          "rank": 375327,
+          "rank": 314336,
           "rankingCategories": [
             {
               "type": "gender",
@@ -107,7 +107,7 @@
         },
         {
           "rankListId": 2,
-          "rank": 527377,
+          "rank": 431001,
           "rankingCategories": [
             {
               "type": "gender",
@@ -133,21 +133,21 @@
       "thirdPartyRankings": []
     }
   },
-  "myUtrSingles": 2.4,
-  "myUtrDoubles": 4.29,
-  "singlesUtrDisplay": "2.40",
-  "doublesUtrDisplay": "3.92",
-  "myUtrSinglesDisplay": "2.40",
-  "myUtrDoublesDisplay": "4.29",
+  "myUtrSingles": 3.87,
+  "myUtrDoubles": 4.15,
+  "singlesUtrDisplay": "3.87",
+  "doublesUtrDisplay": "4.05",
+  "myUtrSinglesDisplay": "3.87",
+  "myUtrDoublesDisplay": "4.15",
   "pbrRatingDisplay": null,
   "doublesPkbRatingDisplay": null,
   "singlesPkbRatingDisplay": null,
-  "singlesUtr": 2.4,
-  "doublesUtr": 3.92,
+  "singlesUtr": 3.87,
+  "doublesUtr": 4.05,
   "utrRange": null,
   "isPro": false,
   "photoCount": 0,
-  "totalResults": 66,
+  "totalResults": 76,
   "resultCountsSingles": [
     {
       "key": 2023,
@@ -159,7 +159,7 @@
     },
     {
       "key": 2025,
-      "value": 7
+      "value": 8
     }
   ],
   "resultCountsDoubles": [
@@ -173,7 +173,7 @@
     },
     {
       "key": 2025,
-      "value": 4
+      "value": 13
     }
   ],
   "isProfileUpdated": false,
@@ -202,48 +202,199 @@
     "eligibleResults": {
       "singles": [
         48063734,
-        47804290,
         48391047,
-        51133809,
-        51132621,
-        52255968,
         48982539,
-        46252767,
-        51641792,
-        46265557,
         48630933,
+        47804290,
+        51677182,
+        51132621,
+        51133809,
         51341149,
         51960578,
-        46246162,
-        51677182
+        51641792,
+        52255968,
+        53376249
       ],
       "doubles": [
-        50824721,
-        50791548,
-        50638453,
-        49748130,
-        47823927,
-        52630434,
-        50339370,
-        46268823,
-        46237771,
-        46233254,
-        47825820,
-        46265543,
-        52598341,
         47444931,
-        46314523,
-        50432553,
-        50592447,
         47816246,
+        47823927,
+        49748130,
         47825801,
-        46389017,
-        45646449,
+        47825820,
+        50329181,
         49359308,
-        50329181
+        50339370,
+        50432553,
+        50791548,
+        50824721,
+        50592447,
+        50638453,
+        55033305,
+        55100649,
+        52598341,
+        52630434,
+        52867956,
+        52767432,
+        53043899,
+        53243670,
+        53978444,
+        54637685
       ]
     },
     "history": [
+      {
+        "id": 528173067,
+        "ratingStatus": 3,
+        "rating": 3.86,
+        "ratingDisplay": "3.86",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-08-11T00:00:00"
+      },
+      {
+        "id": 526957427,
+        "ratingStatus": 3,
+        "rating": 3.91,
+        "ratingDisplay": "3.91",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-08-04T00:00:00"
+      },
+      {
+        "id": 525890175,
+        "ratingStatus": 3,
+        "rating": 3.73,
+        "ratingDisplay": "3.73",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-07-28T00:00:00"
+      },
+      {
+        "id": 524895667,
+        "ratingStatus": 3,
+        "rating": 3.71,
+        "ratingDisplay": "3.71",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-07-21T00:00:00"
+      },
+      {
+        "id": 523383977,
+        "ratingStatus": 3,
+        "rating": 3.46,
+        "ratingDisplay": "3.46",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-07-14T00:00:00"
+      },
+      {
+        "id": 521853566,
+        "ratingStatus": 3,
+        "rating": 3.53,
+        "ratingDisplay": "3.53",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-07-07T00:00:00"
+      },
+      {
+        "id": 521319411,
+        "ratingStatus": 3,
+        "rating": 3.76,
+        "ratingDisplay": "3.76",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-06-30T00:00:00"
+      },
+      {
+        "id": 519894278,
+        "ratingStatus": 3,
+        "rating": 3.75,
+        "ratingDisplay": "3.75",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-06-23T00:00:00"
+      },
+      {
+        "id": 518042988,
+        "ratingStatus": 3,
+        "rating": 2.68,
+        "ratingDisplay": "2.68",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-06-16T00:00:00"
+      },
+      {
+        "id": 517396253,
+        "ratingStatus": 3,
+        "rating": 2.61,
+        "ratingDisplay": "2.61",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-06-09T00:00:00"
+      },
+      {
+        "id": 516178533,
+        "ratingStatus": 3,
+        "rating": 3.06,
+        "ratingDisplay": "3.06",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-06-02T00:00:00"
+      },
+      {
+        "id": 515193644,
+        "ratingStatus": 3,
+        "rating": 3.12,
+        "ratingDisplay": "3.12",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-05-26T00:00:00"
+      },
+      {
+        "id": 513364672,
+        "ratingStatus": 3,
+        "rating": 3.39,
+        "ratingDisplay": "3.39",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-05-19T00:00:00"
+      },
+      {
+        "id": 512334441,
+        "ratingStatus": 3,
+        "rating": 3.28,
+        "ratingDisplay": "3.28",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-05-12T00:00:00"
+      },
+      {
+        "id": 511279077,
+        "ratingStatus": 3,
+        "rating": 3.25,
+        "ratingDisplay": "3.25",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-05-05T00:00:00"
+      },
+      {
+        "id": 510074231,
+        "ratingStatus": 3,
+        "rating": 3.26,
+        "ratingDisplay": "3.26",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-04-28T00:00:00"
+      },
+      {
+        "id": 508543946,
+        "ratingStatus": 3,
+        "rating": 3.06,
+        "ratingDisplay": "3.06",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-04-21T00:00:00"
+      },
+      {
+        "id": 507262936,
+        "ratingStatus": 3,
+        "rating": 3.03,
+        "ratingDisplay": "3.03",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-04-14T00:00:00"
+      },
+      {
+        "id": 506005193,
+        "ratingStatus": 3,
+        "rating": 2.39,
+        "ratingDisplay": "2.39",
+        "type": "WeeklyAverage_Singles",
+        "date": "2025-04-07T00:00:00"
+      },
       {
         "id": 504872722,
         "ratingStatus": 3,
@@ -817,13 +968,13 @@
       "hardCourt": null,
       "clayCourt": null,
       "grassCourt": null,
-      "oneMonth": 2.41,
-      "sixWeek": 2.37,
-      "eightWeek": 2.43,
-      "threeMonth": 2.41,
+      "oneMonth": null,
+      "sixWeek": null,
+      "eightWeek": null,
+      "threeMonth": null,
       "grandSlamMasters": null,
-      "fullTwelve": 2.41,
-      "ytd": 2.41
+      "fullTwelve": 3.87,
+      "ytd": 3.87
     },
     "rankings": {
       "utrRank": null,
@@ -867,7 +1018,7 @@
   "playerLastName": "Lynch",
   "gender": "Male",
   "age": 48,
-  "threeMonthRating": 2.41,
+  "threeMonthRating": null,
   "ratingStatusSingles": "Rated",
   "ratingProgressSingles": 100.0,
   "myUtrStatusSingles": "Rated",
@@ -890,10 +1041,10 @@
   "eligibleForPaidHit": false,
   "isPaidHitter": false,
   "threeMonthRatingChangeDetails": {
-    "rating": 2.41,
-    "ratingDisplay": "2.41",
-    "ratingDifference": -0.010000000000000231,
-    "changeDirection": "up"
+    "rating": 0.0,
+    "ratingDisplay": null,
+    "ratingDifference": 0.0,
+    "changeDirection": "n/a"
   },
   "myUtrStatusDoubles": "Rated",
   "myUtrProgressDoubles": 100.0,
@@ -969,9 +1120,9 @@
       "threeX": null
     }
   },
-  "isPowered": true,
+  "isPowered": false,
   "isPoweredByClub": false,
-  "isPoweredBySubscription": true,
+  "isPoweredBySubscription": false,
   "playAvailability": [
     "all"
   ],
